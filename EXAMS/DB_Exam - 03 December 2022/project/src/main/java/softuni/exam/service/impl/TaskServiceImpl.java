@@ -5,10 +5,7 @@ import org.modelmapper.ModelMapper;
 import org.modelmapper.spi.MappingContext;
 import org.springframework.stereotype.Service;
 import softuni.exam.models.dto.*;
-import softuni.exam.models.entity.Car;
-import softuni.exam.models.entity.Mechanic;
-import softuni.exam.models.entity.Part;
-import softuni.exam.models.entity.Task;
+import softuni.exam.models.entity.*;
 import softuni.exam.repository.CarRepository;
 import softuni.exam.repository.MechanicRepository;
 import softuni.exam.repository.PartRepository;
@@ -27,6 +24,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -145,6 +143,11 @@ if(!mechanic.isPresent()){
 
     @Override
     public String getCoupeCarTasksOrderByPrice() {
-        return null;
+
+        List<Task> tasks = taskRepository.findByCarCarTypeOrderByPriceDesc(CarType.coupe);
+
+        return tasks.stream()
+                .map(Task::toString) // Use existing toString method
+                .collect(Collectors.joining("\n")); // Concatenate the strings with a single newline in between
     }
 }

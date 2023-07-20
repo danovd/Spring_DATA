@@ -88,13 +88,12 @@ public class Task {
 
     @Override
     public String toString() {
-        return "Task{" +
-                "id=" + id +
-                ", price=" + price +
-                ", date=" + date +
-                ", mechanic=" + mechanic +
-                ", car=" + car +
-                ", part=" + part +
-                '}';
+        return String.format("Car %s %s with %dkm\n                            " +
+                "--Mechanic: %s %s - task №%d:--\n                            " +
+                "--Engine: %s\n" +
+                "                            ---Price: %.2f$", this.car.getCarMake(), this.car.getCarModel(), this.car.getKilometers(),
+                this.mechanic.getFirstName(), this.mechanic.getLastName(), this.id,
+                this.car.getEngine(), this.price);
+
     }
 }
