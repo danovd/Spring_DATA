@@ -1,6 +1,10 @@
 package softuni.exam.repository;
 
-// TODO:
-public interface TaskRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import softuni.exam.models.entity.Task;
+
+@Repository
+public interface TaskRepository extends JpaRepository<Task, Long> {
 
 }
