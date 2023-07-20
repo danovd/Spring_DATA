@@ -5,7 +5,7 @@ import softuni.exam.models.entity.Car;
 
 import java.util.Optional;
 
-// TODO:
+
 public interface CarRepository extends JpaRepository<Car, Long> {
 
     Optional<Car> findByPlateNumber(String plateNumber);

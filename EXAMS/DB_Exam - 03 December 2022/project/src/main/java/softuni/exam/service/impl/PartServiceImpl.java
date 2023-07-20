@@ -4,9 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
-import softuni.exam.models.dto.MechanicImportDTO;
 import softuni.exam.models.dto.PartImportDTO;
-import softuni.exam.models.entity.Mechanic;
 import softuni.exam.models.entity.Part;
 import softuni.exam.repository.PartRepository;
 import softuni.exam.service.PartService;
@@ -22,7 +20,7 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-// TODO: Implement all methods
+
 @Service
 public class PartServiceImpl implements PartService {
 

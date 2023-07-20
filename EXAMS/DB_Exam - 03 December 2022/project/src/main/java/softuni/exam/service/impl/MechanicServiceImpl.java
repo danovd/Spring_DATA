@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import softuni.exam.models.dto.MechanicImportDTO;
 import softuni.exam.models.entity.Mechanic;
-import softuni.exam.models.entity.Task;
 import softuni.exam.repository.MechanicRepository;
 import softuni.exam.service.MechanicService;
 
@@ -22,7 +21,7 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-// TODO: Implement all methods
+
 @Service
 public class MechanicServiceImpl implements MechanicService {
 

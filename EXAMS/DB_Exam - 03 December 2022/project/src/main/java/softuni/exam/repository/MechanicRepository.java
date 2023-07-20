@@ -5,7 +5,6 @@ import softuni.exam.models.entity.Mechanic;
 
 import java.util.Optional;
 
-// TODO:
 public interface MechanicRepository extends JpaRepository<Mechanic, Long> {
 
 

@@ -29,7 +29,7 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-// TODO: Implement all methods
+
 @Service
 public class TaskServiceImpl implements TaskService {
     private static String TASKS_FILE_PATH = "";
@@ -147,7 +147,7 @@ if(!mechanic.isPresent()){
         List<Task> tasks = taskRepository.findByCarCarTypeOrderByPriceDesc(CarType.coupe);
 
         return tasks.stream()
-                .map(Task::toString) // Use existing toString method
-                .collect(Collectors.joining("\n")); // Concatenate the strings with a single newline in between
+                .map(Task::toString)
+                .collect(Collectors.joining("\n"));
     }
 }
