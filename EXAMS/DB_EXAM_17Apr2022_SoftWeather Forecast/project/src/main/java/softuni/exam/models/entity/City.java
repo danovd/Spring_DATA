@@ -17,7 +17,6 @@ public class City {
     public void setId(Long id) {
         this.id = id;
     }
-
 @Column(name = "city_name", unique = true, nullable = true)
 private String cityName;
 
@@ -71,7 +70,7 @@ private Country country;
     @Override
     public String toString() {
         return "City{" +
-                "id=" + id +
+                "id=" + this.getId() +
                 ", cityName='" + cityName + '\'' +
                 ", description='" + description + '\'' +
                 ", population=" + population +
