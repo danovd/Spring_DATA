@@ -1,12 +1,24 @@
 package softuni.exam.models.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "countries")
-public class Country extends BaseEntity{
+public class Country {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
 @Column(name = "country_name", unique = true, nullable = false)
 private String countryName;
 @Column(name = "currency", nullable = false)
@@ -30,6 +42,14 @@ private String currency;
 
     public void setCurrency(String currency) {
         this.currency = currency;
+    }
+
+    public String getCountryName() {
+        return countryName;
+    }
+
+    public void setCountryName(String countryName) {
+        this.countryName = countryName;
     }
 }
 

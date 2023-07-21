@@ -5,7 +5,24 @@ import java.time.LocalTime;
 
 @Entity
 @Table(name = "forecasts")
-public class Forecast extends BaseEntity{
+public class Forecast {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+
+
+
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private DayOfWeek dayOfWeek;
@@ -20,8 +37,8 @@ public class Forecast extends BaseEntity{
     private LocalTime sunrise;
     @Column(nullable = false)
     private LocalTime sunset;
-    @ManyToOne
-    @JoinColumn(name = "city_id")
+    @ManyToOne(targetEntity = City.class)
+   // @JoinColumn(name = "city_id")
     private City city;
 
 

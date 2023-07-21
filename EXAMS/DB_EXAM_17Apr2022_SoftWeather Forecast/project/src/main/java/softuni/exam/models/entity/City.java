@@ -4,7 +4,20 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "cities")
-public class City extends BaseEntity{
+public class City {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
 @Column(name = "city_name", unique = true, nullable = true)
 private String cityName;
 
@@ -16,8 +29,8 @@ private String description;
 private int population;
 
 
-@ManyToOne
-@JoinColumn(name = "country_id")
+@ManyToOne(targetEntity = Country.class)
+//@JoinColumn(name = "country_id")
 private Country country;
 
     public Country getCountry() {
@@ -54,6 +67,7 @@ private Country country;
 
     public City() {
     }
+
 }
 
 
