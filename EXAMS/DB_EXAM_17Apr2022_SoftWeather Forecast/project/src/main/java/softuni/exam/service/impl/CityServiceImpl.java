@@ -27,7 +27,7 @@ public class CityServiceImpl implements CityService {
         this.cityRepository = cityRepository;
 
 
-        this.gson = new GsonBuilder().create();
+        this.gson = new GsonBuilder().setPrettyPrinting().create();
 
         this.validator = Validation
                 .buildDefaultValidatorFactory()

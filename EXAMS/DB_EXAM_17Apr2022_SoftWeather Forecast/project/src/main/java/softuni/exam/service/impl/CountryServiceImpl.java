@@ -5,14 +5,21 @@ import com.google.gson.GsonBuilder;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import softuni.exam.models.dto.CountryImportDTO;
+import softuni.exam.models.entity.Country;
 import softuni.exam.repository.CountryRepository;
 import softuni.exam.service.CountryService;
 
+import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Arrays;
+import java.util.Optional;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 @Service
 public class CountryServiceImpl implements CountryService {
@@ -28,7 +35,7 @@ public class CountryServiceImpl implements CountryService {
     public CountryServiceImpl(CountryRepository countryRepository) {
         this.countryRepository = countryRepository;
 
-        this.gson = new GsonBuilder().create();
+        this.gson = new GsonBuilder().setPrettyPrinting().create();
 
         this.validator = Validation
                 .buildDefaultValidatorFactory()
@@ -56,6 +63,33 @@ public class CountryServiceImpl implements CountryService {
 
     @Override
     public String importCountries() throws IOException {
-        return null;
+        String json = this.readCountriesFromFile();
+
+        CountryImportDTO[] importDTOs = this.gson.fromJson(json, CountryImportDTO[].class);
+
+        return Arrays.stream(importDTOs)
+                .map(this::importDTO)
+                .collect(Collectors.joining("\n"));
+    }
+
+    private String importDTO(CountryImportDTO dto) {
+        Set<ConstraintViolation<CountryImportDTO>> errors =
+                this.validator.validate(dto);
+
+        if (!errors.isEmpty()) {
+            return "Invalid country";
+        }
+
+        Optional<Country> optCountry = this.countryRepository.findByCountryName(dto.getCountryName());
+
+        if (optCountry.isPresent()) {
+            return "Invalid country";
+        }
+
+        Country country = this.modelMapper.map(dto, Country.class);
+
+        this.countryRepository.save(country);
+
+        return "Successfully imported country " + country.getCountryName() + " - " + country.getCurrency();
     }
 }
