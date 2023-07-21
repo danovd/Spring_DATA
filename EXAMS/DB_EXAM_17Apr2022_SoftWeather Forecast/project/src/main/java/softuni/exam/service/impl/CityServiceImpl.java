@@ -104,12 +104,23 @@ public class CityServiceImpl implements CityService {
 
 
 
-
      //   this.modelMapper.addConverter((Converter<Long, Country>)
      //           ctx -> {Optional<Country> countryById = countryRepository.getCountryById(ctx.getSource());
 
                     // If the country exists in the database, return it; otherwise, return null
      //               return countryById.orElse(null);});
+
+
+        //   Converter<Long, Country> converter = context -> context.getSource() == null ?
+         //          null : new Country().setId(context.getSource());
+
+        //   TypeMap<City, CityImportDTO> typeMap = this.modelMapper.createTypeMap(City.class, CityImportDTO.class);
+        //   typeMap.addMappings(map -> map.using(converter).map(City::getCountry, CityImportDTO::setCountry));
+
+
+
+
+
 
         City city = this.modelMapper.map(dto, City.class);
 
@@ -121,11 +132,8 @@ public class CityServiceImpl implements CityService {
         /////////////////////////////////////////////////////////////////////////////////
 
 
-
-
-
-
-
+        System.out.println();
+        System.out.println("CITY: " + city);
         this.cityRepository.save(city);
 
         return "Successfully imported country " + city.getCityName() + " - " + city.getPopulation();

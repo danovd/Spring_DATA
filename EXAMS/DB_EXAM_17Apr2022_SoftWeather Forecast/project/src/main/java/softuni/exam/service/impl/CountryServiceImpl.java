@@ -13,6 +13,7 @@ import softuni.exam.service.CountryService;
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
+import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -55,6 +56,7 @@ public class CountryServiceImpl implements CountryService {
     public String readCountriesFromFile() throws IOException {
         // version 1:
         return Files.readString(Path.of(COUNTRIES_FILE_PATH));
+
 
         // version 2:
      //   Path path = Path.of("src", "main", "resources", "files", "json", "countries.json");

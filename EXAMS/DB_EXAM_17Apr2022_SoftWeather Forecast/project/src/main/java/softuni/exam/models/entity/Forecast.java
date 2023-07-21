@@ -92,6 +92,20 @@ public class Forecast {
     public void setSunset(LocalTime sunset) {
         this.sunset = sunset;
     }
+
+
+    @Override
+    public String toString() {
+        return "Forecast{" +
+                "id=" + id +
+                ", dayOfWeek=" + dayOfWeek +
+                ", maxTemperature=" + maxTemperature +
+                ", minTemperature=" + minTemperature +
+                ", sunrise=" + sunrise +
+                ", sunset=" + sunset +
+                ", city=" + city +
+                '}';
+    }
 }
 
 

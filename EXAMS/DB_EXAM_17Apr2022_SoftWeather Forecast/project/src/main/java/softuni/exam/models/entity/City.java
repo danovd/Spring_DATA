@@ -68,6 +68,16 @@ private Country country;
     public City() {
     }
 
+    @Override
+    public String toString() {
+        return "City{" +
+                "id=" + id +
+                ", cityName='" + cityName + '\'' +
+                ", description='" + description + '\'' +
+                ", population=" + population +
+                ", country=" + country +
+                '}';
+    }
 }
 
 
