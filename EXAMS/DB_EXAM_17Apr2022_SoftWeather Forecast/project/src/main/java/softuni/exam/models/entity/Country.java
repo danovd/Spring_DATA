@@ -15,11 +15,17 @@ public class Country {
         return id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
 
-@Column(name = "country_name", unique = true, nullable = false)
+
+////// MODIFIED::::
+    public Country setId(Long id) {
+        this.id = id;return this;
+    }
+//////////////////////
+
+
+
+    @Column(name = "country_name", unique = true, nullable = false)
 private String countryName;
 @Column(name = "currency", nullable = false)
 private String currency;
@@ -51,6 +57,9 @@ private String currency;
     public void setCountryName(String countryName) {
         this.countryName = countryName;
     }
+
+
+
 }
 
 

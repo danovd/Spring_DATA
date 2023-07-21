@@ -4,6 +4,7 @@ package softuni.exam.models.dto;
 import javax.validation.constraints.Size;
 
 public class CountryImportDTO {
+    //  @SerializedName("countryName")
     @Size(min = 2, max = 60)
     private String countryName;
     @Size(min = 2, max = 20)
