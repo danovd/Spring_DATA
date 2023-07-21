@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import softuni.exam.models.dto.ImportForecastDTO;
 import softuni.exam.models.dto.ImportForecastRootDTO;
 import softuni.exam.models.entity.City;
+import softuni.exam.models.entity.DayOfWeek;
 import softuni.exam.models.entity.Forecast;
 import softuni.exam.repository.CityRepository;
 import softuni.exam.repository.ForecastRepository;
@@ -27,6 +28,7 @@ import java.nio.file.Path;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -127,8 +129,6 @@ public class ForecastServiceImpl implements ForecastService {
 
 
         ///////////////////////////  Operation SET City of that Forecast  ////////////////
-
-
         forecast.setCity(cityById.get());
         /////////////////////////////////////////////////////////////////////////////////
 
@@ -142,6 +142,11 @@ public class ForecastServiceImpl implements ForecastService {
 
     @Override
     public String exportForecasts() {
-        return null;
+
+        List<Forecast> forecasts = forecastRepository.findAllByCityPopulationLessThanAndDayOfWeekOrderByMaxTemperatureDescIdAsc(150000 , DayOfWeek.SUNDAY);
+
+        return forecasts.stream()
+                .map(Forecast::toString)
+                .collect(Collectors.joining("\n"));
     }
 }

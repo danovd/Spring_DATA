@@ -96,15 +96,14 @@ public class Forecast {
 
     @Override
     public String toString() {
-        return "Forecast{" +
-                "id=" + id +
-                ", dayOfWeek=" + dayOfWeek +
-                ", maxTemperature=" + maxTemperature +
-                ", minTemperature=" + minTemperature +
-                ", sunrise=" + sunrise +
-                ", sunset=" + sunset +
-                ", city=" + city +
-                '}';
+        return String.format("""
+                                City: %s:
+                        -min temperature: %.2f
+                        --max temperature: %.2f
+                        ---sunrise: %s
+                        ----sunset: %s""", this.getCity().getCityName(), this.getMinTemperature(), this.getMaxTemperature(),
+                this.getSunrise().toString(), this.getSunset().toString());
+
     }
 }
 
