@@ -12,11 +12,11 @@ public class TownImportDTO {
 
 
     @Size(min = 2)
-    @NotNull
+  //  @NotNull
     //@UniqueElements
     private String townName;
     @Positive
-    @NotNull
+   // @NotNull
     private int population;
 
     public TownImportDTO() {

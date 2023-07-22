@@ -63,4 +63,15 @@ public class Offer {
     public void setAgent(Agent agent) {
         this.agent = agent;
     }
+
+
+    @Override
+    public String toString() {
+        return String.format("Agent %s %s with offer №%d:\n" +
+                "-Apartment area: %.2f\n" +
+                "--Town: %s\n" +
+                "---Price: %.2f$", this.agent.getFirstName(), this.agent.getLastName(), this.getId(),
+                this.apartment.getArea(), this.apartment.getTown().getTownName(), this.getPrice());
+
+    }
 }

@@ -12,16 +12,16 @@ public class AgentImportDTO {
 
 
     @Size(min = 2)
-    @NotNull
+    //@NotNull
     //@UniqueElements
     private String firstName;
     @Size(min = 2)
-    @NotNull
+   // @NotNull
     private String lastName;
     @NotNull
     private String town;
     @Email
-    @NotNull
+ //   @NotNull
     private String email;
 
     public AgentImportDTO() {

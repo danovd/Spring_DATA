@@ -1,5 +1,6 @@
 package softuni.exam.service.impl;
 
+import org.hibernate.mapping.Collection;
 import org.modelmapper.Converter;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.spi.MappingContext;
@@ -8,6 +9,7 @@ import softuni.exam.models.dto.ImportOfferDTO;
 import softuni.exam.models.dto.ImportOfferRootDTO;
 import softuni.exam.models.entity.Agent;
 import softuni.exam.models.entity.Apartment;
+import softuni.exam.models.entity.ApartmentType;
 import softuni.exam.models.entity.Offer;
 import softuni.exam.repository.AgentRepository;
 import softuni.exam.repository.ApartmentRepository;
@@ -26,6 +28,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -117,7 +120,7 @@ public class OfferServiceImpl implements OfferService {
 
 
 
-        Optional<Offer> optOffer = this.offerRepository.findByPublishedOn(dto.getPublishedOn());
+        Optional<Offer> optOffer = this.offerRepository.findByPublishedOnAndPriceAndAgentFirstNameAndApartmentId(dto.getPublishedOn(), dto.getPrice(), dto.getAgent().getName(), dto.getApartment().getId());
 
 
         if (optOffer.isPresent()) {
@@ -141,11 +144,22 @@ public class OfferServiceImpl implements OfferService {
 
         this.offerRepository.save(offer);
 
-        return"Successfully imported offer " + offer.getPrice();
+        System.out.println();
+
+
+
+
+        return "Successfully imported offer " + offer.getPrice();
     }
 
     @Override
     public String exportOffers() {
-        return null;
+
+        List<Offer> offers = offerRepository.findAllByApartmentApartmentTypeOrderByApartmentAreaDescPriceAsc(ApartmentType.three_rooms);
+
+        return offers.stream()
+                .map(Offer::toString)
+                .collect(Collectors.joining("\n"));
+
     }
 }

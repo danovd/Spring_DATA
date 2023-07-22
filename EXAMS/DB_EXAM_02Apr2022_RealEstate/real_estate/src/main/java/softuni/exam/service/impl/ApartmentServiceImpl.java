@@ -100,7 +100,7 @@ public class ApartmentServiceImpl implements ApartmentService {
      //   </apartment>                                                                               </apartment>
 
 
-        Optional<Apartment> optApartment = this.apartmentRepository.findByAreaAndTown(dto.getArea(), townById.get());
+        Optional<Apartment> optApartment = this.apartmentRepository.findByAreaAndTownTownName(dto.getArea(), townById.get().getTownName());
 
 
         if (optApartment.isPresent()) {
