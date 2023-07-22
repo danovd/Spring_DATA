@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 public class ImportOfferDTO {
 
     @Positive
-   // @NotNull
+    @NotNull
     private BigDecimal price;
 
 
@@ -21,7 +21,7 @@ public class ImportOfferDTO {
 
     private ApartmentDTO apartment;
 
-  //  @NotNull
+    @NotNull
     private String publishedOn;
 
 

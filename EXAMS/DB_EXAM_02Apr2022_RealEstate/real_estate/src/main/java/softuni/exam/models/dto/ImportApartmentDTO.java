@@ -9,10 +9,10 @@ import javax.xml.bind.annotation.XmlAccessorType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 public class ImportApartmentDTO {
-   // @NotNull
+    @NotNull
     private ApartmentType apartmentType;
 
-  //  @NotNull
+    @NotNull
     @DecimalMin("40")
     private double area;
 
