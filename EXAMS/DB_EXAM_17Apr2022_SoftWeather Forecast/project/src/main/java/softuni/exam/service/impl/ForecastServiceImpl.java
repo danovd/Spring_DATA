@@ -136,7 +136,7 @@ public class ForecastServiceImpl implements ForecastService {
 
        this.forecastRepository.save(forecast);
 
-        return"Successfully imported forecast " + forecast.getDayOfWeek() + " - " + forecast.getMaxTemperature();
+        return"Successfully imported offer " + forecast.getDayOfWeek() + " - " + forecast.getMaxTemperature();
 
     }
 
