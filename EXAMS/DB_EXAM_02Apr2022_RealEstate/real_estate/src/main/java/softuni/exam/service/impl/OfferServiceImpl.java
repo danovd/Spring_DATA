@@ -43,7 +43,7 @@ public class OfferServiceImpl implements OfferService {
 
         this.modelMapper = new ModelMapper();
 
-/*
+
         modelMapper.addConverter(new Converter<String, LocalDate>() {
             @Override
             public LocalDate convert(MappingContext<String, LocalDate> context) {
@@ -53,7 +53,18 @@ public class OfferServiceImpl implements OfferService {
                 return LocalDate.parse(dateString, formatter);
             }
         });
-    */
+
+        /*
+         modelMapper.addConverter((Converter<String, LocalDate>) context1 -> {
+            String dateString = context1.getSource();
+
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+            return LocalDate.parse(dateString, formatter);
+        });
+         */
+
+
+
     }
 
 
