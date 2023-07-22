@@ -94,10 +94,10 @@ public class ForecastServiceImpl implements ForecastService {
 
                 new FileReader(path.toAbsolutePath().toString()));
 
-        return forecastRootDTOs.getForecasts().stream().map(this::importTask).collect(Collectors.joining("\n"));
+        return forecastRootDTOs.getForecasts().stream().map(this::importForecast).collect(Collectors.joining("\n"));
     }
 
-    private String importTask(ImportForecastDTO dto) {
+    private String importForecast(ImportForecastDTO dto) {
         Set<ConstraintViolation<ImportForecastDTO>> errors =
                 this.validator.validate(dto);
 
