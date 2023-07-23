@@ -63,14 +63,14 @@ public class CustomerServiceImpl implements CustomerService {
         boolean isValid = this.validator.isValid(dto);
 
         if (!isValid) {
-            return "Invalid customer";
+            return "Invalid Customer";
         }
 
         Optional<Customer> optCustomer = this.customerRepository.findByEmail(dto.getEmail());
 
 
         if (optCustomer.isPresent()) {
-            return "Invalid customer";
+            return "Invalid Customer";
         }
 
         Customer customer= this.modelMapper.map(dto, Customer.class);

@@ -59,14 +59,14 @@ public class ShopServiceImpl implements ShopService {
         boolean isValid = this.validator.isValid(dto);
 
         if (!isValid) {
-            return "Invalid shop";
+            return "Invalid Shop";
         }
 
         Optional<Shop> optShop = this.shopRepository.findByName(dto.getName());
 
 
         if (optShop.isPresent()) {
-            return "Invalid shop";
+            return "Invalid Shop";
         }
 
 

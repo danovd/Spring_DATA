@@ -60,14 +60,14 @@ public class TownServiceImpl implements TownService {
         boolean isValid = this.validator.isValid(dto);
 
         if (!isValid) {
-            return "Invalid town";
+            return "Invalid Town";
         }
 
         Optional<Town> optTown = this.townRepository.findByName(dto.getName());
 
 
         if (optTown.isPresent()) {
-            return "Invalid town";
+            return "Invalid Town";
         }
 
 
