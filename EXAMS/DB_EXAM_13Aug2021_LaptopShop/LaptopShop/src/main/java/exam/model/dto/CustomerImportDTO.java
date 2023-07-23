@@ -1,14 +1,9 @@
 package exam.model.dto;
 
-import exam.model.entity.Town;
 
-import javax.persistence.Column;
-import javax.persistence.ManyToOne;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Size;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import java.time.LocalDate;
+
 
 
 public class CustomerImportDTO {
