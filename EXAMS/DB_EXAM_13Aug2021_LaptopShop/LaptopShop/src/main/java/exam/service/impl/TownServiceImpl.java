@@ -51,8 +51,8 @@ public class TownServiceImpl implements TownService {
 
     @Override
     public String importTowns() throws JAXBException, FileNotFoundException {
-        ImportTownRootDTO taskRootDTOs = this.xmlParser.fromFile(TOWNS_FILE_PATH, ImportTownRootDTO.class);
-        return taskRootDTOs.getTowns().stream().map(this::importTown).collect(Collectors.joining("\n"));
+        ImportTownRootDTO townRootDTOs = this.xmlParser.fromFile(TOWNS_FILE_PATH, ImportTownRootDTO.class);
+        return townRootDTOs.getTowns().stream().map(this::importTown).collect(Collectors.joining("\n"));
     }
 
     private String importTown(ImportTownDto dto) {
