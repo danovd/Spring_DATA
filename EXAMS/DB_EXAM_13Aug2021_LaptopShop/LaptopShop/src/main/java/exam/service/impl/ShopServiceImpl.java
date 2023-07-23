@@ -2,7 +2,6 @@ package exam.service.impl;
 
 import exam.model.dto.ImportShopDto;
 import exam.model.dto.ImportShopRootDTO;
-import exam.model.dto.ImportTownDto;
 import exam.model.entity.Shop;
 import exam.model.entity.Town;
 import exam.repository.ShopRepository;

@@ -26,7 +26,7 @@ public class ImportShopDto {
     @Min(150)
     @XmlElement(name = "shop-area")
     private int shopArea;
-
+    @XmlElement(name = "town")
     private TownDTO town;
 
 

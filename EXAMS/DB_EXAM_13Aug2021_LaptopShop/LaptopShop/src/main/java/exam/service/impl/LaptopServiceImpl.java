@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -86,6 +87,12 @@ public class LaptopServiceImpl implements LaptopService {
 
     @Override
     public String exportBestLaptops() {
-        return null;
+
+
+        List<Laptop> laptops = laptopRepository.findAllByOrderByCpuSpeedDescRamDescMacAddressDesc();
+
+        return laptops.stream()
+                .map(Laptop::toString)
+                .collect(Collectors.joining("\n"));
     }
 }

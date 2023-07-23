@@ -10,7 +10,7 @@ public class Laptop {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column(unique = true)
+    @Column(unique = true, nullable = false)
     private String macAddress;
 
     @Column(nullable = false)
@@ -108,5 +108,19 @@ public class Laptop {
 
     public void setShop(Shop shop) {
         this.shop = shop;
+    }
+
+
+    @Override
+    public String toString() {
+
+        return String.format("Laptop - %s\n" +
+                "        *Cpu speed - %.2f\n" +
+                "        **Ram - %d\n" +
+                "        ***Storage - %d\n" +
+                "        ****Price - %.2f\n" +
+                "#Shop name - %s\n" +
+                "##Town - %s\n", this.getMacAddress(), this.getCpuSpeed(), this.getRam(), this.getStorage(),
+        this.getPrice(), this.getShop().getName(), this.getShop().getTown().getName());
     }
 }
