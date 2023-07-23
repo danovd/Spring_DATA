@@ -22,15 +22,15 @@ public class Task {
 
 
     @ManyToOne
-    @JoinColumn(name = "mechanic_id")
+  //  @JoinColumn(name = "mechanic_id")
     private Mechanic mechanic;
 
     @ManyToOne
-    @JoinColumn(name = "cars_id")
+  //  @JoinColumn(name = "cars_id")
     private Car car;
 
     @ManyToOne
-    @JoinColumn(name = "parts_id")
+  //  @JoinColumn(name = "parts_id")
     private Part part;
 
 

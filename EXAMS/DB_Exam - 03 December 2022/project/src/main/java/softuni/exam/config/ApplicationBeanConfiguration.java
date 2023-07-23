@@ -1,6 +1,8 @@
 package softuni.exam.config;
 
-// TODO:
+import org.springframework.context.annotation.Configuration;
+
+
 public class ApplicationBeanConfiguration {
 
 }

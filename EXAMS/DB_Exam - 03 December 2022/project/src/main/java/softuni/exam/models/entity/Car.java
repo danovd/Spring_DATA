@@ -10,18 +10,18 @@ public class Car {
     private long id;
 
     @Enumerated(EnumType.STRING)
-    @Column(name = "car_type", nullable = false)
+    @Column(nullable = false)
     private CarType carType;
-    @Column(name = "car_make", nullable = false)
+    @Column(nullable = false)
     private String carMake;
 
-    @Column(name = "car_model", nullable = false)
+    @Column(nullable = false)
     private String carModel;
 
     @Column(nullable = false)
     private int year;
 
-    @Column(name = "plate_number", nullable = false, unique = true)
+    @Column(nullable = false, unique = true)
     private String plateNumber;
     @Column(nullable = false)
     private int kilometers;
@@ -96,19 +96,7 @@ public class Car {
         this.engine = engine;
     }
 
-    @Override
-    public String toString() {
-        return "Car{" +
-                "id=" + id +
-                ", carType=" + carType +
-                ", carMake='" + carMake + '\'' +
-                ", carModel='" + carModel + '\'' +
-                ", year=" + year +
-                ", plateNumber='" + plateNumber + '\'' +
-                ", kilometers=" + kilometers +
-                ", engine=" + engine +
-                '}';
-    }
+
 
 
 }

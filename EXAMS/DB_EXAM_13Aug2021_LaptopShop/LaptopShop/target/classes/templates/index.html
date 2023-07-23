@@ -1,0 +1,41 @@
+</body>
+</html>
+<th:block th:fragment xmlns:th="http://www.w3.org/1999/xhtml">
+    <div class="container justify-content-center mt-3">
+        <div class="jumbotron index-jumbo d-flex justify-content-center">
+            <div class="container">
+                <div class="col-md-12 d-flex border-left border-bottom w-50 ">
+                    <h1 class="myBackgroundColor ">Laptop Shop</h1>
+                </div>
+                <div class="col-md-12 d-flex mt-3">
+                    <h4>
+                        &nbsp;&nbsp;&nbsp;Yes, another specialty laptop store, but only at first glance. Here you will
+                        find a large selection of the best office, professional or gaming computers and of course, they
+                        will all be mobile because mobility is most important nowadays.
+                        <br/>
+                        &nbsp;&nbsp;&nbsp;To offer a better experience to its customers, the store urgently needs a good
+                        enough application that collects all the information about all available laptops and can, with
+                        one click, dig through the sorted best offers.
+                        <br/>
+                        &nbsp;&nbsp;&nbsp;The store owner has turned to SoftUni for help. Now a small team led by you
+                        must take on this task.
+                        <br/>
+                    </h4>
+                </div>
+                <div class="col-md-12 text-center">
+                    <th:block th:if="${areImported == true}">
+                        <p><a class="btn btn-warning export-button text-white" th:href="@{/export/best-laptops}">Get
+                            the best laptops</a></p>
+                    </th:block>
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <th:block th:if="${areImported == false}">
+                            <p class="bg-dark rounded p-2">Тo see the next task, first import all XML and JSON
+                                files.</p>
+                        </th:block>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</th:block>

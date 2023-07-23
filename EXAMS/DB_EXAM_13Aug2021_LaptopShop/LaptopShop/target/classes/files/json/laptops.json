@@ -1,0 +1,1202 @@
+[
+  {
+    "macAddress": "B6-34",
+    "cpuSpeed": 4.9,
+    "ram": 32,
+    "storage": 1024,
+    "description": "Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
+    "price": 7443.63,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Becker"
+    }
+  },
+  {
+    "macAddress": "45-F8-0F-D3-A9-FC",
+    "cpuSpeed": -5.65,
+    "ram": 8,
+    "storage": 1024,
+    "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
+    "price": 6591.95,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Ferry"
+    }
+  },
+  {
+    "macAddress": "8C-B5-5E-F9-E1-0E",
+    "cpuSpeed": 2.09,
+    "ram": 2,
+    "storage": 1024,
+    "description": "Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
+    "price": 1103.69,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Towne-Jast"
+    }
+  },
+  {
+    "macAddress": "DC-85-FA-B8-55-93",
+    "cpuSpeed": 4.21,
+    "ram": 8,
+    "storage": 64,
+    "description": "Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "price": 6218.74,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Watsica"
+    }
+  },
+  {
+    "macAddress": "F0-4F-A5-06-9F-1E",
+    "cpuSpeed": 3.65,
+    "ram": 16,
+    "storage": 128,
+    "description": "Short.",
+    "price": 6308.28,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "O'Reilly"
+    }
+  },
+  {
+    "macAddress": "95-FF-4C-B2-E2-25",
+    "cpuSpeed": 4.84,
+    "ram": 64,
+    "storage": 1024,
+    "description": "Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.",
+    "price": -50.00,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Walker Inc"
+    }
+  },
+  {
+    "macAddress": "C4-90-3F-52-5D-83",
+    "cpuSpeed": 3.99,
+    "ram": 64,
+    "storage": 512,
+    "description": "Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+    "price": 4401.56,
+    "warrantyType": "INVALID WARRANTY TYPE",
+    "shop": {
+      "name": "Kerluke"
+    }
+  },
+  {
+    "macAddress": "B5-42-0A-AC-F0-19",
+    "cpuSpeed": 1.46,
+    "ram": 128,
+    "storage": 128,
+    "description": "Aenean lectus. Pellentesque eget nunc.",
+    "price": 4081.54,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Jacobi and Bayer"
+    }
+  },
+  {
+    "macAddress": "7B-65-D4-30-C2-9B",
+    "cpuSpeed": 3.63,
+    "ram": 128,
+    "storage": 265,
+    "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+    "price": 3143.43,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Kerluke"
+    }
+  },
+  {
+    "macAddress": "18-66-36-83-02-51",
+    "cpuSpeed": 4.02,
+    "ram": 128,
+    "storage": 512,
+    "description": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "price": 5890.48,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Prosacco"
+    }
+  },
+  {
+    "macAddress": "46-1A-81-05-55-27",
+    "cpuSpeed": 4.28,
+    "ram": 64,
+    "storage": 512,
+    "description": "Quisque ut erat. Curabitur gravida nisi at nibh.",
+    "price": 5480.21,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Herman Inc"
+    }
+  },
+  {
+    "macAddress": "49-C5-96-2A-3B-DF",
+    "cpuSpeed": 4.49,
+    "ram": 128,
+    "storage": 512,
+    "description": "In blandit ultrices enim.",
+    "price": 2909.89,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Bergstrom and Larson"
+    }
+  },
+  {
+    "macAddress": "88-11-21-5A-42-91",
+    "cpuSpeed": 1.2,
+    "ram": 8,
+    "storage": 512,
+    "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.",
+    "price": 1706.2,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Kovacek and Sons"
+    }
+  },
+  {
+    "macAddress": "DB-A6-4C-08-80-2B",
+    "cpuSpeed": 2.38,
+    "ram": 8,
+    "storage": 1024,
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+    "price": 1748.19,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Weber-Hammes"
+    }
+  },
+  {
+    "macAddress": "13-EF-99-2C-86-47",
+    "cpuSpeed": 1.22,
+    "ram": 8,
+    "storage": 128,
+    "description": "Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
+    "price": 7815.39,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Wisozk"
+    }
+  },
+  {
+    "macAddress": "84-49-D2-2F-8B-5D",
+    "cpuSpeed": 1.64,
+    "ram": 8,
+    "storage": 512,
+    "description": "Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
+    "price": 4844.48,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Runolfsdottir"
+    }
+  },
+  {
+    "macAddress": "18-FD-2F-95-67-28",
+    "cpuSpeed": 2.84,
+    "ram": 8,
+    "storage": 1024,
+    "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
+    "price": 4058.09,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Treutel"
+    }
+  },
+  {
+    "macAddress": "2B-A8-78-93-30-86",
+    "cpuSpeed": 2.74,
+    "ram": 32,
+    "storage": 128,
+    "description": "Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
+    "price": 4888.86,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Berge and Sons"
+    }
+  },
+  {
+    "macAddress": "64-EB-F5-49-73-89",
+    "cpuSpeed": 1.52,
+    "ram": 8,
+    "storage": 265,
+    "description": "Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "price": 6678.29,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Jacobi and Bayer"
+    }
+  },
+  {
+    "macAddress": "83-46-8A-D7-7B-77",
+    "cpuSpeed": 2.37,
+    "ram": 16,
+    "storage": 265,
+    "description": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+    "price": 6248.59,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Howell LLC"
+    }
+  },
+  {
+    "macAddress": "F4-C7-DB-1C-D4-FC",
+    "cpuSpeed": 4.82,
+    "ram": 128,
+    "storage": 265,
+    "description": "In eleifend quam a odio.",
+    "price": 3067.6,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Weber-Hammes"
+    }
+  },
+  {
+    "macAddress": "D4-61-E9-59-10-95",
+    "cpuSpeed": 1.56,
+    "ram": 16,
+    "storage": 265,
+    "description": "Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+    "price": 2021.45,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Welch Group"
+    }
+  },
+  {
+    "macAddress": "84-AF-2E-1A-73-86",
+    "cpuSpeed": 4.13,
+    "ram": 8,
+    "storage": 512,
+    "description": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": 3547.69,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Jacobi and Bayer"
+    }
+  },
+  {
+    "macAddress": "EF-31-05-16-13-8B",
+    "cpuSpeed": 1.75,
+    "ram": 128,
+    "storage": 1024,
+    "description": "Nunc rhoncus dui vel sem.",
+    "price": 3830.62,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Wehner"
+    }
+  },
+  {
+    "macAddress": "F0-55-17-8D-BC-76",
+    "cpuSpeed": 4.35,
+    "ram": 128,
+    "storage": 512,
+    "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+    "price": 2473.9,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Becker"
+    }
+  },
+  {
+    "macAddress": "41-0D-A6-48-13-BE",
+    "cpuSpeed": 4.53,
+    "ram": 32,
+    "storage": 512,
+    "description": "Nulla facilisi. Cras non velit nec nisi vulputate nonummy.",
+    "price": 2730.36,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Upton"
+    }
+  },
+  {
+    "macAddress": "FB-CB-73-05-9F-2D",
+    "cpuSpeed": 2.43,
+    "ram": 128,
+    "storage": 265,
+    "description": "Praesent lectus.",
+    "price": 6172.99,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Heathcote and Sons"
+    }
+  },
+  {
+    "macAddress": "4E-B8-2F-FF-E1-F8",
+    "cpuSpeed": 3.64,
+    "ram": 128,
+    "storage": 128,
+    "description": "Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "price": 2095.42,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Kerluke"
+    }
+  },
+  {
+    "macAddress": "CF-99-59-4B-D9-47",
+    "cpuSpeed": 2.24,
+    "ram": 32,
+    "storage": 1024,
+    "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+    "price": 7225.87,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Kshlerin Group"
+    }
+  },
+  {
+    "macAddress": "3C-B6-7C-6E-08-B4",
+    "cpuSpeed": 1.23,
+    "ram": 16,
+    "storage": 265,
+    "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "price": 2312.52,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Aufderhar"
+    }
+  },
+  {
+    "macAddress": "7D-62",
+    "cpuSpeed": 3.79,
+    "ram": 8,
+    "storage": 265,
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
+    "price": 4467.35,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Zieme"
+    }
+  },
+  {
+    "macAddress": "8F-52-91-CB-5E-1D",
+    "cpuSpeed": 1.47,
+    "ram": 32,
+    "storage": 265,
+    "description": "Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",
+    "price": 3172.64,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Ondricka"
+    }
+  },
+  {
+    "macAddress": "CA-99-90-AF-1D-F7",
+    "cpuSpeed": 1.17,
+    "ram": 32,
+    "storage": 265,
+    "description": "Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.",
+    "price": 6246.34,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Gerhold"
+    }
+  },
+  {
+    "macAddress": "D0-D2-1E-09-D9-98",
+    "cpuSpeed": 0.31,
+    "ram": 32,
+    "storage": 1024,
+    "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
+    "price": 3551.79,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Upton"
+    }
+  },
+  {
+    "macAddress": "9C-2D-07-EA-6A-23",
+    "cpuSpeed": 4.59,
+    "ram": 8,
+    "storage": 128,
+    "description": "Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+    "price": 6137.9,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Kerluke"
+    }
+  },
+  {
+    "macAddress": "31-2D-A7-45-EA-90",
+    "cpuSpeed": 4.44,
+    "ram": 16,
+    "storage": 1024,
+    "description": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
+    "price": 6956.93,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Bergstrom and Larson"
+    }
+  },
+  {
+    "macAddress": "C3-67-32-BD-5B-D9",
+    "cpuSpeed": 3.35,
+    "ram": 8,
+    "storage": 265,
+    "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
+    "price": 6522.33,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Satterfield"
+    }
+  },
+  {
+    "macAddress": "0E-03-69-87-8C-3F",
+    "cpuSpeed": 2.68,
+    "ram": 64,
+    "storage": 128,
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.",
+    "price": 4982.84,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Schroeder"
+    }
+  },
+  {
+    "macAddress": "68-D3-DC-15-E7-29",
+    "cpuSpeed": 1.5,
+    "ram": 1,
+    "storage": 265,
+    "description": "Sed accumsan felis.",
+    "price": 7257.54,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Zemlak LLC"
+    }
+  },
+  {
+    "macAddress": "F3-04-A2-67-03-62",
+    "cpuSpeed": 4.0,
+    "ram": 32,
+    "storage": 512,
+    "description": "Phasellus in felis.",
+    "price": 3609.61,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Kuhlman"
+    }
+  },
+  {
+    "macAddress": "F6-C4-94-91-80-2A",
+    "cpuSpeed": 3.89,
+    "ram": 64,
+    "storage": 265,
+    "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "price": 6017.53,
+    "warrantyType": "INVALID WARRANTY TYPE",
+    "shop": {
+      "name": "Tremblay"
+    }
+  },
+  {
+    "macAddress": "F3-42-92-BA-68-57",
+    "cpuSpeed": 2.28,
+    "ram": 128,
+    "storage": 128,
+    "description": "Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
+    "price": 6095.58,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Russel-Bogan"
+    }
+  },
+  {
+    "macAddress": "B5-FE-D2-74-5F-93",
+    "cpuSpeed": 2.55,
+    "ram": 64,
+    "storage": 265,
+    "description": "Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
+    "price": 3818.47,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "McGlynn"
+    }
+  },
+  {
+    "macAddress": "2B-DB-FE-B7-CD-65",
+    "cpuSpeed": 3.66,
+    "ram": 16,
+    "storage": 1024,
+    "description": "Nulla justo.",
+    "price": 7904.93,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Russel-Bogan"
+    }
+  },
+  {
+    "macAddress": "15-12-55-06-A9-F3",
+    "cpuSpeed": 1.6,
+    "ram": 64,
+    "storage": 512,
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+    "price": 3073.53,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Gerhold"
+    }
+  },
+  {
+    "macAddress": "99-8C-C9-0C-32-59",
+    "cpuSpeed": 3.48,
+    "ram": 8,
+    "storage": 1024,
+    "description": "Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
+    "price": 6658.8,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Gerhold"
+    }
+  },
+  {
+    "macAddress": "59-3E-E4-F8-8D-6E",
+    "cpuSpeed": 3.64,
+    "ram": 16,
+    "storage": 512,
+    "description": "Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "price": 2373.69,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Howell LLC"
+    }
+  },
+  {
+    "macAddress": "81-41-4F-59-7A-00",
+    "cpuSpeed": 1.28,
+    "ram": 32,
+    "storage": 128,
+    "description": "Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
+    "price": 6240.16,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Ferry"
+    }
+  },
+  {
+    "macAddress": "61-DC-43-9F-90-74",
+    "cpuSpeed": 3.48,
+    "ram": 32,
+    "storage": 128,
+    "description": "Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+    "price": 2402.26,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Kovacek and Sons"
+    }
+  },
+  {
+    "macAddress": "08-EE-53-BC-F7-63",
+    "cpuSpeed": 2.71,
+    "ram": 8,
+    "storage": 512,
+    "description": "Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": 5538.47,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Goodwin-Mayert"
+    }
+  },
+  {
+    "macAddress": "A9-0B-99-BE-5F-2B",
+    "cpuSpeed": 1.8,
+    "ram": 8,
+    "storage": 512,
+    "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.",
+    "price": 4881.45,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "MaLiver Inc"
+    }
+  },
+  {
+    "macAddress": "5E-9B-3D-76-C8-10",
+    "cpuSpeed": 2.65,
+    "ram": 8,
+    "storage": 16,
+    "description": "In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.",
+    "price": 2857.85,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "O'Hara"
+    }
+  },
+  {
+    "macAddress": "59-6C-A9-CA-85-32",
+    "cpuSpeed": 1.39,
+    "ram": 8,
+    "storage": 1024,
+    "description": "Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
+    "price": 4924.33,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Runolfsdottir"
+    }
+  },
+  {
+    "macAddress": "DE-C2-C0-48-86-08",
+    "cpuSpeed": 3.86,
+    "ram": 16,
+    "storage": 1024,
+    "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
+    "price": 5222.03,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "O'Connell-Walker"
+    }
+  },
+  {
+    "macAddress": "64-B2-7C-6E-AA-CA",
+    "cpuSpeed": 3.64,
+    "ram": 64,
+    "storage": 1024,
+    "description": "Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+    "price": 4513.67,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Pfeffer Inc"
+    }
+  },
+  {
+    "macAddress": "1D-00-31-5D-B7-CD",
+    "cpuSpeed": 3.43,
+    "ram": 16,
+    "storage": 128,
+    "description": "Morbi a ipsum.",
+    "price": 5763.56,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Halvorson"
+    }
+  },
+  {
+    "macAddress": "D6-71-86-78-87-78",
+    "cpuSpeed": 3.08,
+    "ram": 64,
+    "storage": 512,
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.",
+    "price": 4761.66,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Sanford LLC"
+    }
+  },
+  {
+    "macAddress": "29-B2-11-2E-B8-7C",
+    "cpuSpeed": 4.97,
+    "ram": 128,
+    "storage": 1024,
+    "description": "Maecenas rhoncus aliquam lacus.",
+    "price": 7568.59,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Hessel"
+    }
+  },
+  {
+    "macAddress": "32-E3-4D-1C-43-50",
+    "cpuSpeed": 1.9,
+    "ram": 16,
+    "storage": 128,
+    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": 7928.79,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Franecki"
+    }
+  },
+  {
+    "macAddress": "AF-09-C5-C9-4C-BF",
+    "cpuSpeed": 2.22,
+    "ram": 8,
+    "storage": 128,
+    "description": "Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    "price": -6549.84,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Russel-Bogan"
+    }
+  },
+  {
+    "macAddress": "C9-D7-87-88-90-AB",
+    "cpuSpeed": 3.93,
+    "ram": 16,
+    "storage": 1024,
+    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
+    "price": 7091.41,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Schuppe"
+    }
+  },
+  {
+    "macAddress": "04-9B-EA-1D-23-D1",
+    "cpuSpeed": 1.69,
+    "ram": 64,
+    "storage": 1024,
+    "description": "Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.",
+    "price": 4009.44,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Satterfield"
+    }
+  },
+  {
+    "macAddress": "FC-A0-9B-42-DB-94",
+    "cpuSpeed": 4.8,
+    "ram": 128,
+    "storage": 128,
+    "description": "Etiam faucibus cursus urna.",
+    "price": 3542.01,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Tremblay"
+    }
+  },
+  {
+    "macAddress": "45-B4-30-4E-50-D8",
+    "cpuSpeed": 3.11,
+    "ram": 8,
+    "storage": 265,
+    "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "price": 6711.33,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Wehner"
+    }
+  },
+  {
+    "macAddress": "0C-25-6D-58-AD-65",
+    "cpuSpeed": 4.0,
+    "ram": 8,
+    "storage": 128,
+    "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
+    "price": 6127.08,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Abshire"
+    }
+  },
+  {
+    "macAddress": "81-C7-99-99-10-4B",
+    "cpuSpeed": 4.63,
+    "ram": 64,
+    "storage": 512,
+    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
+    "price": 7980.06,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Cuppings Group"
+    }
+  },
+  {
+    "macAddress": "5A-12-69-62-26-18",
+    "cpuSpeed": 4.56,
+    "ram": 32,
+    "storage": 128,
+    "description": "In congue. Etiam justo.",
+    "price": 3720.51,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Sauer"
+    }
+  },
+  {
+    "macAddress": "CA-1E-F2-6E-E9-2F",
+    "cpuSpeed": 4.97,
+    "ram": 16,
+    "storage": 512,
+    "description": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
+    "price": 4546.6,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Nader and Sons"
+    }
+  },
+  {
+    "macAddress": "9D-6F-B5-F3-03-37",
+    "cpuSpeed": 1.69,
+    "ram": 128,
+    "storage": 512,
+    "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
+    "price": 6686.92,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Padberg"
+    }
+  },
+  {
+    "macAddress": "25-8B-D3-DA-C1-5D",
+    "cpuSpeed": 3.43,
+    "ram": 8,
+    "storage": 1024,
+    "description": "Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
+    "price": 4663.62,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Murphy-Beatty"
+    }
+  },
+  {
+    "macAddress": "09-D7-12-AC-93-F4",
+    "cpuSpeed": 1.65,
+    "ram": 128,
+    "storage": 265,
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
+    "price": 3963.57,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Walker Inc"
+    }
+  },
+  {
+    "macAddress": "CE-CA-5C-0D-ED-DA",
+    "cpuSpeed": 2.92,
+    "ram": 8,
+    "storage": 1024,
+    "description": "Integ.",
+    "price": 6314.17,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Heaney-Lehner"
+    }
+  },
+  {
+    "macAddress": "0E-50-A6-11-36-35",
+    "cpuSpeed": 1.81,
+    "ram": 16,
+    "storage": 1024,
+    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": 3585.05,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Abshire"
+    }
+  },
+  {
+    "macAddress": "F0-0E-3A-A4-11-AE",
+    "cpuSpeed": 4.39,
+    "ram": 32,
+    "storage": 1024,
+    "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "price": 7045.17,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Berge and Sons"
+    }
+  },
+  {
+    "macAddress": "13-C0-9B-46-C0-9F",
+    "cpuSpeed": 1.99,
+    "ram": 8,
+    "storage": 1024,
+    "description": "Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",
+    "price": 7485.02,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Cuppings Group"
+    }
+  },
+  {
+    "macAddress": "F4-53-DD-76-1E-D6",
+    "cpuSpeed": 3.14,
+    "ram": 16,
+    "storage": 512,
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",
+    "price": 4902.67,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "O'Reilly"
+    }
+  },
+  {
+    "macAddress": "A9-B1-9E-65-C8-AB",
+    "cpuSpeed": 4.7,
+    "ram": 64,
+    "storage": 265,
+    "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
+    "price": 3039.53,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Jacobi and Bayer"
+    }
+  },
+  {
+    "macAddress": "18-2E-4E-C2-3B-4B",
+    "cpuSpeed": 1.87,
+    "ram": 16,
+    "storage": 512,
+    "description": "Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+    "price": 4206.83,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Herman Inc"
+    }
+  },
+  {
+    "macAddress": "5C-75-54-A0-C4-BE",
+    "cpuSpeed": 3.66,
+    "ram": 8,
+    "storage": 1024,
+    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
+    "price": 6697.91,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Wisozk"
+    }
+  },
+  {
+    "macAddress": "8D-E7-3E-7C-00-40",
+    "cpuSpeed": 2.77,
+    "ram": 64,
+    "storage": 512,
+    "description": "Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
+    "price": 7927.23,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Heathcote"
+    }
+  },
+  {
+    "macAddress": "AD-06-48-39-DD-6F",
+    "cpuSpeed": 4.97,
+    "ram": 16,
+    "storage": 128,
+    "description": "In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "price": 2486.91,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Towne-Jast"
+    }
+  },
+  {
+    "macAddress": "DA-E0-EB-24-9B-FE",
+    "cpuSpeed": 1.42,
+    "ram": 8,
+    "storage": 265,
+    "description": "Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": 2231.45,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Ferry"
+    }
+  },
+  {
+    "macAddress": "11-E7-FF-1F-6A-B8",
+    "cpuSpeed": 4.31,
+    "ram": 16,
+    "storage": 512,
+    "description": "Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
+    "price": 7931.46,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Kshlerin Group"
+    }
+  },
+  {
+    "macAddress": "6E-B4-9E-AE-15-82",
+    "cpuSpeed": 3.99,
+    "ram": 128,
+    "storage": 128,
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
+    "price": 5601.47,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Treutel"
+    }
+  },
+  {
+    "macAddress": "F1-85-E2-72-9E-9C",
+    "cpuSpeed": 4.61,
+    "ram": 16,
+    "storage": 265,
+    "description": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": 7581.61,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Kerluke"
+    }
+  },
+  {
+    "macAddress": "23-89-3A-9F-CD-9D",
+    "cpuSpeed": 1.72,
+    "ram": 8,
+    "storage": 1024,
+    "description": "Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
+    "price": 2376.96,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Herman Inc"
+    }
+  },
+  {
+    "macAddress": "9A-E0-3E-6C-62-47",
+    "cpuSpeed": 1.27,
+    "ram": 64,
+    "storage": 265,
+    "description": "Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+    "price": 7248.72,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Wisozk"
+    }
+  },
+  {
+    "macAddress": "30-CA-2E-9C-BE-CE",
+    "cpuSpeed": 1.54,
+    "ram": 64,
+    "storage": 265,
+    "description": "Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
+    "price": 3967.73,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Heaney-Lehner"
+    }
+  },
+  {
+    "macAddress": "04-F8-0A-4C-E2-BF",
+    "cpuSpeed": 1.74,
+    "ram": 8,
+    "storage": 128,
+    "description": "Integer ac neque. Duis bibendum.",
+    "price": -4151.55,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Nader and Sons"
+    }
+  },
+  {
+    "macAddress": "5D-C1-2E-68-B9-87",
+    "cpuSpeed": 4.55,
+    "ram": 8,
+    "storage": 128,
+    "description": "In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    "price": 2901.16,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Weber-Hammes"
+    }
+  },
+  {
+    "macAddress": "A3-14-A5-95-88-E3",
+    "cpuSpeed": 2.46,
+    "ram": 8,
+    "storage": 512,
+    "description": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+    "price": 4060.74,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "Pouros Inc"
+    }
+  },
+  {
+    "macAddress": "52-F0-49-F5-A3-7D",
+    "cpuSpeed": 3.41,
+    "ram": 64,
+    "storage": 1024,
+    "description": "Proin eu mi.",
+    "price": 7130.12,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Smitham and Sons"
+    }
+  },
+  {
+    "macAddress": "49-74-E3-F6-61-A9",
+    "cpuSpeed": 4.36,
+    "ram": 64,
+    "storage": 128,
+    "description": "Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "price": 7621.05,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Gerhold"
+    }
+  },
+  {
+    "macAddress": "D9-D3",
+    "cpuSpeed": 3.36,
+    "ram": 64,
+    "storage": 1024,
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+    "price": 5144.2,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Jacobi and Bayer"
+    }
+  },
+  {
+    "macAddress": "42-02-F2-68-F2-71",
+    "cpuSpeed": -4.34,
+    "ram": 16,
+    "storage": 1024,
+    "description": "Morbi porttitor lorem id ligula.",
+    "price": 3608.8,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Gibson"
+    }
+  },
+  {
+    "macAddress": "CB-EC-F2-EC-98-49",
+    "cpuSpeed": 3.97,
+    "ram": 1,
+    "storage": 128,
+    "description": "Nulla justo.",
+    "price": 7230.64,
+    "warrantyType": "BASIC",
+    "shop": {
+      "name": "Quigley-Marquardt"
+    }
+  },
+  {
+    "macAddress": "B1-27-73-39-3E-D7",
+    "cpuSpeed": 1.28,
+    "ram": 16,
+    "storage": 8,
+    "description": "Nam nulla.",
+    "price": 3822.91,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Wehner"
+    }
+  },
+  {
+    "macAddress": "CF-8F-5A-3B-FC-C2",
+    "cpuSpeed": 3.7,
+    "ram": 32,
+    "storage": 512,
+    "description": "Donec.",
+    "price": 4981.97,
+    "warrantyType": "PREMIUM",
+    "shop": {
+      "name": "O'Connell-Walker"
+    }
+  },
+  {
+    "macAddress": "61-E9-7D-EA-66-5E",
+    "cpuSpeed": 2.7,
+    "ram": 32,
+    "storage": 128,
+    "description": "Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+    "price": -4900.23,
+    "warrantyType": "LIFETIME",
+    "shop": {
+      "name": "Weber-Hammes"
+    }
+  },
+  {
+    "macAddress": "7C-60-A5-39-FB-25",
+    "cpuSpeed": 1.73,
+    "ram": 8,
+    "storage": 512,
+    "description": "Suspendisse potenti. In eleifend quam a odio.",
+    "price": 1794.3,
+    "warrantyType": "INVALID WARRANTY TYPE",
+    "shop": {
+      "name": "Reichel-Walsh"
+    }
+  }
+]

@@ -12,13 +12,13 @@ public class Part {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column(name = "part_name", nullable = false, unique = true)
+    @Column(nullable = false, unique = true)
     private String partName;
 
-    @Column(name = "price", nullable = false)
+    @Column(nullable = false)
     private double price;
 
-    @Column(name = "quantity", nullable = false)
+    @Column(nullable = false)
     private int quantity;
 
     public Part() {

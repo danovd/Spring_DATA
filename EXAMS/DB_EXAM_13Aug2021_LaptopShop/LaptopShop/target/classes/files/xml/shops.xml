@@ -1,0 +1,1003 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shops>
+    <shop>
+        <address>04 Pond Junction</address>
+        <employee-count>47</employee-count>
+        <income>625273</income>
+        <name>Er</name>
+        <shop-area>278</shop-area>
+        <town>
+            <name>Hamburg</name>
+        </town>
+    </shop>
+    <shop>
+        <address>779 Parkside Park</address>
+        <employee-count>48</employee-count>
+        <income>10</income>
+        <name>Raynor</name>
+        <shop-area>108</shop-area>
+        <town>
+            <name>Birmingham</name>
+        </town>
+    </shop>
+    <shop>
+        <address>15c</address>
+        <employee-count>40</employee-count>
+        <income>2710190</income>
+        <name>Lockman-Stroman</name>
+        <shop-area>419</shop-area>
+        <town>
+            <name>New York</name>
+        </town>
+    </shop>
+    <shop>
+        <address>6 Kennedy Lane</address>
+        <employee-count>47</employee-count>
+        <income>2078882</income>
+        <name>Nader-Wehner</name>
+        <shop-area>50</shop-area>
+        <town>
+            <name>Barcelona</name>
+        </town>
+    </shop>
+    <shop>
+        <address>95 Delaware Avenue</address>
+        <employee-count>0</employee-count>
+        <income>387613</income>
+        <name>Langosh-Mraz</name>
+        <shop-area>445</shop-area>
+        <town>
+            <name>New York</name>
+        </town>
+    </shop>
+    <shop>
+        <address>340 Londonderry Junction</address>
+        <employee-count>31</employee-count>
+        <income>1511525</income>
+        <name>Treutel</name>
+        <shop-area>164</shop-area>
+        <town>
+            <name>Moscow</name>
+        </town>
+    </shop>
+    <shop>
+        <address>32 Pond Junction</address>
+        <employee-count>28</employee-count>
+        <income>1581861</income>
+        <name>Kautzer</name>
+        <shop-area>174</shop-area>
+        <town>
+            <name>Moscow</name>
+        </town>
+    </shop>
+    <shop>
+        <address>8 Carpenter Point</address>
+        <employee-count>20</employee-count>
+        <income>4906456</income>
+        <name>Kerluke</name>
+        <shop-area>405</shop-area>
+        <town>
+            <name>Kyiv</name>
+        </town>
+    </shop>
+    <shop>
+        <address>238 Eagan Circle</address>
+        <employee-count>30</employee-count>
+        <income>3776990</income>
+        <name>Schroeder</name>
+        <shop-area>405</shop-area>
+        <town>
+            <name>Los Angeles</name>
+        </town>
+    </shop>
+    <shop>
+        <address>61428 John Wall Center</address>
+        <employee-count>8</employee-count>
+        <income>1733800</income>
+        <name>Cole</name>
+        <shop-area>320</shop-area>
+        <town>
+            <name>Birmingham</name>
+        </town>
+    </shop>
+    <shop>
+        <address>0 Loomis Way</address>
+        <employee-count>36</employee-count>
+        <income>550547</income>
+        <name>Aufderhar</name>
+        <shop-area>335</shop-area>
+        <town>
+            <name>Moscow</name>
+        </town>
+    </shop>
+    <shop>
+        <address>40 Grasskamp Plaza</address>
+        <employee-count>36</employee-count>
+        <income>1000</income>
+        <name>MacGyver</name>
+        <shop-area>486</shop-area>
+        <town>
+            <name>Sofia</name>
+        </town>
+    </shop>
+    <shop>
+        <address>89707 Riverside Pass</address>
+        <employee-count>20</employee-count>
+        <income>2647199</income>
+        <name>Ferry</name>
+        <shop-area>382</shop-area>
+        <town>
+            <name>Los Angeles</name>
+        </town>
+    </shop>
+    <shop>
+        <address>1 Graedel Alley</address>
+        <employee-count>39</employee-count>
+        <income>127954</income>
+        <name>McGlynn</name>
+        <shop-area>436</shop-area>
+        <town>
+            <name>Hamburg</name>
+        </town>
+    </shop>
+    <shop>
+        <address>01 Blackbird Drive</address>
+        <employee-count>20</employee-count>
+        <income>265645</income>
+        <name>Satterfield</name>
+        <shop-area>322</shop-area>
+        <town>
+            <name>Paris</name>
+        </town>
+    </shop>
+    <shop>
+        <address>913 Elka Drive</address>
+        <employee-count>29</employee-count>
+        <income>4688340</income>
+        <name>B</name>
+        <shop-area>246</shop-area>
+        <town>
+            <name>Sofia</name>
+        </town>
+    </shop>
+    <shop>
+        <address>826 Pepper Wood Court</address>
+        <employee-count>50</employee-count>
+        <income>2933836</income>
+        <name>Becker</name>
+        <shop-area>455</shop-area>
+        <town>
+            <name>Vienna</name>
+        </town>
+    </shop>
+    <shop>
+        <address>3 Hagan Court</address>
+        <employee-count>35</employee-count>
+        <income>895064</income>
+        <name>Roberts and Sons</name>
+        <shop-area>238</shop-area>
+        <town>
+            <name>Sofia</name>
+        </town>
+    </shop>
+    <shop>
+        <address>4 Mayfield Road</address>
+        <employee-count>11</employee-count>
+        <income>3150991</income>
+        <name>Watsica</name>
+        <shop-area>284</shop-area>
+        <town>
+            <name>Birmingham</name>
+        </town>
+    </shop>
+    <shop>
+        <address>523 Miller Road</address>
+        <employee-count>10</employee-count>
+        <income>1586336</income>
+        <name>Herman Inc</name>
+        <shop-area>336</shop-area>
+        <town>
+            <name>New York</name>
+        </town>
+    </shop>
+    <shop>
+        <address>5 Barby Park</address>
+        <employee-count>27</employee-count>
+        <income>2103611</income>
+        <name>Kshlerin Group</name>
+        <shop-area>496</shop-area>
+        <town>
+            <name>Dallas</name>
+        </town>
+    </shop>
+    <shop>
+        <address>271 Pepper Wood Circle</address>
+        <employee-count>10</employee-count>
+        <income>3858579</income>
+        <name>MaLiver Inc</name>
+        <shop-area>193</shop-area>
+        <town>
+            <name>Vienna</name>
+        </town>
+    </shop>
+    <shop>
+        <address>8104 Elka Place</address>
+        <employee-count>31</employee-count>
+        <income>3182311</income>
+        <name>Russel-Bogan</name>
+        <shop-area>364</shop-area>
+        <town>
+            <name>Birmingham</name>
+        </town>
+    </shop>
+    <shop>
+        <address>9 Sachs Park</address>
+        <employee-count>3</employee-count>
+        <income>35264</income>
+        <name>Kovacek and Sons</name>
+        <shop-area>206</shop-area>
+        <town>
+            <name>Prague</name>
+        </town>
+    </shop>
+    <shop>
+        <address>4362 Chive Avenue</address>
+        <employee-count>38</employee-count>
+        <income>1365492</income>
+        <name>Terry-Kilback</name>
+        <shop-area>249</shop-area>
+        <town>
+            <name>Belgrade</name>
+        </town>
+    </shop>
+    <shop>
+        <address>854 Mcbride Center</address>
+        <employee-count>36</employee-count>
+        <income>235209</income>
+        <name>Konopelski</name>
+        <shop-area>5</shop-area>
+        <town>
+            <name>Belgrade</name>
+        </town>
+    </shop>
+    <shop>
+        <address>6675 Commercial Center</address>
+        <employee-count>5</employee-count>
+        <income>343160</income>
+        <name>Kuhlman</name>
+        <shop-area>369</shop-area>
+        <town>
+            <name>Samara</name>
+        </town>
+    </shop>
+    <shop>
+        <address>0087 Manitowish Court</address>
+        <employee-count>26</employee-count>
+        <income>1866803</income>
+        <name>Franecki</name>
+        <shop-area>339</shop-area>
+        <town>
+            <name>Berlin</name>
+        </town>
+    </shop>
+    <shop>
+        <address>4558 Shasta Point</address>
+        <employee-count>29</employee-count>
+        <income>535444</income>
+        <name>Goodwin-Mayert</name>
+        <shop-area>250</shop-area>
+        <town>
+            <name>Houston</name>
+        </town>
+    </shop>
+    <shop>
+        <address>20 Kensington Circle</address>
+        <employee-count>32</employee-count>
+        <income>4527028</income>
+        <name>Sauer</name>
+        <shop-area>348</shop-area>
+        <town>
+            <name>Los Angeles</name>
+        </town>
+    </shop>
+    <shop>
+        <address>4984 Delladonna Plaza</address>
+        <employee-count>28</employee-count>
+        <income>3581347</income>
+        <name>Pouros Inc</name>
+        <shop-area>411</shop-area>
+        <town>
+            <name>Madrid</name>
+        </town>
+    </shop>
+    <shop>
+        <address>8824 Dakota Street</address>
+        <employee-count>9</employee-count>
+        <income>4952748</income>
+        <name>Upton Group</name>
+        <shop-area>126</shop-area>
+        <town>
+            <name>Hamburg</name>
+        </town>
+    </shop>
+    <shop>
+        <address>950 Carberry Crossing</address>
+        <employee-count>4</employee-count>
+        <income>2099007</income>
+        <name>Pfeffer Inc</name>
+        <shop-area>475</shop-area>
+        <town>
+            <name>Sofia</name>
+        </town>
+    </shop>
+    <shop>
+        <address>629 Homewood Plaza</address>
+        <employee-count>13</employee-count>
+        <income>634617</income>
+        <name>Tremblay</name>
+        <shop-area>209</shop-area>
+        <town>
+            <name>Kyiv</name>
+        </town>
+    </shop>
+    <shop>
+        <address>8329 Del Mar Lane</address>
+        <employee-count>12</employee-count>
+        <income>654496</income>
+        <name>O'Reilly</name>
+        <shop-area>264</shop-area>
+        <town>
+            <name>Samara</name>
+        </town>
+    </shop>
+    <shop>
+        <address>37 Independence Court</address>
+        <employee-count>12</employee-count>
+        <income>4049792</income>
+        <name>Schmeler</name>
+        <shop-area>320</shop-area>
+        <town>
+            <name>Milan</name>
+        </town>
+    </shop>
+    <shop>
+        <address>0 Monterey Place</address>
+        <employee-count>29</employee-count>
+        <income>3536631</income>
+        <name>Runolfsdottir</name>
+        <shop-area>437</shop-area>
+        <town>
+            <name>Hamburg</name>
+        </town>
+    </shop>
+    <shop>
+        <address>624 Brown Point</address>
+        <employee-count>40</employee-count>
+        <income>4260146</income>
+        <name>Gerhold</name>
+        <shop-area>378</shop-area>
+        <town>
+            <name>New York</name>
+        </town>
+    </shop>
+    <shop>
+        <address>64624 Caliangt Court</address>
+        <employee-count>4</employee-count>
+        <income>3797367</income>
+        <name>Kuhic</name>
+        <shop-area>139</shop-area>
+        <town>
+            <name>Moscow</name>
+        </town>
+    </shop>
+    <shop>
+        <address>708 Clyde Gallagher Avenue</address>
+        <employee-count>0</employee-count>
+        <income>747885</income>
+        <name>Mayert</name>
+        <shop-area>451</shop-area>
+        <town>
+            <name>Barcelona</name>
+        </town>
+    </shop>
+    <shop>
+        <address>28643 Grayhawk Pass</address>
+        <employee-count>28</employee-count>
+        <income>2620299</income>
+        <name>Towne-Jast</name>
+        <shop-area>248</shop-area>
+        <town>
+            <name>Rome</name>
+        </town>
+    </shop>
+    <shop>
+        <address>40753 West Park</address>
+        <employee-count>14</employee-count>
+        <income>2204980</income>
+        <name>Zieme</name>
+        <shop-area>197</shop-area>
+        <town>
+            <name>Barcelona</name>
+        </town>
+    </shop>
+    <shop>
+        <address>84 Almo Avenue</address>
+        <employee-count>7</employee-count>
+        <income>1960477</income>
+        <name>Grimes</name>
+        <shop-area>112</shop-area>
+        <town>
+            <name>New York</name>
+        </town>
+    </shop>
+    <shop>
+        <address>065 Hermina Crossing</address>
+        <employee-count>49</employee-count>
+        <income>2450465</income>
+        <name>Gibson</name>
+        <shop-area>212</shop-area>
+        <town>
+            <name>Berlin</name>
+        </town>
+    </shop>
+    <shop>
+        <address>4 Mifflin Pass</address>
+        <employee-count>4</employee-count>
+        <income>967929</income>
+        <name>Halvorson</name>
+        <shop-area>475</shop-area>
+        <town>
+            <name>Birmingham</name>
+        </town>
+    </shop>
+    <shop>
+        <address>19 Dapin Drive</address>
+        <employee-count>4</employee-count>
+        <income>3066236</income>
+        <name>O'Hara</name>
+        <shop-area>279</shop-area>
+        <town>
+            <name>Birmingham</name>
+        </town>
+    </shop>
+    <shop>
+        <address>0 Moulton Plaza</address>
+        <employee-count>15</employee-count>
+        <income>432748</income>
+        <name>Murphy-Beatty</name>
+        <shop-area>395</shop-area>
+        <town>
+            <name>Houston</name>
+        </town>
+    </shop>
+    <shop>
+        <address>850 Straubel Place</address>
+        <employee-count>23</employee-count>
+        <income>2978060</income>
+        <name>Blanda</name>
+        <shop-area>166</shop-area>
+        <town>
+            <name>Vienna</name>
+        </town>
+    </shop>
+    <shop>
+        <address>93952 Weeping Birch Avenue</address>
+        <employee-count>49</employee-count>
+        <income>4993161</income>
+        <name>Schuppe</name>
+        <shop-area>342</shop-area>
+        <town>
+            <name>Houston</name>
+        </town>
+    </shop>
+    <shop>
+        <address>4 Dunning Road</address>
+        <employee-count>38</employee-count>
+        <income>4552682</income>
+        <name>Jacobson</name>
+        <shop-area>128</shop-area>
+        <town>
+            <name>Chicago</name>
+        </town>
+    </shop>
+    <shop>
+        <address>2 Fairfield Park</address>
+        <employee-count>43</employee-count>
+        <income>2146268</income>
+        <name>Sanford LLC</name>
+        <shop-area>454</shop-area>
+        <town>
+            <name>Brussels</name>
+        </town>
+    </shop>
+    <shop>
+        <address>051 Anderson Crossing</address>
+        <employee-count>32</employee-count>
+        <income>2541705</income>
+        <name>Marvin LLC</name>
+        <shop-area>244</shop-area>
+        <town>
+            <name>Los Angeles</name>
+        </town>
+    </shop>
+    <shop>
+        <address>9</address>
+        <employee-count>9</employee-count>
+        <income>3497806</income>
+        <name>Hirthe</name>
+        <shop-area>143</shop-area>
+        <town>
+            <name>Belgrade</name>
+        </town>
+    </shop>
+    <shop>
+        <address>0 Arkansas Terrace</address>
+        <employee-count>5</employee-count>
+        <income>1249759</income>
+        <name>Zemlak LLC</name>
+        <shop-area>292</shop-area>
+        <town>
+            <name>Brussels</name>
+        </town>
+    </shop>
+    <shop>
+        <address>55 Stang Crossing</address>
+        <employee-count>8</employee-count>
+        <income>3401909</income>
+        <name>Weber-Hammes</name>
+        <shop-area>278</shop-area>
+        <town>
+            <name>New York</name>
+        </town>
+    </shop>
+    <shop>
+        <address>1723 1st Avenue</address>
+        <employee-count>36</employee-count>
+        <income>2592498</income>
+        <name>O'Connell-Walker</name>
+        <shop-area>352</shop-area>
+        <town>
+            <name>Kyiv</name>
+        </town>
+    </shop>
+    <shop>
+        <address>69 Springview Center</address>
+        <employee-count>3</employee-count>
+        <income>382602</income>
+        <name>Hessel</name>
+        <shop-area>434</shop-area>
+        <town>
+            <name>New York</name>
+        </town>
+    </shop>
+    <shop>
+        <address>9757 Paget Plaza</address>
+        <employee-count>35</employee-count>
+        <income>252852</income>
+        <name>Bergnaum</name>
+        <shop-area>154</shop-area>
+        <town>
+            <name>Moscow</name>
+        </town>
+    </shop>
+    <shop>
+        <address>8493 Armistice Pass</address>
+        <employee-count>28</employee-count>
+        <income>711456</income>
+        <name>O'Kon Group</name>
+        <shop-area>133</shop-area>
+        <town>
+            <name>Chicago</name>
+        </town>
+    </shop>
+    <shop>
+        <address>329 Comanche Lane</address>
+        <employee-count>48</employee-count>
+        <income>331813</income>
+        <name>Heathcote</name>
+        <shop-area>381</shop-area>
+        <town>
+            <name>Houston</name>
+        </town>
+    </shop>
+    <shop>
+        <address>84 Artisan Junction</address>
+        <employee-count>45</employee-count>
+        <income>2620985</income>
+        <name>Schulist Group</name>
+        <shop-area>305</shop-area>
+        <town>
+            <name>Rome</name>
+        </town>
+    </shop>
+    <shop>
+        <address>07 Melody Street</address>
+        <employee-count>24</employee-count>
+        <income>1752597</income>
+        <name>Prosacco</name>
+        <shop-area>375</shop-area>
+        <town>
+            <name>Rome</name>
+        </town>
+    </shop>
+    <shop>
+        <address>499 Pine View Lane</address>
+        <employee-count>1</employee-count>
+        <income>3121184</income>
+        <name>Heathcote and Sons</name>
+        <shop-area>279</shop-area>
+        <town>
+            <name>Madrid</name>
+        </town>
+    </shop>
+    <shop>
+        <address>17 Arkansas Court</address>
+        <employee-count>19</employee-count>
+        <income>936522</income>
+        <name>Nienow</name>
+        <shop-area>110</shop-area>
+        <town>
+            <name>Hamburg</name>
+        </town>
+    </shop>
+    <shop>
+        <address>5809 Onsgard Court</address>
+        <employee-count>7</employee-count>
+        <income>1598128</income>
+        <name>Welch Group</name>
+        <shop-area>347</shop-area>
+        <town>
+            <name>Los Angeles</name>
+        </town>
+    </shop>
+    <shop>
+        <address>4603 Park Meadow Trail</address>
+        <employee-count>42</employee-count>
+        <income>123</income>
+        <name>Borerth</name>
+        <shop-area>238</shop-area>
+        <town>
+            <name>Hamburg</name>
+        </town>
+    </shop>
+    <shop>
+        <address>04950 Stuart Pass</address>
+        <employee-count>12</employee-count>
+        <income>203246</income>
+        <name>Heaney-Lehner</name>
+        <shop-area>385</shop-area>
+        <town>
+            <name>Hamburg</name>
+        </town>
+    </shop>
+    <shop>
+        <address>663 Tony Plaza</address>
+        <employee-count>31</employee-count>
+        <income>89121</income>
+        <name>Wehner</name>
+        <shop-area>387</shop-area>
+        <town>
+            <name>Vienna</name>
+        </town>
+    </shop>
+    <shop>
+        <address>05 Helena Park</address>
+        <employee-count>2</employee-count>
+        <income>1145864</income>
+        <name>Wisozk</name>
+        <shop-area>278</shop-area>
+        <town>
+            <name>Barcelona</name>
+        </town>
+    </shop>
+    <shop>
+        <address>0976 Garrison Road</address>
+        <employee-count>46</employee-count>
+        <income>3282232</income>
+        <name>Howell LLC</name>
+        <shop-area>219</shop-area>
+        <town>
+            <name>Dallas</name>
+        </town>
+    </shop>
+    <shop>
+        <address>1 Declaration Circle</address>
+        <employee-count>5</employee-count>
+        <income>892737</income>
+        <name>Abshire</name>
+        <shop-area>163</shop-area>
+        <town>
+            <name>Vienna</name>
+        </town>
+    </shop>
+    <shop>
+        <address>24 Manufacturers Parkway</address>
+        <employee-count>13</employee-count>
+        <income>3987431</income>
+        <name>Wilderman Group</name>
+        <shop-area>117</shop-area>
+        <town>
+            <name>Belgrade</name>
+        </town>
+    </shop>
+    <shop>
+        <address>15 Fulton Point</address>
+        <employee-count>41</employee-count>
+        <income>413367</income>
+        <name>Padberg</name>
+        <shop-area>426</shop-area>
+        <town>
+            <name>Birmingham</name>
+        </town>
+    </shop>
+    <shop>
+        <address>9 Carberry Point</address>
+        <employee-count>5</employee-count>
+        <income>4393490</income>
+        <name>Kulas LLC</name>
+        <shop-area>105</shop-area>
+        <town>
+            <name>Paris</name>
+        </town>
+    </shop>
+    <shop>
+        <address>4614 Meadow Vale Avenue</address>
+        <employee-count>35</employee-count>
+        <income>3745165</income>
+        <name>Feeney and Sons</name>
+        <shop-area>233</shop-area>
+        <town>
+            <name>Vienna</name>
+        </town>
+    </shop>
+    <shop>
+        <address>98969 Fulton Place</address>
+        <employee-count>48</employee-count>
+        <income>157712</income>
+        <name>Reichel-Walsh</name>
+        <shop-area>167</shop-area>
+        <town>
+            <name>Vienna</name>
+        </town>
+    </shop>
+    <shop>
+        <address>33940 Eagan Junction</address>
+        <employee-count>22</employee-count>
+        <income>4009758</income>
+        <name>Ondricka</name>
+        <shop-area>303</shop-area>
+        <town>
+            <name>Vienna</name>
+        </town>
+    </shop>
+    <shop>
+        <address>25263 Swallow Crossing</address>
+        <employee-count>1</employee-count>
+        <income>1168234</income>
+        <name>Tremblay</name>
+        <shop-area>381</shop-area>
+        <town>
+            <name>Barcelona</name>
+        </town>
+    </shop>
+    <shop>
+        <address>215 Saint Paul Parkway</address>
+        <employee-count>50</employee-count>
+        <income>4679102</income>
+        <name>Quigley-Marquardt</name>
+        <shop-area>368</shop-area>
+        <town>
+            <name>Vienna</name>
+        </town>
+    </shop>
+    <shop>
+        <address>354 Stoughton Avenue</address>
+        <employee-count>12</employee-count>
+        <income>2269023</income>
+        <name>Nader and Sons</name>
+        <shop-area>323</shop-area>
+        <town>
+            <name>Kyiv</name>
+        </town>
+    </shop>
+    <shop>
+        <address>92331 Sunnyside Lane</address>
+        <employee-count>45</employee-count>
+        <income>4848724</income>
+        <name>Kutch</name>
+        <shop-area>222</shop-area>
+        <town>
+            <name>Brussels</name>
+        </town>
+    </shop>
+    <shop>
+        <address>631 Stang Street</address>
+        <employee-count>1</employee-count>
+        <income>815292</income>
+        <name>Hartmann and Sons</name>
+        <shop-area>121</shop-area>
+        <town>
+            <name>Barcelona</name>
+        </town>
+    </shop>
+    <shop>
+        <address>5095 Tomscot Lane</address>
+        <employee-count>34</employee-count>
+        <income>381669</income>
+        <name>Upton</name>
+        <shop-area>169</shop-area>
+        <town>
+            <name>Berlin</name>
+        </town>
+    </shop>
+    <shop>
+        <address>9167 Mcguire Terrace</address>
+        <employee-count>7</employee-count>
+        <income>1343844</income>
+        <name>Wiegand and Sons</name>
+        <shop-area>101</shop-area>
+        <town>
+            <name>New York</name>
+        </town>
+    </shop>
+    <shop>
+        <address>4684 Pawling Street</address>
+        <employee-count>32</employee-count>
+        <income>3134842</income>
+        <name>Keebler</name>
+        <shop-area>109</shop-area>
+        <town>
+            <name>Sofia</name>
+        </town>
+    </shop>
+    <shop>
+        <address>3921 Loomis Center</address>
+        <employee-count>35</employee-count>
+        <income>3415460</income>
+        <name>Cuppings Group</name>
+        <shop-area>459</shop-area>
+        <town>
+            <name>Belgrade</name>
+        </town>
+    </shop>
+    <shop>
+        <address>97 Summit Park</address>
+        <employee-count>27</employee-count>
+        <income>2818416</income>
+        <name>Walker Inc</name>
+        <shop-area>204</shop-area>
+        <town>
+            <name>New York</name>
+        </town>
+    </shop>
+    <shop>
+        <address>881 Pawling Trail</address>
+        <employee-count>10</employee-count>
+        <income>2956457</income>
+        <name>Heaney-Dooley</name>
+        <shop-area>124</shop-area>
+        <town>
+            <name>Los Angeles</name>
+        </town>
+    </shop>
+    <shop>
+        <address>09368 Oneill Center</address>
+        <employee-count>25</employee-count>
+        <income>1330135</income>
+        <name>Berge and Sons</name>
+        <shop-area>273</shop-area>
+        <town>
+            <name>Brussels</name>
+        </town>
+    </shop>
+    <shop>
+        <address>76152 Dovetail Crossing</address>
+        <employee-count>5</employee-count>
+        <income>3472387</income>
+        <name>Hessel and Kohler</name>
+        <shop-area>119</shop-area>
+        <town>
+            <name>Vienna</name>
+        </town>
+    </shop>
+    <shop>
+        <address>9923 Union Plaza</address>
+        <employee-count>40</employee-count>
+        <income>2181784</income>
+        <name>Ortiz-Bosco</name>
+        <shop-area>253</shop-area>
+        <town>
+            <name>Houston</name>
+        </town>
+    </shop>
+    <shop>
+        <address>75999 Huxley Crossing</address>
+        <employee-count>23</employee-count>
+        <income>1161659</income>
+        <name>Greenfelder</name>
+        <shop-area>253</shop-area>
+        <town>
+            <name>Paris</name>
+        </town>
+    </shop>
+    <shop>
+        <address>69125 Mccormick Junction</address>
+        <employee-count>47</employee-count>
+        <income>541818</income>
+        <name>Bergstrom and Larson</name>
+        <shop-area>177</shop-area>
+        <town>
+            <name>Houston</name>
+        </town>
+    </shop>
+    <shop>
+        <address>9518 Stephen Crossing</address>
+        <employee-count>34</employee-count>
+        <income>967569</income>
+        <name>Jacobi and Bayer</name>
+        <shop-area>177</shop-area>
+        <town>
+            <name>Hamburg</name>
+        </town>
+    </shop>
+    <shop>
+        <address>95079 Jenifer Park</address>
+        <employee-count>25</employee-count>
+        <income>3518353</income>
+        <name>Smitham and Sons</name>
+        <shop-area>375</shop-area>
+        <town>
+            <name>Prague</name>
+        </town>
+    </shop>
+    <shop>
+        <address>M</address>
+        <employee-count>9</employee-count>
+        <income>2742999</income>
+        <name>Conroy</name>
+        <shop-area>488</shop-area>
+        <town>
+            <name>Paris</name>
+        </town>
+    </shop>
+    <shop>
+        <address>12 Lakeland Circle</address>
+        <employee-count>0</employee-count>
+        <income>4519501</income>
+        <name>Kihn LLC</name>
+        <shop-area>115</shop-area>
+        <town>
+            <name>Samara</name>
+        </town>
+    </shop>
+    <shop>
+        <address>509 Kipling Road</address>
+        <employee-count>11</employee-count>
+        <income>3</income>
+        <name>Reilly-Franecki</name>
+        <shop-area>398</shop-area>
+        <town>
+            <name>Moscow</name>
+        </town>
+    </shop>
+    <shop>
+        <address>13874 Northfield Trail</address>
+        <employee-count>39</employee-count>
+        <income>192152</income>
+        <name>C</name>
+        <shop-area>296</shop-area>
+        <town>
+            <name>Chicago</name>
+        </town>
+    </shop>
+    <shop>
+        <address>87 Center Lane</address>
+        <employee-count>1</employee-count>
+        <income>583230</income>
+        <name>Considine-Morar</name>
+        <shop-area>1</shop-area>
+        <town>
+            <name>Brussels</name>
+        </town>
+    </shop>
+</shops>

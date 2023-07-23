@@ -9,7 +9,7 @@ public class Mechanic {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-@Column(name = "first_name", nullable = false, unique = true)
+@Column( nullable = false, unique = true)
     private String firstName;
     @Column(nullable = false)
     private String lastName;
