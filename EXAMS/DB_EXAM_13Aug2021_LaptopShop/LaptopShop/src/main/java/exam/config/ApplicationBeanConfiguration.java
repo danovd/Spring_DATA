@@ -19,7 +19,7 @@ public class ApplicationBeanConfiguration {
     ModelMapper modelMapper() {
         ModelMapper modelMapper = new ModelMapper();
 
-        /*
+
         modelMapper.addConverter(new Converter<String, LocalDate>() {
             @Override
             public LocalDate convert(MappingContext<String, LocalDate> mappingContext) {
@@ -27,7 +27,7 @@ public class ApplicationBeanConfiguration {
                         DateTimeFormatter.ofPattern("dd/MM/yyyy"));
             }
         });
-    */
+
         return modelMapper;
     }
 
