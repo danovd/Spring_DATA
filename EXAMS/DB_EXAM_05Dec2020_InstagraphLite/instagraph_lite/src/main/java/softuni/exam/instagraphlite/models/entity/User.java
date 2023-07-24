@@ -7,5 +7,49 @@ import javax.persistence.*;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private int id;
+
+    @Column(nullable = false)
+    private String password;
+
+
+    @Column(nullable = false, unique = true)
+    private String username;
+
+
+    @ManyToOne(optional = false)
+    private Picture profilePicture;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

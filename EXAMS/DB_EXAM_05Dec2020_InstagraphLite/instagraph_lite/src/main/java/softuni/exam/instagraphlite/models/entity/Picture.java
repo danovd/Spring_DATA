@@ -7,6 +7,17 @@ import javax.persistence.*;
 public class Picture {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private int id;
+
+    @Column(nullable = false, unique = true)
+    private String path;
+    @Column(nullable = false)
+    private double size;
+
+
+
+
+
+
 
 }

@@ -8,5 +8,42 @@ public class Post {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private int id;
+
+    @Column(nullable = false)
+    private String caption;
+
+
+    @ManyToOne(optional = false)
+    private Picture picture;
+
+    @ManyToOne(optional = false)
+    private User user;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
