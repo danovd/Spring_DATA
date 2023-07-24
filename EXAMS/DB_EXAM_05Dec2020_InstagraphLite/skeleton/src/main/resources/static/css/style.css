@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap');
+
+.navbar-background {
+    background-color: #656581;
+    color: white;
+}
+
+body {
+    background: url("https://i.ytimg.com/vi/FWV0QNojAG8/maxresdefault.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron-background {
+    background-color: #7D688F;
+    color: white;
+}
+
+.hr-background {
+    background-color: #E41B23;
+    height: 1px;
+}
+
+.footer-background {
+    color: #ddd;
+
+}
+a:hover{
+    color:#1ABA97
+}
+.btn-success {
+    color: #fff;
+    background-color: #304652;
+
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #4E7184;
+    border-color: #7BB3D1;
+}
+.logo{
+    font-family: 'DM Serif Text', serif;
+}
