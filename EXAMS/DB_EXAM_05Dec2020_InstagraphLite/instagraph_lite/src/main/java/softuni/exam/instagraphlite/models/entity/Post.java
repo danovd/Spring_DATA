@@ -18,6 +18,7 @@ public class Post {
     private Picture picture;
 
     @ManyToOne(optional = false)
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
     private User user;
 
 
@@ -54,5 +55,13 @@ public class Post {
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+
+    @Override
+    public String toString() {
+        return String.format("==Post Details:\n" +
+                "----Caption: %s\n" +
+                "----Picture Size: %.2f\n",  this.getCaption(), this.getPicture().getSize());
     }
 }

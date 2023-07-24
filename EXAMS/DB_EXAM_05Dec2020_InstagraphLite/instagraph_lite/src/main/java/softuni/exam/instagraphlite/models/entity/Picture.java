@@ -41,4 +41,10 @@ public class Picture {
     public void setSize(double size) {
         this.size = size;
     }
+
+
+    @Override
+    public String toString() {
+        return String.format("%.2f – %s\n", this.getSize(), this.getPath());
+    }
 }

@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -79,6 +80,11 @@ public class PictureServiceImpl implements PictureService {
 
     @Override
     public String exportPictures() {
-        return null;
+
+        List<Picture> laptops = pictureRepository.findAllBySizeGreaterThanOrderBySizeAsc(30000);
+
+        return laptops.stream()
+                .map(Picture::toString)
+                .collect(Collectors.joining("\n"));
     }
 }

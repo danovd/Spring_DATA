@@ -5,6 +5,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 import softuni.exam.instagraphlite.models.dto.UserImportDTO;
 import softuni.exam.instagraphlite.models.entity.Picture;
+import softuni.exam.instagraphlite.models.entity.Post;
 import softuni.exam.instagraphlite.models.entity.User;
 import softuni.exam.instagraphlite.repository.PictureRepository;
 import softuni.exam.instagraphlite.repository.UserRepository;
@@ -15,6 +16,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -97,6 +99,18 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public String exportUsersWithTheirPosts() {
-        return null;
+
+        List<User> users = this.userRepository.findAll();
+
+        return users.stream().sorted((a, b) -> {
+                if(a.getPosts().size() > b.getPosts().size()){
+                    return -1;
+                }else if(a.getPosts().size() < b.getPosts().size()){
+                    return 1;
+                }
+               return a.getId() - b.getId();
+                })
+                .map(User::toString)
+                .collect(Collectors.joining("\n"));
     }
 }

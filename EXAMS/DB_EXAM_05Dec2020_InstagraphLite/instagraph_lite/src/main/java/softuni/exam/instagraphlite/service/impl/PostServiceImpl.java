@@ -40,8 +40,11 @@ public class PostServiceImpl implements PostService {
         this.postRepository = postRepository;
         this.pictureRepository = pictureRepository;
         this.userRepository = userRepository;
+
         //LOCAL MODEL MAPPER IN THIS CLASS!!!
         this.modelMapper = new ModelMapper();
+
+
         this.xmlParser = xmlParser;
         this.validator = validator;
     }
