@@ -6,15 +6,15 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.junit.jupiter.MockitoExtension;
-import softuni.exam.service.impl.CarsServiceImpl;
+import softuni.exam.service.impl.CarServiceImpl;
 
 import java.io.IOException;
 
 @ExtendWith(MockitoExtension.class)
-public class TestCarsServiceReadFromFile {
+public class TestCarServiceReadFromFile {
 
     @InjectMocks
-    private CarsServiceImpl carsService;
+    private CarServiceImpl carsService;
 
     @Test
     void readCarsFromFile() throws IOException {

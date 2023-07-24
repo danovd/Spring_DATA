@@ -7,21 +7,21 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.jdbc.Sql;
-import softuni.exam.service.TasksService;
+import softuni.exam.service.TaskService;
 
 import java.io.IOException;
 
 @DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_EACH_TEST_METHOD)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
-public class TestTasksServiceExport001 {
+public class TestTaskServiceExport001 {
 
     @Autowired
-    private TasksService tasksService;
+    private TaskService taskService;
 
     @Sql("/export-test-001.sql")
     @Test
     void testTasksServiceExport001() throws IOException {
-        String actual = tasksService.getCoupeCarTasksOrderByPrice();
+        String actual = taskService.getCoupeCarTasksOrderByPrice();
 
         String expected = "Car Ferrari 599 GTB Fiorano with 78182km\n" +
                 "-Mechanic: Hanan McCane - task №9:\n" +

@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.jdbc.Sql;
-import softuni.exam.service.CarsService;
-import softuni.exam.service.impl.CarsServiceImpl;
+import softuni.exam.service.CarService;
+import softuni.exam.service.impl.CarServiceImpl;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
@@ -20,7 +20,7 @@ import java.lang.reflect.Field;
 public class TestImportCarPlateNumber005 {
 
     @Autowired
-    private CarsService carsService;
+    private CarService carService;
 
     @Sql({"/import-cars-000.sql"})
     @Test
@@ -28,13 +28,13 @@ public class TestImportCarPlateNumber005 {
         String testXML = "src/test/resources/import-cars-005.xml";
 
         // change the value of private static  FILE_PATH using Reflection
-        Field field = CarsServiceImpl.class.getDeclaredField("CARS_FILE_PATH");
+        Field field = CarServiceImpl.class.getDeclaredField("CARS_FILE_PATH");
         field.setAccessible(true);
-        String previousPath = field.get(carsService).toString();
+        String previousPath = field.get(carService).toString();
         field.set(null, testXML);
 
 
-        String actual = carsService.importCars();
+        String actual = carService.importCars();
         String[] actualSplit = actual.split("\\r\\n?|\\n");
         String expected = "Successfully imported car Toyota - Camry\n" +
                 "Successfully imported car Mercedes-Benz - SL-Class\n" +

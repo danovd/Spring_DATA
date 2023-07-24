@@ -1,6 +1,7 @@
 package softuni.exam.instagraphlite.models.entity;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 @Entity
 @Table(name = "posts")
@@ -63,5 +64,18 @@ public class Post {
         return String.format("==Post Details:\n" +
                 "----Caption: %s\n" +
                 "----Picture Size: %.2f\n",  this.getCaption(), this.getPicture().getSize());
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Post post = (Post) o;
+        return id == post.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 }

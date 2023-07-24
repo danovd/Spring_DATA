@@ -5,8 +5,8 @@ import org.springframework.stereotype.Service;
 import softuni.exam.models.dto.ImportCarDTO;
 import softuni.exam.models.dto.ImportCarRootDTO;
 import softuni.exam.models.entity.Car;
-import softuni.exam.repository.CarsRepository;
-import softuni.exam.service.CarsService;
+import softuni.exam.repository.CarRepository;
+import softuni.exam.service.CarService;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
@@ -25,20 +25,20 @@ import java.util.stream.Collectors;
 
 
 @Service
-public class CarsServiceImpl implements CarsService {
+public class CarServiceImpl implements CarService {
     private static String CARS_FILE_PATH =
             Path.of("src", "main", "resources", "files", "xml", "parts.json").toAbsolutePath().toString();;
 
 
     private final Path path =
             Path.of("src", "main", "resources", "files", "xml", "cars.xml");
-    private final CarsRepository carsRepository;
+    private final CarRepository carRepository;
     private final Unmarshaller unmarshaller;
     private final Validator validator;
     private final ModelMapper modelMapper;
 
-    public CarsServiceImpl(CarsRepository carsRepository) throws JAXBException {
-        this.carsRepository = carsRepository;
+    public CarServiceImpl(CarRepository carRepository) throws JAXBException {
+        this.carRepository = carRepository;
 
 
         JAXBContext context = JAXBContext.newInstance(ImportCarRootDTO.class);
@@ -53,7 +53,7 @@ public class CarsServiceImpl implements CarsService {
 
     @Override
     public boolean areImported() {
-        return this.carsRepository.count() > 0;
+        return this.carRepository.count() > 0;
     }
 
     @Override
@@ -79,7 +79,7 @@ public class CarsServiceImpl implements CarsService {
             return "Invalid car";
         }
 
-        Optional<Car> optCar = this.carsRepository.findByPlateNumber(dto.getPlateNumber());
+        Optional<Car> optCar = this.carRepository.findByPlateNumber(dto.getPlateNumber());
 
         if (optCar.isPresent()) {
             return "Invalid car";
@@ -87,7 +87,7 @@ public class CarsServiceImpl implements CarsService {
 
         Car car = this.modelMapper.map(dto, Car.class);
 
-        this.carsRepository.save(car);
+        this.carRepository.save(car);
 
         return"Successfully imported car " + car.getCarMake() + " - " + car.getCarModel();
     }

@@ -4,7 +4,7 @@ package softuni.exam.service;
 import java.io.IOException;
 
 
-public interface MechanicsService {
+public interface MechanicService {
 
     boolean areImported();
 

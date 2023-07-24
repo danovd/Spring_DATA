@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
-import softuni.exam.service.impl.PartsServiceImpl;
+import softuni.exam.service.impl.PartServiceImpl;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ import java.io.IOException;
 public class TestImportPartsZeroTest000 {
 
     @Autowired
-    private PartsServiceImpl partsService;
+    private PartServiceImpl partsService;
 
 
     @Test

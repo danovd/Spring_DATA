@@ -1,5 +1,5 @@
 package softuni.exam.areImported;
-//TestPartsServiceAreImportedFalse
+//TestTasksServiceAreImportedFalse
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -8,20 +8,20 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import softuni.exam.repository.PartsRepository;
-import softuni.exam.service.impl.PartsServiceImpl;
+import softuni.exam.repository.TaskRepository;
+import softuni.exam.service.impl.TaskServiceImpl;
 
 @ExtendWith(MockitoExtension.class)
-public class TestPartsServiceAreImportedFalse {
+public class TestTaskServiceAreImportedFalse {
 
     @InjectMocks
-    private PartsServiceImpl partsService;
+    private TaskServiceImpl tasksService;
     @Mock
-    private PartsRepository mockPartsRepository;
+    private TaskRepository mockTaskRepository;
 
     @Test
     void areImportedShouldReturnFalse() {
-        Mockito.when(mockPartsRepository.count()).thenReturn(0L);
-        Assertions.assertFalse(partsService.areImported());
+        Mockito.when(mockTaskRepository.count()).thenReturn(0L);
+        Assertions.assertFalse(tasksService.areImported());
     }
 }

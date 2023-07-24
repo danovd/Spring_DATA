@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.jdbc.Sql;
-import softuni.exam.service.TasksService;
+import softuni.exam.service.TaskService;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
@@ -17,7 +17,7 @@ import java.io.IOException;
 public class TestImportTasksZeroTest000 {
 
     @Autowired
-    private TasksService tasksService;
+    private TaskService taskService;
 
     @Sql("/import-tasks-000.sql")
     @Test
@@ -326,7 +326,7 @@ public class TestImportTasksZeroTest000 {
                 "Successfully imported task 1501.23";
         String[] expectedSplit = expected.split("\\r\\n?|\\n");
 
-        String actual = tasksService.importTasks();
+        String actual = taskService.importTasks();
         String[] actualSplit = actual.split("\\r\\n?|\\n");
 
         Assertions.assertArrayEquals(expectedSplit, actualSplit);

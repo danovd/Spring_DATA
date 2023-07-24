@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.jdbc.Sql;
-import softuni.exam.service.CarsService;
+import softuni.exam.service.CarService;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
@@ -17,7 +17,7 @@ import java.io.IOException;
 public class TestImportCarsZeroTest000 {
 
     @Autowired
-    private CarsService carsService;
+    private CarService carService;
 
     @Sql("/import-cars-000.sql")
     @Test
@@ -126,7 +126,7 @@ public class TestImportCarsZeroTest000 {
                 "Successfully imported car Mazda - Miata MX-5";
         String[] expectedSplit = expected.split("\\r\\n?|\\n");
 
-        String actual = carsService.importCars();
+        String actual = carService.importCars();
         String[] actualSplit = actual.split("\\r\\n?|\\n");
 
 

@@ -5,7 +5,7 @@ import javax.xml.bind.JAXBException;
 import java.io.IOException;
 
 
-public interface CarsService {
+public interface CarService {
 
     boolean areImported();
 

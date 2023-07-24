@@ -2,7 +2,7 @@ package softuni.exam.instagraphlite.models.entity;
 
 import javax.persistence.*;
 import java.util.*;
-import java.util.stream.Collectors;
+
 
 @Entity
 @Table(name = "users")
@@ -77,6 +77,7 @@ public class User {
         StringBuilder sb = new StringBuilder(String.format("User: %s\nPost count: %d\n", this.username, this.getPosts().size()));
 
        // this.posts.stream().sorted(Comparator.comparingDouble(a -> a.getPicture().getSize()))
+
         this.posts.stream().sorted((a,b) -> Double.compare(a.getPicture().getSize(), b.getPicture().getSize()))
                 .forEach(post -> {
                     sb.append(String.format("==Post Details:\n" +

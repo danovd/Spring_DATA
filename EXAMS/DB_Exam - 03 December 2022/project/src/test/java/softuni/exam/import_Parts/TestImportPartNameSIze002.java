@@ -7,8 +7,8 @@ import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
-import softuni.exam.service.PartsService;
-import softuni.exam.service.impl.PartsServiceImpl;
+import softuni.exam.service.PartService;
+import softuni.exam.service.impl.PartServiceImpl;
 
 import java.io.IOException;
 
@@ -17,11 +17,11 @@ import java.io.IOException;
 public class TestImportPartNameSIze002 {
 
     @Autowired
-    private PartsServiceImpl partsService;
+    private PartServiceImpl partsService;
 
     @Test
     void importPartNameSize002() throws IOException {
-        PartsService spyConstellationService = Mockito.spy(partsService);
+        PartService spyConstellationService = Mockito.spy(partsService);
 
         String testJSON = "[\n" +
                 "  {\n" +

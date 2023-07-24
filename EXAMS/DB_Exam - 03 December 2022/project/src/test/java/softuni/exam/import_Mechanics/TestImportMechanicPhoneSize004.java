@@ -7,8 +7,8 @@ import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
-import softuni.exam.service.MechanicsService;
-import softuni.exam.service.impl.MechanicsServiceImpl;
+import softuni.exam.service.MechanicService;
+import softuni.exam.service.impl.MechanicServiceImpl;
 
 import java.io.IOException;
 
@@ -17,11 +17,11 @@ import java.io.IOException;
 public class TestImportMechanicPhoneSize004 {
 
     @Autowired
-    private MechanicsServiceImpl mechanicsService;
+    private MechanicServiceImpl mechanicsService;
 
     @Test
     void testImportMechanicPhoneSize004() throws IOException {
-        MechanicsService spyMechanicService = Mockito.spy(mechanicsService);
+        MechanicService spyMechanicService = Mockito.spy(mechanicsService);
 
         String testJSON = "[\n" +
                 "  {\n" +

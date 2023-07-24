@@ -7,16 +7,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.jdbc.Sql;
-import softuni.exam.service.impl.TasksServiceImpl;
+import softuni.exam.service.impl.TaskServiceImpl;
 
 import java.io.IOException;
 
 @DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_EACH_TEST_METHOD)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
-public class TestTasksServiceExport000 {
+public class TestTaskServiceExport000 {
 
     @Autowired
-        private TasksServiceImpl tasksService;
+        private TaskServiceImpl tasksService;
 
     @Sql("/export-test-000.sql")
     @Test

@@ -3,7 +3,7 @@ package softuni.exam.service;
 import java.io.IOException;
 
 
-public interface PartsService {
+public interface PartService {
 
     boolean areImported();
 

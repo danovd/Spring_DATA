@@ -6,7 +6,7 @@ import softuni.exam.models.entity.Mechanic;
 
 import java.util.Optional;
 @Repository
-public interface MechanicsRepository extends JpaRepository<Mechanic, Long> {
+public interface MechanicRepository extends JpaRepository<Mechanic, Long> {
 
 
     Optional<Mechanic> findByEmail(String email);

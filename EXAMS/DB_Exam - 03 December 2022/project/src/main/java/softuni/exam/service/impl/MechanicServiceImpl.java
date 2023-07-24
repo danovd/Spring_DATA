@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import softuni.exam.models.dto.MechanicImportDTO;
 import softuni.exam.models.entity.Mechanic;
-import softuni.exam.repository.MechanicsRepository;
-import softuni.exam.service.MechanicsService;
+import softuni.exam.repository.MechanicRepository;
+import softuni.exam.service.MechanicService;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
@@ -23,16 +23,16 @@ import java.util.stream.Collectors;
 
 
 @Service
-public class MechanicsServiceImpl implements MechanicsService {
+public class MechanicServiceImpl implements MechanicService {
 
-private final MechanicsRepository mechanicsRepository;
+private final MechanicRepository mechanicRepository;
     private final Gson gson;
     private final Validator validator;
     private final ModelMapper modelMapper;
 
     @Autowired
-    public MechanicsServiceImpl(MechanicsRepository mechanicsRepository) {
-        this.mechanicsRepository = mechanicsRepository;
+    public MechanicServiceImpl(MechanicRepository mechanicRepository) {
+        this.mechanicRepository = mechanicRepository;
         this.gson = new GsonBuilder().create();
 
         this.validator = Validation
@@ -45,7 +45,7 @@ private final MechanicsRepository mechanicsRepository;
 
     @Override
     public boolean areImported() {
-        return this.mechanicsRepository.count() > 0;
+        return this.mechanicRepository.count() > 0;
     }
 
     @Override
@@ -74,7 +74,7 @@ private final MechanicsRepository mechanicsRepository;
             return "Invalid mechanic";
         }
 
-        Optional<Mechanic> optMechanic = this.mechanicsRepository.findByEmail(dto.getEmail());
+        Optional<Mechanic> optMechanic = this.mechanicRepository.findByEmail(dto.getEmail());
 
         if (optMechanic.isPresent()) {
             return "Invalid mechanic";
@@ -82,7 +82,7 @@ private final MechanicsRepository mechanicsRepository;
 
         Mechanic mechanic = this.modelMapper.map(dto, Mechanic.class);
 
-        this.mechanicsRepository.save(mechanic);
+        this.mechanicRepository.save(mechanic);
 
         return "Successfully imported mechanic " + mechanic.getFirstName() + " " + mechanic.getLastName();
     }

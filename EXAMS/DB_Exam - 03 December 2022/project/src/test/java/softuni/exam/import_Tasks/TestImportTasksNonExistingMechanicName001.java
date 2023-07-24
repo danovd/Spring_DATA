@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.jdbc.Sql;
-import softuni.exam.service.TasksService;
-import softuni.exam.service.impl.TasksServiceImpl;
+import softuni.exam.service.TaskService;
+import softuni.exam.service.impl.TaskServiceImpl;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
@@ -19,7 +19,7 @@ import java.lang.reflect.Field;
 public class TestImportTasksNonExistingMechanicName001 {
 
     @Autowired
-    private TasksService tasksService;
+    private TaskService taskService;
 
     @Sql({"/import-tasks-000.sql"})
     @Test
@@ -27,13 +27,13 @@ public class TestImportTasksNonExistingMechanicName001 {
         String testXML = "src/test/resources/import-tasks-001.xml";
 
         // change the value of private static  FILE_PATH using Reflection
-        Field field = TasksServiceImpl.class.getDeclaredField("TASKS_FILE_PATH");
+        Field field = TaskServiceImpl.class.getDeclaredField("TASKS_FILE_PATH");
         field.setAccessible(true);
-        String previousPath = field.get(tasksService).toString();
+        String previousPath = field.get(taskService).toString();
         field.set(null, testXML);
 
 
-        String actual = tasksService.importTasks();
+        String actual = taskService.importTasks();
         String[] actualSplit = actual.split("\\r\\n?|\\n");
         String expected = "Successfully imported task 1464.86\n" +
                 "Invalid task";

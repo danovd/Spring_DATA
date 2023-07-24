@@ -4,7 +4,7 @@ import javax.xml.bind.JAXBException;
 import java.io.IOException;
 
 
-public interface TasksService {
+public interface TaskService {
 
     boolean areImported();
 

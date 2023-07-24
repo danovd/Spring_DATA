@@ -6,17 +6,15 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.test.annotation.DirtiesContext;
-import softuni.exam.service.TasksService;
-import softuni.exam.service.impl.TasksServiceImpl;
+import softuni.exam.service.impl.TaskServiceImpl;
 
 import java.io.IOException;
 
 @ExtendWith(MockitoExtension.class)
-public class TestTasksServiceReadFromFile {
+public class TestTaskServiceReadFromFile {
 
     @InjectMocks
-    private TasksServiceImpl tasksService;
+    private TaskServiceImpl tasksService;
 
 
     @Test

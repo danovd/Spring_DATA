@@ -7,7 +7,7 @@ import softuni.exam.models.entity.Part;
 import java.util.Optional;
 
 @Repository
-public interface PartsRepository extends JpaRepository<Part, Long> {
+public interface PartRepository extends JpaRepository<Part, Long> {
     Optional<Part> findById(Long id);
 
     Optional<Part> findByPartName(String partName);

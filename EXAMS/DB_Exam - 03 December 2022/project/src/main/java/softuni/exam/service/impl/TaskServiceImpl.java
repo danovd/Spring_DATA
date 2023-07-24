@@ -6,11 +6,11 @@ import org.modelmapper.spi.MappingContext;
 import org.springframework.stereotype.Service;
 import softuni.exam.models.dto.*;
 import softuni.exam.models.entity.*;
-import softuni.exam.repository.CarsRepository;
-import softuni.exam.repository.MechanicsRepository;
-import softuni.exam.repository.PartsRepository;
-import softuni.exam.repository.TasksRepository;
-import softuni.exam.service.TasksService;
+import softuni.exam.repository.CarRepository;
+import softuni.exam.repository.MechanicRepository;
+import softuni.exam.repository.PartRepository;
+import softuni.exam.repository.TaskRepository;
+import softuni.exam.service.TaskService;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
@@ -31,12 +31,12 @@ import java.util.stream.Collectors;
 
 
 @Service
-public class TasksServiceImpl implements TasksService {
+public class TaskServiceImpl implements TaskService {
     private static String TASKS_FILE_PATH = "";
-    private final TasksRepository tasksRepository;
-    private final CarsRepository carsRepository;
-    private final PartsRepository partsRepository;
-    private final MechanicsRepository mechanicsRepository;
+    private final TaskRepository taskRepository;
+    private final CarRepository carRepository;
+    private final PartRepository partRepository;
+    private final MechanicRepository mechanicRepository;
 
 
     private final Path path =
@@ -47,12 +47,12 @@ public class TasksServiceImpl implements TasksService {
     private final ModelMapper modelMapper;
 
 
-    public TasksServiceImpl(TasksRepository tasksRepository, CarsRepository carsRepository, PartsRepository partsRepository,
-                            MechanicsRepository mechanicsRepository) throws JAXBException {
-        this.tasksRepository = tasksRepository;
-        this.carsRepository = carsRepository;
-        this.partsRepository = partsRepository;
-        this.mechanicsRepository = mechanicsRepository;
+    public TaskServiceImpl(TaskRepository taskRepository, CarRepository carRepository, PartRepository partRepository,
+                           MechanicRepository mechanicRepository) throws JAXBException {
+        this.taskRepository = taskRepository;
+        this.carRepository = carRepository;
+        this.partRepository = partRepository;
+        this.mechanicRepository = mechanicRepository;
 
         JAXBContext context = JAXBContext.newInstance(ImportTaskRootDTO.class);
         this.unmarshaller = context.createUnmarshaller();
@@ -79,7 +79,7 @@ public class TasksServiceImpl implements TasksService {
 
     @Override
     public boolean areImported() {
-        return this.tasksRepository.count() > 0;
+        return this.taskRepository.count() > 0;
     }
 
     @Override
@@ -111,7 +111,7 @@ public class TasksServiceImpl implements TasksService {
         // Parse the string into a LocalDateTime object using the formatter
         LocalDateTime dateTime = LocalDateTime.parse(dto.getDate(), formatter);
 
-        Optional<Task> optTask = this.tasksRepository.findByDate(dateTime);
+        Optional<Task> optTask = this.taskRepository.findByDate(dateTime);
 
 
         if (optTask.isPresent()) {
@@ -120,9 +120,9 @@ public class TasksServiceImpl implements TasksService {
 
 
 
-        Optional<Car> car = this.carsRepository.findById(dto.getCar().getId());
-        Optional<Part> part = this.partsRepository.findById(dto.getPart().getId());
-        Optional<Mechanic> mechanic = this.mechanicsRepository.findByFirstName(dto.getMechanic().getFirstName());
+        Optional<Car> car = this.carRepository.findById(dto.getCar().getId());
+        Optional<Part> part = this.partRepository.findById(dto.getPart().getId());
+        Optional<Mechanic> mechanic = this.mechanicRepository.findByFirstName(dto.getMechanic().getFirstName());
 
 
         Task task = this.modelMapper.map(dto, Task.class);
@@ -136,7 +136,7 @@ if(!mechanic.isPresent()){
 
 
 
-        this.tasksRepository.save(task);
+        this.taskRepository.save(task);
 
         return"Successfully imported task " + task.getPrice();
     }
@@ -144,7 +144,7 @@ if(!mechanic.isPresent()){
     @Override
     public String getCoupeCarTasksOrderByPrice() {
 
-        List<Task> tasks = tasksRepository.findByCarCarTypeOrderByPriceDesc(CarType.coupe);
+        List<Task> tasks = taskRepository.findByCarCarTypeOrderByPriceDesc(CarType.coupe);
 
         return tasks.stream()
                 .map(Task::toString)

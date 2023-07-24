@@ -8,21 +8,20 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import softuni.exam.repository.TasksRepository;
-import softuni.exam.service.TasksService;
-import softuni.exam.service.impl.TasksServiceImpl;
+import softuni.exam.repository.TaskRepository;
+import softuni.exam.service.impl.TaskServiceImpl;
 
 @ExtendWith(MockitoExtension.class)
-public class TestTasksServiceAreImportedTrue {
+public class TestTaskServiceAreImportedTrue {
 
     @InjectMocks
-    private TasksServiceImpl tasksService;
+    private TaskServiceImpl tasksService;
     @Mock
-    private TasksRepository mockTasksRepository;
+    private TaskRepository mockTaskRepository;
 
     @Test
     void areImportedShouldReturnTrue() {
-        Mockito.when(mockTasksRepository.count()).thenReturn(1L);
+        Mockito.when(mockTaskRepository.count()).thenReturn(1L);
         Assertions.assertTrue(tasksService.areImported());
     }
 }

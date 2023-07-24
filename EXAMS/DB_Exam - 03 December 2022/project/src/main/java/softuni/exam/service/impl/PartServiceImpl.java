@@ -6,8 +6,8 @@ import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 import softuni.exam.models.dto.PartImportDTO;
 import softuni.exam.models.entity.Part;
-import softuni.exam.repository.PartsRepository;
-import softuni.exam.service.PartsService;
+import softuni.exam.repository.PartRepository;
+import softuni.exam.service.PartService;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
@@ -22,18 +22,18 @@ import java.util.stream.Collectors;
 
 
 @Service
-public class PartsServiceImpl implements PartsService {
+public class PartServiceImpl implements PartService {
 
 
-    private final PartsRepository partsRepository;
+    private final PartRepository partRepository;
     private final Gson gson;
     private final Validator validator;
     private final ModelMapper modelMapper;
 
 
 
-    public PartsServiceImpl(PartsRepository partsRepository) {
-        this.partsRepository = partsRepository;
+    public PartServiceImpl(PartRepository partRepository) {
+        this.partRepository = partRepository;
 
         this.gson = new GsonBuilder().create();
 
@@ -48,7 +48,7 @@ public class PartsServiceImpl implements PartsService {
 
     @Override
     public boolean areImported() {
-        return this.partsRepository.count() > 0;
+        return this.partRepository.count() > 0;
     }
 
     @Override
@@ -77,14 +77,14 @@ public class PartsServiceImpl implements PartsService {
             return "Invalid part";
         }
 
-        Optional<Part> optPart = this.partsRepository.findByPartName(dto.getPartName());
+        Optional<Part> optPart = this.partRepository.findByPartName(dto.getPartName());
 
         if (optPart.isPresent()) {
             return "Invalid part";
         }
         Part part = this.modelMapper.map(dto, Part.class);
 
-        this.partsRepository.save(part);
+        this.partRepository.save(part);
 
 
         return "Successfully imported part " + part.getPartName() + " " + part.getPrice();
