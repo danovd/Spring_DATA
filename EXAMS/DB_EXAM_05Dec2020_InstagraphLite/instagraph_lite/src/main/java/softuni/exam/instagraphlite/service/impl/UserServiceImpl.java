@@ -73,7 +73,7 @@ public class UserServiceImpl implements UserService {
         if (optUser.isPresent()) {
             return "Invalid User";
         }
-        
+
     // This is another method available to set from string path from the file into Picture object
 
     //    Optional<Picture> picture = this.pictureRepository.findByPath(dto.getProfilePicture());
