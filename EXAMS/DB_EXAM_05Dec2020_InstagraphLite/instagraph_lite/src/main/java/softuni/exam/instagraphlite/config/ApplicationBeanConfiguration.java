@@ -7,25 +7,36 @@ import org.modelmapper.ModelMapper;
 import org.modelmapper.spi.MappingContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import softuni.exam.instagraphlite.models.entity.Picture;
+import softuni.exam.instagraphlite.repository.PictureRepository;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+import java.util.Optional;
 
 @Configuration
 public class ApplicationBeanConfiguration {
+
+
+    private final PictureRepository pictureRepository;
+    public ApplicationBeanConfiguration(PictureRepository pictureRepository) {
+        this.pictureRepository = pictureRepository;
+    }
+
+
+
     @Bean
     ModelMapper modelMapper() {
         ModelMapper modelMapper = new ModelMapper();
 
-/*
-        modelMapper.addConverter(new Converter<String, LocalDate>() {
+        modelMapper.addConverter(new Converter<String, Picture>() {
             @Override
-            public LocalDate convert(MappingContext<String, LocalDate> mappingContext) {
-                return LocalDate.parse(mappingContext.getSource(),
-                        DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+            public Picture convert(MappingContext<String, Picture> mappingContext) {
+                String filePath = mappingContext.getSource();
+
+                Optional<Picture> picture = pictureRepository.findByPath(filePath);
+                return picture.orElse(null);
             }
         });
-*/
+
         return modelMapper;
     }
 
