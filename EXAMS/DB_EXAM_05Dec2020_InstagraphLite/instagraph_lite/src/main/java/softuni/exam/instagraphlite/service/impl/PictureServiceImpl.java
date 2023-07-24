@@ -4,6 +4,8 @@ import com.google.gson.Gson;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import softuni.exam.instagraphlite.models.dto.PictureImportDTO;
+import softuni.exam.instagraphlite.models.entity.Picture;
 import softuni.exam.instagraphlite.repository.PictureRepository;
 import softuni.exam.instagraphlite.service.PictureService;
 import softuni.exam.instagraphlite.util.ValidationUtil;
@@ -11,6 +13,9 @@ import softuni.exam.instagraphlite.util.ValidationUtil;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Arrays;
+import java.util.Optional;
+import java.util.stream.Collectors;
 
 
 @Service
@@ -41,7 +46,35 @@ public class PictureServiceImpl implements PictureService {
 
     @Override
     public String importPictures() throws IOException {
-        return null;
+        String json = this.readFromFileContent();
+
+        PictureImportDTO[] importDTOs = this.gson.fromJson(json, PictureImportDTO[].class);
+
+        return Arrays.stream(importDTOs)
+                .map(this::importDTO)
+                .collect(Collectors.joining("\n"));
+    }
+
+    private String importDTO(PictureImportDTO dto) {
+        boolean isValid = this.validator.isValid(dto);
+
+        if (!isValid) {
+            return "Invalid Picture";
+        }
+
+        Optional<Picture> optPicture = this.pictureRepository.findByPath(dto.getPath());
+
+
+        if (optPicture.isPresent()) {
+            return "Invalid Picture";
+        }
+
+
+        Picture picture = this.modelMapper.map(dto, Picture.class);
+
+
+        this.pictureRepository.save(picture);
+        return String.format("Successfully imported Picture, with size %.2f", picture.getSize());
     }
 
     @Override
