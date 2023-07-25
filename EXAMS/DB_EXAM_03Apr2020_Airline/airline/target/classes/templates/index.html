@@ -1,0 +1,30 @@
+</body>
+</html>
+<th:block th:fragment xmlns:th="http://www.w3.org/1999/xhtml">
+    <div class="container justify-content-center mt-3">
+        <div class="jumbotron jumbotron-background d-flex justify-content-center">
+            <div class="container">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h1 class="myBackgroundColor">Airline App</h1>
+                </div>
+                <hr class="hr-background my-hr"/>
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h4 class="myBackgroundColor">Click the buttons below to export some data from the database.</h4>
+                </div>
+                <div class="col-md-12 text-center">
+                    <th:block th:if="${areImported == true}">
+
+                        <p><a class="btn btn-success mx-5 my-5" th:href="@{/export/passengers-by-tickets}">Get all passengers order by tickets count then by email</a></p>
+                    </th:block>
+                    <div class="col-md-12 d-flex justify-content-center">
+
+                        <th:block th:if="${areImported == false}">
+                            <p class="myBackgroundColor">Import XML and JSON files first.</p>
+                        </th:block>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</th:block>

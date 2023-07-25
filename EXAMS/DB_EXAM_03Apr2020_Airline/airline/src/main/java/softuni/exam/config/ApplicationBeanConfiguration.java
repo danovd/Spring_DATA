@@ -14,12 +14,11 @@ import softuni.exam.util.XmlParserImpl;
 @Configuration
 public class ApplicationBeanConfiguration {
 
-	//ToDo
 
     @Bean
     public Gson gson() {
         return new GsonBuilder()
-                .excludeFieldsWithoutExposeAnnotation()
+             //   .excludeFieldsWithoutExposeAnnotation()
                 .setPrettyPrinting()
                 .create();
     }
@@ -31,6 +30,9 @@ public class ApplicationBeanConfiguration {
 
     @Bean
     public ModelMapper modelMapper() {
+
+
+
         return new ModelMapper();
     }
 
