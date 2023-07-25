@@ -1,7 +1,4 @@
 package softuni.exam.models.entity;
-
-
-
 import javax.persistence.*;
 
 @Entity

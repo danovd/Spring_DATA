@@ -24,9 +24,7 @@ public class ApplicationBeanConfiguration {
     }
 
     @Bean
-    public ValidationUtil validationUtil() {
-        return new ValidationUtilImpl();
-    }
+    public ValidationUtil validationUtil() {return new ValidationUtilImpl();}
 
     @Bean
     public ModelMapper modelMapper() {
