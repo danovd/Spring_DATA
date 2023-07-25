@@ -1,5 +1,6 @@
 package softuni.exam.models.dto;
 
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -10,19 +11,22 @@ import java.time.LocalDateTime;
 public class ImportTaskDTO {
 
 
-
+    @NotNull
     private String date;
 
 
-
+    @NotNull
     @Positive
     private double price;
 
     @XmlElement(name = "car")
+    @NotNull
     private IdDTO car;
     @XmlElement(name = "mechanic")
+    @NotNull
     private MechanicDTO mechanic;
     @XmlElement(name = "part")
+    @NotNull
     private IdDTO part;
 
 

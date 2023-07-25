@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<planes>
+    <plane>
+        <register-number>KMH</register-number>
+        <capacity>261</capacity>
+        <airline>Kemmer-Jacobson</airline>
+    </plane>
+    <plane>
+        <register-number>1D4RD3GG2BC580775</register-number>
+        <capacity>-122</capacity>
+        <airline>Steuber and Sons</airline>
+    </plane>
+    <plane>
+        <register-number>19XFB4F27DE919933</register-number>
+        <capacity>342</capacity>
+        <airline>Schaden and Sons</airline>
+    </plane>
+    <plane>
+        <register-number>WAUEH94F06N603718</register-number>
+        <capacity>411</capacity>
+        <airline>Cremin LLC</airline>
+    </plane>
+    <plane>
+        <register-number>3D7TT2CT7AG224875</register-number>
+        <capacity>485</capacity>
+        <airline>O</airline>
+    </plane>
+    <plane>
+        <register-number>1FTSW3B58AE872669</register-number>
+        <capacity>17</capacity>
+        <airline>Bradtke-Powlowski</airline>
+    </plane>
+    <plane>
+        <register-number>WAUEH78E27A648836</register-number>
+        <capacity>187</capacity>
+        <airline>Daniel Inc</airline>
+    </plane>
+    <plane>
+        <register-number>2G4GZ5GV5B9063599</register-number>
+        <capacity>456</capacity>
+        <airline>Crooks, Ziemann and Abbott</airline>
+    </plane>
+    <plane>
+        <register-number>JN1CV6AP3BM793273</register-number>
+        <capacity>69</capacity>
+        <airline>Osinski Inc</airline>
+    </plane>
+    <plane>
+        <register-number>WDDEJ8GB9AA275828</register-number>
+        <capacity>447</capacity>
+        <airline>Legros Inc</airline>
+    </plane>
+    <plane>
+        <register-number>WBA3B5C55DP982050</register-number>
+        <capacity>127</capacity>
+        <airline>Gibson and Sons</airline>
+    </plane>
+    <plane>
+        <register-number>5FNYF3H25DB159726</register-number>
+        <capacity>337</capacity>
+        <airline>Welch Group</airline>
+    </plane>
+    <plane>
+        <register-number>5LMJJ3H53AE057826</register-number>
+        <capacity>113</capacity>
+        <airline>Yundt-White</airline>
+    </plane>
+    <plane>
+        <register-number>5BZAF0AA8FN299999</register-number>
+        <capacity>13</capacity>
+        <airline>Littel, Ondricka and Schiller</airline>
+    </plane>
+    <plane>
+        <register-number>3VWF17AT5FM174898</register-number>
+        <capacity>283</capacity>
+        <airline>Larson and Sons</airline>
+    </plane>
+    <plane>
+        <register-number>3D7LP2ET0BG939208</register-number>
+        <capacity>397</capacity>
+        <airline>Simonis Inc</airline>
+    </plane>
+    <plane>
+        <register-number>KMHHT6KD0BU967048</register-number>
+        <capacity>141</capacity>
+        <airline>Gottlieb-Bogan</airline>
+    </plane>
+    <plane>
+        <register-number>WA1BV94LX7D216096</register-number>
+        <capacity>19</capacity>
+        <airline>Cormier-Will</airline>
+    </plane>
+    <plane>
+        <register-number>JH4DB75531S837855</register-number>
+        <capacity>50</capacity>
+        <airline>Streich-Ruecker</airline>
+    </plane>
+    <plane>
+        <register-number>YV1672MKXB2269377</register-number>
+        <capacity>397</capacity>
+        <airline>Kautzer, Wintheiser and Oberbrunner</airline>
+    </plane>
+    <plane>
+        <register-number>3D7TT2CT0BG174323</register-number>
+        <capacity>280</capacity>
+        <airline>Luettgen Group</airline>
+    </plane>
+    <plane>
+        <register-number>WAUEF78E17A227096</register-number>
+        <capacity>255</capacity>
+        <airline>Klein-Jaskolski</airline>
+    </plane>
+    <plane>
+        <register-number>1D7RB1CT9AS307207</register-number>
+        <capacity>139</capacity>
+        <airline>Baumbach and Sons</airline>
+    </plane>
+    <plane>
+        <register-number>2G4GS5EK8C9037514</register-number>
+        <capacity>431</capacity>
+        <airline>Welch-Reilly</airline>
+    </plane>
+    <plane>
+        <register-number>1G4HE57Y26U483775</register-number>
+        <capacity>18</capacity>
+        <airline>Kohler and Sons</airline>
+    </plane>
+    <plane>
+        <register-number>WDCYC3HFXBX646526</register-number>
+        <capacity>26</capacity>
+        <airline>Welch-Hagenes</airline>
+    </plane>
+    <plane>
+        <register-number>WBADT43401G093414</register-number>
+        <capacity>424</capacity>
+        <airline>Gibson Group</airline>
+    </plane>
+    <plane>
+        <register-number>W</register-number>
+        <capacity>274</capacity>
+        <airline>Blanda, Hermiston and Hettinger</airline>
+    </plane>
+    <plane>
+        <register-number>5TDBW5G18BS363360</register-number>
+        <capacity>379</capacity>
+        <airline>B</airline>
+    </plane>
+    <plane>
+        <register-number>2G4WB55K031019938</register-number>
+        <capacity>-157</capacity>
+        <airline>Braun Inc</airline>
+    </plane>
+</planes>

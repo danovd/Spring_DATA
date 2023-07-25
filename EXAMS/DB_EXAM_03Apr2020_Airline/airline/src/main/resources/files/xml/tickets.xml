@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tickets>
+    <ticket>
+        <serial-number>T</serial-number>
+        <price>8028</price>
+        <take-off>2020-08-12 17:53:35</take-off>
+        <from-town>
+            <name>Los Angels</name>
+        </from-town>
+        <to-town>
+            <name>Sofia</name>
+        </to-town>
+        <passenger>
+            <email>gfraschettil@theglobeandmail.com</email>
+        </passenger>
+        <plane>
+            <register-number>JN1CV6AP3BM793273</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>PT28 3182 7144 4000 7605 6669 2</serial-number>
+        <price>-8028</price>
+        <take-off>2020-08-12 17:53:35</take-off>
+        <from-town>
+            <name>Los Angels</name>
+        </from-town>
+        <to-town>
+            <name>Sofia</name>
+        </to-town>
+        <passenger>
+            <email>gfraschettil@theglobeandmail.com</email>
+        </passenger>
+        <plane>
+            <register-number>JN1CV6AP3BM793273</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>LT98 2760 1932 6442 0298</serial-number>
+        <price>5211</price>
+        <take-off>2020-05-03 06:35:04</take-off>
+        <from-town>
+            <name>Sofia</name>
+        </from-town>
+        <to-town>
+            <name>Los Angels</name>
+        </to-town>
+        <passenger>
+            <email>czimmermann@smh.com.au</email>
+        </passenger>
+        <plane>
+            <register-number>3D7TT2CT0BG174323</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>TN20 7285 2020 7133 9766 2287</serial-number>
+        <price>9606</price>
+        <take-off>2020-06-28 15:35:42</take-off>
+        <from-town>
+            <name>New York</name>
+        </from-town>
+        <to-town>
+            <name>Rome</name>
+        </to-town>
+        <passenger>
+            <email>lbeldersonm@cafepress.com</email>
+        </passenger>
+        <plane>
+            <register-number>3D7TT2CT0BG174323</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>MR27 2187 4231 3133 9276 2180 462</serial-number>
+        <price>185</price>
+        <take-off>2020-08-27 14:03:58</take-off>
+        <from-town>
+            <name>Milano</name>
+        </from-town>
+        <to-town>
+            <name>Sofia</name>
+        </to-town>
+        <passenger>
+            <email>czimmermann@smh.com.au</email>
+        </passenger>
+        <plane>
+            <register-number>3D7TT2CT0BG174323</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>GI38 ZFWS AYSV WV5L 3LKK LLO</serial-number>
+        <price>7035</price>
+        <take-off>2020-10-08 01:56:42</take-off>
+        <from-town>
+            <name>Sao Paolo</name>
+        </from-town>
+        <to-town>
+            <name>Rome</name>
+        </to-town>
+        <passenger>
+            <email>czimmermann@smh.com.au</email>
+        </passenger>
+        <plane>
+            <register-number>JH4DB75531S837855</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>FR83 4428 6343 29XQ Y2NH TMLA M79</serial-number>
+        <price>4901</price>
+        <take-off>2020-06-15 20:00:38</take-off>
+        <from-town>
+            <name>Barcelona</name>
+        </from-town>
+        <to-town>
+            <name>Los Angels</name>
+        </to-town>
+        <passenger>
+            <email>czimmermann@smh.com.au</email>
+        </passenger>
+        <plane>
+            <register-number>JH4DB75531S837855</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>CZ41 2574 1113 3271 6054 9985</serial-number>
+        <price>9408</price>
+        <take-off>2020-01-25 02:42:05</take-off>
+        <from-town>
+            <name>Sofia</name>
+        </from-town>
+        <to-town>
+            <name>New York</name>
+        </to-town>
+        <passenger>
+            <email>lbeldersonm@cafepress.com</email>
+        </passenger>
+        <plane>
+            <register-number>JH4DB75531S837855</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>ES71 7076 4791 9276 4016 2822</serial-number>
+        <price>7414</price>
+        <take-off>2020-08-04 04:28:10</take-off>
+        <from-town>
+            <name>Sao Paolo</name>
+        </from-town>
+        <to-town>
+            <name>Rome</name>
+        </to-town>
+        <passenger>
+            <email>lbeldersonm@cafepress.com</email>
+        </passenger>
+        <plane>
+            <register-number>3D7LP2ET0BG939208</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>FR02 0561 4405 24HA OVCO NRES M76</serial-number>
+        <price>682</price>
+        <take-off>2020-08-03 18:16:30</take-off>
+        <from-town>
+            <name>Milano</name>
+        </from-town>
+        <to-town>
+            <name>New York</name>
+        </to-town>
+        <passenger>
+            <email>jsuddocki@japanpost.jp</email>
+        </passenger>
+        <plane>
+            <register-number>3D7LP2ET0BG939208</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>IL31 1780 5459 2680 8616 386</serial-number>
+        <price>3706</price>
+        <take-off>2020-10-21 07:49:11</take-off>
+        <from-town>
+            <name>Los Angels</name>
+        </from-town>
+        <to-town>
+            <name>Munich</name>
+        </to-town>
+        <passenger>
+            <email>jsuddocki@japanpost.jp</email>
+        </passenger>
+        <plane>
+            <register-number>3D7LP2ET0BG939208</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>FR17 4478 7314 99DT 7EWY CCXU P70</serial-number>
+        <price>3995</price>
+        <take-off>2020-05-04 09:06:06</take-off>
+        <from-town>
+            <name>Sofia</name>
+        </from-town>
+        <to-town>
+            <name>Milano</name>
+        </to-town>
+        <passenger>
+            <email>dguerreruj@123-reg.co.uk</email>
+        </passenger>
+        <plane>
+            <register-number>5LMJJ3H53AE057826</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>MC69 1179 9131 14JS HUUH 7DSX C91</serial-number>
+        <price>1392</price>
+        <take-off>2020-03-16 12:47:51</take-off>
+        <from-town>
+            <name>Rome</name>
+        </from-town>
+        <to-town>
+            <name>Munich</name>
+        </to-town>
+        <passenger>
+            <email>dguerreruj@123-reg.co.uk</email>
+        </passenger>
+        <plane>
+            <register-number>5LMJJ3H53AE057826</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>GI41 FROC MBKE OEI8 13WR ERS</serial-number>
+        <price>5084</price>
+        <take-off>2020-12-05 15:08:07</take-off>
+        <from-town>
+            <name>Moscow</name>
+        </from-town>
+        <to-town>
+            <name>New York</name>
+        </to-town>
+        <passenger>s
+            <email>lbeldersonm@cafepress.com</email>
+        </passenger>
+        <plane>
+            <register-number>5LMJJ3H53AE057826</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>IL03 3059 5430 3387 3815 410</serial-number>
+        <price>2656</price>
+        <take-off>2020-11-14 01:08:29</take-off>
+        <from-town>
+            <name>Barcelona</name>
+        </from-town>
+        <to-town>
+            <name>Los Angels</name>
+        </to-town>
+        <passenger>
+            <email>sprobbingsk@newyorker.com</email>
+        </passenger>
+        <plane>
+            <register-number>WDDEJ8GB9AA275828</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>TR59 4340 56UR T5BF J0L4 MEXK QC</serial-number>
+        <price>2703</price>
+        <take-off>2020-10-21 08:45:41</take-off>
+        <from-town>
+            <name>Moscow</name>
+        </from-town>
+        <to-town>
+            <name>Rome</name>
+        </to-town>
+        <passenger>
+            <email>gfraschettil@theglobeandmail.com</email>
+        </passenger>
+        <plane>
+            <register-number>WDDEJ8GB9AA275828</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>HU83 2057 4934 9429 7983 3309 7605</serial-number>
+        <price>3039</price>
+        <take-off>2020-06-02 18:02:26</take-off>
+        <from-town>
+            <name>Barcelona</name>
+        </from-town>
+        <to-town>
+            <name>New York</name>
+        </to-town>
+        <passenger>
+            <email>gfraschettil@theglobeandmail.com</email>
+        </passenger>
+        <plane>
+            <register-number>WDDEJ8GB9AA275828</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>LB03 1870 J59A RQD9 3D5O 0GAT SOBS</serial-number>
+        <price>7663</price>
+        <take-off>2020-09-15 04:59:58</take-off>
+        <from-town>
+            <name>Rome</name>
+        </from-town>
+        <to-town>
+            <name>Sofia</name>
+        </to-town>
+        <passenger>
+            <email>czimmermann@smh.com.au</email>
+        </passenger>
+        <plane>
+            <register-number>WDDEJ8GB9AA275828</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>PS41 NQLT UPWD ZM9U U6LK KUYZ OOAI T</serial-number>
+        <price>7371</price>
+        <take-off>2020-09-07 08:39:25</take-off>
+        <from-town>
+            <name>Barcelona</name>
+        </from-town>
+        <to-town>
+            <name>Milano</name>
+        </to-town>
+        <passenger>
+            <email>lbeldersonm@cafepress.com</email>
+        </passenger>
+        <plane>
+            <register-number>JN1CV6AP3BM793273</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>PL95 1856 1738 8772 8878 2801 6627</serial-number>
+        <price>8271</price>
+        <take-off>2020-10-21 04:38:38</take-off>
+        <from-town>
+            <name>Rome</name>
+        </from-town>
+        <to-town>
+            <name>Sao Paolo</name>
+        </to-town>
+        <passenger>
+            <email>czimmermann@smh.com.au</email>
+        </passenger>
+        <plane>
+            <register-number>JN1CV6AP3BM793273</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>NO53 4874 6750 014</serial-number>
+        <price>5979</price>
+        <take-off>2020-12-28 03:19:26</take-off>
+        <from-town>
+            <name>Moscow</name>
+        </from-town>
+        <to-town>
+            <name>Barcelona</name>
+        </to-town>
+        <passenger>
+            <email>gfraschettil@theglobeandmail.com</email>
+        </passenger>
+        <plane>
+            <register-number>JN1CV6AP3BM793273</register-number>
+        </plane>
+    </ticket>
+    <ticket>
+        <serial-number>PT28 3182 7144 4000 7605 6669 2</serial-number>
+        <price>8028</price>
+        <take-off>2020-08-12 17:53:35</take-off>
+        <from-town>
+            <name>Los Angels</name>
+        </from-town>
+        <to-town>
+            <name>Sofia</name>
+        </to-town>
+        <passenger>
+            <email>gfraschettil@theglobeandmail.com</email>
+        </passenger>
+        <plane>
+            <register-number>JN1CV6AP3BM793273</register-number>
+        </plane>
+    </ticket>
+</tickets>
