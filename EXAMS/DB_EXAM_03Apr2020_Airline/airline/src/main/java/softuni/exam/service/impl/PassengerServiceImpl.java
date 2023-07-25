@@ -11,10 +11,12 @@ import softuni.exam.repository.TownRepository;
 import softuni.exam.service.PassengerService;
 import softuni.exam.util.ValidationUtil;
 
+import javax.transaction.Transactional;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -84,9 +86,32 @@ public class PassengerServiceImpl implements PassengerService {
         this.passengerRepository.save(passenger);
         return "Successfully imported Passenger " + passenger.getLastName() + passenger.getEmail();
     }
-
+@Transactional
     @Override
     public String getPassengersOrderByTicketsCountDescendingThenByEmail() {
-        return null;
+
+        List<Passenger> passengers = this.passengerRepository.findAll();
+/*
+        return passengers.stream()
+                .map(Passenger::toString)
+                .collect(Collectors.joining("\n"));
+  */
+
+    return passengers.stream()
+            .sorted((a,b) -> {
+                int sizeA = a.getTickets().size();
+                int sizeB = b.getTickets().size();
+
+                if(sizeB > sizeA){
+                    return 1;
+                }
+                if(sizeA > sizeB){
+                    return -1;
+                }
+                return a.getEmail().compareTo(b.getEmail());
+            })
+            .map(Passenger::toString)
+            .collect(Collectors.joining("\n"));
+
     }
 }

@@ -18,8 +18,13 @@ public class Ticket {
     @Column(unique = true)
     private String serialNumber;
     private LocalDateTime takeOff;
+
+
     @ManyToOne
+    @JoinColumn(name = "passenger_id", referencedColumnName = "id")
     private Passenger passenger;
+
+
     @ManyToOne
     private Plane plane;
     @OneToOne
