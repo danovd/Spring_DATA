@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 import softuni.exam.models.dto.CarImportDTO;
+import softuni.exam.models.entity.Car;
 import softuni.exam.repository.CarRepository;
 import softuni.exam.service.CarService;
 import softuni.exam.util.ValidationUtil;
@@ -12,6 +13,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -53,9 +55,25 @@ public class CarServiceImpl implements CarService {
     }
 
     private String importDTO(CarImportDTO dto) {
+        boolean isValid = this.validator.isValid(dto);
+
+        if (!isValid) {
+            return "Invalid car";
+        }
+
+        Optional<Car> optCar = this.carRepository.findByMakeAndModelAndKilometers(dto.getMake(), dto.getModel(), dto.getKilometers());
 
 
-        return null;
+        if (optCar.isPresent()) {
+            return "Invalid car";
+        }
+
+        Car car= this.modelMapper.map(dto, Car.class);
+
+
+
+        this.carRepository.save(car);
+        return "Successfully imported car " + car.getMake() + " - " + car.getModel();
     }
 
     @Override
