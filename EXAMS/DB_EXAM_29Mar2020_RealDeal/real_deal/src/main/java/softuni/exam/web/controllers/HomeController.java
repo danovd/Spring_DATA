@@ -9,6 +9,8 @@ import softuni.exam.service.OfferService;
 import softuni.exam.service.PictureService;
 import softuni.exam.service.SellerService;
 
+import java.io.IOException;
+
 @Controller
 public class HomeController extends BaseController {
 
@@ -27,7 +29,7 @@ public class HomeController extends BaseController {
 
 
     @GetMapping("/")
-    public ModelAndView index() {
+    public ModelAndView index() throws IOException {
         boolean areImported = this.carService.areImported() &&
                 this.offerService.areImported() &&
                 this.pictureService.areImported() &&

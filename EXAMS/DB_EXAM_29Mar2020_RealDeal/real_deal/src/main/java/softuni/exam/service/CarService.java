@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public interface CarService {
 
-    boolean areImported();
+    boolean areImported() throws IOException;
 
     String readCarsFileContent() throws IOException;
 	

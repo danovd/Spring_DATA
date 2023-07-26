@@ -34,7 +34,7 @@ public class ImportController extends BaseController {
 
 
     @GetMapping("/json")
-    public ModelAndView importJson() {
+    public ModelAndView importJson() throws IOException {
 
         boolean[] areImported = new boolean[]{
                 this.carService.areImported(),
