@@ -6,7 +6,7 @@ import javax.validation.constraints.Size;
 public class PictureImportDTO {
 
 
-    @Size(min = 2, max = 20)
+    @Size(min = 2, max = 19)
     @NotNull
     private String name;
 

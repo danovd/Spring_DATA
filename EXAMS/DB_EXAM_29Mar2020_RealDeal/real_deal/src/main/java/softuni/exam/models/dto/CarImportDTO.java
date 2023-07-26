@@ -11,12 +11,12 @@ public class CarImportDTO {
  //   @JsonProperty("kilometers")
     private int kilometers;
     @NotNull
-    @Size(min = 2, max = 20)
+    @Size(min = 2, max = 19)
     //   @JsonProperty("make")
     private String make;
 
     @NotNull
-    @Size(min = 2, max = 20)
+    @Size(min = 2, max = 19)
     //   @JsonProperty("model")
     private String model;
 
