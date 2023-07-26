@@ -13,6 +13,7 @@ import softuni.exam.util.XmlParser;
 import softuni.exam.util.XmlParserImpl;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 
@@ -39,13 +40,23 @@ public class ApplicationBeanConfiguration {
         ModelMapper modelMapper = new ModelMapper();
 
 
-       /* modelMapper.addConverter(new Converter<String, LocalDate>() {
+       modelMapper.addConverter(new Converter<String, LocalDateTime>() {
+            @Override
+            public LocalDateTime convert(MappingContext<String, LocalDateTime> mappingContext) {
+                return LocalDateTime.parse(mappingContext.getSource(),
+                        DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+            }
+        });
+
+
+        modelMapper.addConverter(new Converter<String, LocalDate>() {
             @Override
             public LocalDate convert(MappingContext<String, LocalDate> mappingContext) {
                 return LocalDate.parse(mappingContext.getSource(),
                         DateTimeFormatter.ofPattern("dd/MM/yyyy"));
             }
-        });*/
+        });
+
 
         return modelMapper;
     }
