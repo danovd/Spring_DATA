@@ -1,5 +1,10 @@
 package softuni.exam.repository;
 
-//ToDo
-public interface SellerRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import softuni.exam.models.entity.Car;
+import softuni.exam.models.entity.Seller;
+
+@Repository
+public interface SellerRepository extends JpaRepository<Seller, Long> {
 }

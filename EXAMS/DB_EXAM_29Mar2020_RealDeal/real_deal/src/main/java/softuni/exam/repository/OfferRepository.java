@@ -1,6 +1,11 @@
 package softuni.exam.repository;
 
-//ToDo
-public interface OfferRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import softuni.exam.models.entity.Car;
+import softuni.exam.models.entity.Offer;
+
+@Repository
+public interface OfferRepository extends JpaRepository<Offer, Long> {
     
 }
