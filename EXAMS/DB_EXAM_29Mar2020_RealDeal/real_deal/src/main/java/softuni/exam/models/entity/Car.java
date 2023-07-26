@@ -29,10 +29,48 @@ public class Car {
     @NotNull
     private LocalDate registeredOn;
 
+    public Car() {
+    }
 
+    public long getId() {
+        return id;
+    }
 
+    public void setId(long id) {
+        this.id = id;
+    }
 
+    public int getKilometers() {
+        return kilometers;
+    }
 
+    public void setKilometers(int kilometers) {
+        this.kilometers = kilometers;
+    }
+
+    public String getMake() {
+        return make;
+    }
+
+    public void setMake(String make) {
+        this.make = make;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public LocalDate getRegisteredOn() {
+        return registeredOn;
+    }
+
+    public void setRegisteredOn(LocalDate registeredOn) {
+        this.registeredOn = registeredOn;
+    }
 
     public boolean equals(Object o) {
         if (this == o) return true;
