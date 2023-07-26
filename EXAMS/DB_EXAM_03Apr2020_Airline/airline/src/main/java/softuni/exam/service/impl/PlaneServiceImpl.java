@@ -2,6 +2,7 @@ package softuni.exam.service.impl;
 
 import org.modelmapper.ModelMapper;
 
+import org.springframework.stereotype.Service;
 import softuni.exam.models.dto.ImportPlaneDto;
 import softuni.exam.models.dto.ImportPlaneRootDTO;
 import softuni.exam.models.entity.Plane;
