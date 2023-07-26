@@ -1,0 +1,1202 @@
+[
+  {
+    "make": "BMW",
+    "model": "750",
+    "kilometers": 166235,
+    "registeredOn": "04/04/2016"
+  },
+  {
+    "make": "Pontiac",
+    "model": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "kilometers": 62557,
+    "registeredOn": "21/10/2018"
+  },
+  {
+    "make": "G",
+    "model": "Yukon",
+    "kilometers": 211779,
+    "registeredOn": "05/06/2019"
+  },
+  {
+    "make": "Mercury",
+    "model": "Cougar",
+    "kilometers": 647748,
+    "registeredOn": "30/08/2017"
+  },
+  {
+    "make": "GMC",
+    "model": "Sierra 2500",
+    "kilometers": -1000,
+    "registeredOn": "06/06/2018"
+  },
+  {
+    "make": "Audi",
+    "model": "5000CS",
+    "kilometers": 875416,
+    "registeredOn": "20/02/2020"
+  },
+  {
+    "make": "Volvo",
+    "model": "S40",
+    "kilometers": 855961,
+    "registeredOn": "26/10/2017"
+  },
+  {
+    "make": "Volvo",
+    "model": "940",
+    "kilometers": 689897,
+    "registeredOn": "16/04/2019"
+  },
+  {
+    "make": "Audi",
+    "model": "Q7",
+    "kilometers": 907472,
+    "registeredOn": "25/02/2018"
+  },
+  {
+    "make": "Ford",
+    "model": "Fiesta",
+    "kilometers": 578923,
+    "registeredOn": "17/03/2018"
+  },
+  {
+    "make": "Dodge",
+    "model": "Ram 2500",
+    "kilometers": 970693,
+    "registeredOn": "21/06/2015"
+  },
+  {
+    "make": "Mazda",
+    "model": "Millenia",
+    "kilometers": 472884,
+    "registeredOn": "30/06/2017"
+  },
+  {
+    "make": "Daewoo",
+    "model": "Leganza",
+    "kilometers": 729970,
+    "registeredOn": "08/05/2015"
+  },
+  {
+    "make": "Toyota",
+    "model": "Sequoia",
+    "kilometers": 719901,
+    "registeredOn": "28/04/2018"
+  },
+  {
+    "make": "Infiniti",
+    "model": "Is",
+    "kilometers": 16683,
+    "registeredOn": "17/09/2016"
+  },
+  {
+    "make": "BMW",
+    "model": "X5 M",
+    "kilometers": 406520,
+    "registeredOn": "11/11/2016"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Rabbit",
+    "kilometers": 65992,
+    "registeredOn": "10/01/2017"
+  },
+  {
+    "make": "Pontiac",
+    "model": "G6",
+    "kilometers": 6113,
+    "registeredOn": "27/09/2015"
+  },
+  {
+    "make": "Cadillac",
+    "model": "DeVille",
+    "kilometers": 386914,
+    "registeredOn": "02/09/2017"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Rabbit",
+    "kilometers": 494655,
+    "registeredOn": "12/04/2016"
+  },
+  {
+    "make": "Mazda",
+    "model": "RX-8",
+    "kilometers": 56572,
+    "registeredOn": "22/06/2015"
+  },
+  {
+    "make": "Pontiac",
+    "model": "6000",
+    "kilometers": 566255,
+    "registeredOn": "10/10/2019"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "M-Class",
+    "kilometers": 30237,
+    "registeredOn": "22/11/2018"
+  },
+  {
+    "make": "Toyota",
+    "model": "4Runner",
+    "kilometers": 685825,
+    "registeredOn": "05/01/2015"
+  },
+  {
+    "make": "Toyota",
+    "model": "Avalon",
+    "kilometers": 530063,
+    "registeredOn": "29/09/2017"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "kilometers": 343978,
+    "registeredOn": "06/07/2017"
+  },
+  {
+    "make": "Ford",
+    "model": "EXP",
+    "kilometers": 128807,
+    "registeredOn": "15/01/2015"
+  },
+  {
+    "make": "Toyota",
+    "model": "FJ Cruiser",
+    "kilometers": 182590,
+    "registeredOn": "10/12/2019"
+  },
+  {
+    "make": "Ford",
+    "model": "Explorer Sport Trac",
+    "kilometers": 839156,
+    "registeredOn": "11/11/2015"
+  },
+  {
+    "make": "Ford",
+    "model": "E-Series",
+    "kilometers": 520135,
+    "registeredOn": "11/10/2015"
+  },
+  {
+    "make": "Toyota",
+    "model": "Avalon",
+    "kilometers": 492068,
+    "registeredOn": "13/02/2019"
+  },
+  {
+    "make": "Ford",
+    "model": "Econoline E250",
+    "kilometers": 653700,
+    "registeredOn": "17/07/2016"
+  },
+  {
+    "make": "Ford",
+    "model": "Econoline E150",
+    "kilometers": 288609,
+    "registeredOn": "27/10/2015"
+  },
+  {
+    "make": "Honda",
+    "model": "Accord",
+    "kilometers": 653652,
+    "registeredOn": "06/02/2015"
+  },
+  {
+    "make": "Buick",
+    "model": "Riviera",
+    "kilometers": 890352,
+    "registeredOn": "05/01/2015"
+  },
+  {
+    "make": "Audi",
+    "model": "A4",
+    "kilometers": 159415,
+    "registeredOn": "01/02/2015"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Elantra",
+    "kilometers": 257884,
+    "registeredOn": "01/08/2019"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "W126",
+    "kilometers": 755216,
+    "registeredOn": "12/05/2019"
+  },
+  {
+    "make": "Ford",
+    "model": "Econoline E150",
+    "kilometers": 465102,
+    "registeredOn": "19/04/2016"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Suburban 1500",
+    "kilometers": 219211,
+    "registeredOn": "16/08/2019"
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Mirage",
+    "kilometers": 463186,
+    "registeredOn": "15/12/2018"
+  },
+  {
+    "make": "Ford",
+    "model": "GT500",
+    "kilometers": 508074,
+    "registeredOn": "10/03/2019"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Silverado 1500",
+    "kilometers": 111775,
+    "registeredOn": "01/05/2018"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Sonata",
+    "kilometers": 491054,
+    "registeredOn": "01/04/2017"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "kilometers": 128676,
+    "registeredOn": "05/11/2019"
+  },
+  {
+    "make": "Honda",
+    "model": "Accord",
+    "kilometers": 777947,
+    "registeredOn": "14/04/2015"
+  },
+  {
+    "make": "Porsche",
+    "model": "944",
+    "kilometers": 604321,
+    "registeredOn": "13/03/2018"
+  },
+  {
+    "make": "Isuzu",
+    "model": "Impulse",
+    "kilometers": 111735,
+    "registeredOn": "10/12/2017"
+  },
+  {
+    "make": "Honda",
+    "model": "S2000",
+    "kilometers": 917930,
+    "registeredOn": "16/04/2018"
+  },
+  {
+    "make": "Volvo",
+    "model": "V90",
+    "kilometers": 923024,
+    "registeredOn": "21/12/2016"
+  },
+  {
+    "make": "Suzuki",
+    "model": "Grand Vitara",
+    "kilometers": 475385,
+    "registeredOn": "05/01/2015"
+  },
+  {
+    "make": "Isuzu",
+    "model": "i-370",
+    "kilometers": 265586,
+    "registeredOn": "03/07/2019"
+  },
+  {
+    "make": "Audi",
+    "model": "S4",
+    "kilometers": 96139,
+    "registeredOn": "17/05/2017"
+  },
+  {
+    "make": "GMC",
+    "model": "Vandura G1500",
+    "kilometers": 286845,
+    "registeredOn": "31/08/2017"
+  },
+  {
+    "make": "Dodge",
+    "model": "Ram 2500 Club",
+    "kilometers": 184110,
+    "registeredOn": "23/12/2018"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "kilometers": 578464,
+    "registeredOn": "28/01/2016"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "CLK-Class",
+    "kilometers": 993537,
+    "registeredOn": "13/12/2016"
+  },
+  {
+    "make": "Pontiac",
+    "model": "Bonneville",
+    "kilometers": 412996,
+    "registeredOn": "05/07/2018"
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Eclipse",
+    "kilometers": 881812,
+    "registeredOn": "06/11/2016"
+  },
+  {
+    "make": "Pontiac",
+    "model": "Safari",
+    "kilometers": 978394,
+    "registeredOn": "19/01/2020"
+  },
+  {
+    "make": "Buick",
+    "model": "Regal",
+    "kilometers": 416263,
+    "registeredOn": "29/04/2015"
+  },
+  {
+    "make": "Aston Martin",
+    "model": "DBS",
+    "kilometers": 975467,
+    "registeredOn": "21/12/2018"
+  },
+  {
+    "make": "Mazda",
+    "model": "Protege",
+    "kilometers": 326173,
+    "registeredOn": "02/07/2019"
+  },
+  {
+    "make": "Porsche",
+    "model": "Panamera",
+    "kilometers": 133990,
+    "registeredOn": "25/12/2018"
+  },
+  {
+    "make": "Honda",
+    "model": "Odyssey",
+    "kilometers": 735282,
+    "registeredOn": "21/05/2019"
+  },
+  {
+    "make": "GMC",
+    "model": "Sierra 2500",
+    "kilometers": 889505,
+    "registeredOn": "06/03/2015"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "W201",
+    "kilometers": 850911,
+    "registeredOn": "09/10/2017"
+  },
+  {
+    "make": "Mazda",
+    "model": "Miata MX-5",
+    "kilometers": 842953,
+    "registeredOn": "08/03/2020"
+  },
+  {
+    "make": "Dodge",
+    "model": "Ram Van 3500",
+    "kilometers": 601578,
+    "registeredOn": "20/05/2019"
+  },
+  {
+    "make": "Nissan",
+    "model": "Maxima",
+    "kilometers": 847228,
+    "registeredOn": "11/12/2017"
+  },
+  {
+    "make": "Kia",
+    "model": "Mohave/Borrego",
+    "kilometers": 143880,
+    "registeredOn": "30/01/2018"
+  },
+  {
+    "make": "Suzuki",
+    "model": "Grand Vitara",
+    "kilometers": 382609,
+    "registeredOn": "16/09/2018"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "190E",
+    "kilometers": 554853,
+    "registeredOn": "04/12/2015"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Express 3500",
+    "kilometers": 788778,
+    "registeredOn": "08/08/2018"
+  },
+  {
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "kilometers": 465193,
+    "registeredOn": "28/09/2016"
+  },
+  {
+    "make": "Infiniti",
+    "model": "QX",
+    "kilometers": 821261,
+    "registeredOn": "02/07/2015"
+  },
+  {
+    "make": "Subaru",
+    "model": "Legacy",
+    "kilometers": 868610,
+    "registeredOn": "12/01/2017"
+  },
+  {
+    "make": "Porsche",
+    "model": "Cayenne",
+    "kilometers": 770692,
+    "registeredOn": "12/05/2016"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "kilometers": 699796,
+    "registeredOn": "24/07/2019"
+  },
+  {
+    "make": "Ford",
+    "model": "Taurus",
+    "kilometers": 794687,
+    "registeredOn": "03/10/2016"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Entourage",
+    "kilometers": 771470,
+    "registeredOn": "21/01/2016"
+  },
+  {
+    "make": "Pontiac",
+    "model": "Trans Sport",
+    "kilometers": 665852,
+    "registeredOn": "22/09/2017"
+  },
+  {
+    "make": "Lotus",
+    "model": "Esprit Turbo",
+    "kilometers": 312184,
+    "registeredOn": "19/05/2016"
+  },
+  {
+    "make": "Infiniti",
+    "model": "EX",
+    "kilometers": 192495,
+    "registeredOn": "07/12/2016"
+  },
+  {
+    "make": "Ford",
+    "model": "Tempo",
+    "kilometers": 786409,
+    "registeredOn": "30/09/2019"
+  },
+  {
+    "make": "Aston Martin",
+    "model": "V8 Vantage",
+    "kilometers": 134788,
+    "registeredOn": "05/04/2017"
+  },
+  {
+    "make": "Ford",
+    "model": "F-Series",
+    "kilometers": 99616,
+    "registeredOn": "12/01/2018"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "S10",
+    "kilometers": 5873,
+    "registeredOn": "14/12/2016"
+  },
+  {
+    "make": "Dodge",
+    "model": "Stratus",
+    "kilometers": 203629,
+    "registeredOn": "19/10/2018"
+  },
+  {
+    "make": "Ferrari",
+    "model": "599 GTB Fiorano",
+    "kilometers": 35302,
+    "registeredOn": "04/09/2019"
+  },
+  {
+    "make": "Buick",
+    "model": "Riviera",
+    "kilometers": 706137,
+    "registeredOn": "30/12/2018"
+  },
+  {
+    "make": "Buick",
+    "model": "Century",
+    "kilometers": 635689,
+    "registeredOn": "14/10/2015"
+  },
+  {
+    "make": "Audi",
+    "model": "100",
+    "kilometers": 218428,
+    "registeredOn": "29/06/2015"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Suburban 2500",
+    "kilometers": 614976,
+    "registeredOn": "11/11/2018"
+  },
+  {
+    "make": "Mercury",
+    "model": "Cougar",
+    "kilometers": 546184,
+    "registeredOn": "02/08/2018"
+  },
+  {
+    "make": "Volvo",
+    "model": "850",
+    "kilometers": 40038,
+    "registeredOn": "07/02/2016"
+  },
+  {
+    "make": "Cadillac",
+    "model": "Catera",
+    "kilometers": 597814,
+    "registeredOn": "13/12/2019"
+  },
+  {
+    "make": "Infiniti",
+    "model": "QX56",
+    "kilometers": 680195,
+    "registeredOn": "09/08/2019"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Lumina",
+    "kilometers": 623042,
+    "registeredOn": "01/09/2016"
+  },
+  {
+    "make": "V",
+    "model": "V70",
+    "kilometers": 888982,
+    "registeredOn": "04/01/2015"
+  },
+  {
+    "make": "Infiniti",
+    "model": "G",
+    "kilometers": 952247,
+    "registeredOn": "04/01/2018"
+  },
+  {
+    "make": "Land Rover",
+    "model": "Discovery",
+    "kilometers": -819618,
+    "registeredOn": "30/07/2018"
+  },
+  {
+    "make": "Ford",
+    "model": "E250",
+    "kilometers": 944074,
+    "registeredOn": "31/03/2018"
+  },
+  {
+    "make": "Kia",
+    "model": "Sportage",
+    "kilometers": 622512,
+    "registeredOn": "01/06/2018"
+  },
+  {
+    "make": "Jeep",
+    "model": "Cherokee",
+    "kilometers": 504614,
+    "registeredOn": "31/03/2017"
+  },
+  {
+    "make": "Dodge",
+    "model": "Charger",
+    "kilometers": 197046,
+    "registeredOn": "19/10/2018"
+  },
+  {
+    "make": "GMC",
+    "model": "Jimmy",
+    "kilometers": 309881,
+    "registeredOn": "29/01/2018"
+  },
+  {
+    "make": "Ford",
+    "model": "Galaxie",
+    "kilometers": 123613,
+    "registeredOn": "26/01/2019"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "S10 Blazer",
+    "kilometers": 17123,
+    "registeredOn": "13/09/2017"
+  },
+  {
+    "make": "Subaru",
+    "model": "Tribeca",
+    "kilometers": 77327,
+    "registeredOn": "10/08/2019"
+  },
+  {
+    "make": "Toyota",
+    "model": "Celica",
+    "kilometers": 662410,
+    "registeredOn": "27/10/2016"
+  },
+  {
+    "make": "Honda",
+    "model": "Accord",
+    "kilometers": 269650,
+    "registeredOn": "23/12/2018"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Express",
+    "kilometers": 524380,
+    "registeredOn": "21/03/2019"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "kilometers": 346817,
+    "registeredOn": "06/09/2015"
+  },
+  {
+    "make": "Buick",
+    "model": "Park Avenue",
+    "kilometers": 246278,
+    "registeredOn": "01/12/2016"
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Murciélago",
+    "kilometers": 920634,
+    "registeredOn": "11/02/2015"
+  },
+  {
+    "make": "Chrysler",
+    "model": "300",
+    "kilometers": 318313,
+    "registeredOn": "08/12/2016"
+  },
+  {
+    "make": "Nissan",
+    "model": "Xterra",
+    "kilometers": 280186,
+    "registeredOn": "06/06/2015"
+  },
+  {
+    "make": "Pontiac",
+    "model": "GTO",
+    "kilometers": 762428,
+    "registeredOn": "28/07/2019"
+  },
+  {
+    "make": "Pontiac",
+    "model": "Grand Am",
+    "kilometers": 736828,
+    "registeredOn": "22/12/2016"
+  },
+  {
+    "make": "GMC",
+    "model": "Yukon",
+    "kilometers": 435555,
+    "registeredOn": "25/01/2015"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "GTI",
+    "kilometers": 735057,
+    "registeredOn": "04/05/2019"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Genesis",
+    "kilometers": 164424,
+    "registeredOn": "24/07/2017"
+  },
+  {
+    "make": "Cadillac",
+    "model": "Fleetwood",
+    "kilometers": 430561,
+    "registeredOn": "29/01/2019"
+  },
+  {
+    "make": "Ford",
+    "model": "LTD Crown Victoria",
+    "kilometers": 869761,
+    "registeredOn": "20/09/2018"
+  },
+  {
+    "make": "Ford",
+    "model": "E350",
+    "kilometers": 871366,
+    "registeredOn": "28/03/2018"
+  },
+  {
+    "make": "Mazda",
+    "model": "MX-6",
+    "kilometers": 854827,
+    "registeredOn": "23/11/2019"
+  },
+  {
+    "make": "Dodge",
+    "model": "Charger",
+    "kilometers": 829351,
+    "registeredOn": "07/01/2016"
+  },
+  {
+    "make": "Subaru",
+    "model": "Impreza",
+    "kilometers": 940891,
+    "registeredOn": "07/01/2018"
+  },
+  {
+    "make": "Pontiac",
+    "model": "G6",
+    "kilometers": 644259,
+    "registeredOn": "30/12/2015"
+  },
+  {
+    "make": "Aptera",
+    "model": "Typ-1",
+    "kilometers": 172831,
+    "registeredOn": "28/01/2019"
+  },
+  {
+    "make": "Ford",
+    "model": "Windstar",
+    "kilometers": 421370,
+    "registeredOn": "15/03/2018"
+  },
+  {
+    "make": "Dodge",
+    "model": "Dakota",
+    "kilometers": 600657,
+    "registeredOn": "03/05/2015"
+  },
+  {
+    "make": "Pontiac",
+    "model": "Montana",
+    "kilometers": 93714,
+    "registeredOn": "22/04/2015"
+  },
+  {
+    "make": "Volvo",
+    "model": "XC90",
+    "kilometers": 588693,
+    "registeredOn": "27/06/2016"
+  },
+  {
+    "make": "Saab",
+    "model": "9000",
+    "kilometers": 899961,
+    "registeredOn": "08/07/2015"
+  },
+  {
+    "make": "Audi",
+    "model": "A8",
+    "kilometers": 853291,
+    "registeredOn": "18/03/2016"
+  },
+  {
+    "make": "Oldsmobile",
+    "model": "Silhouette",
+    "kilometers": 197586,
+    "registeredOn": "21/09/2016"
+  },
+  {
+    "make": "Lotus",
+    "model": "Esprit",
+    "kilometers": 411465,
+    "registeredOn": "19/03/2016"
+  },
+  {
+    "make": "Porsche",
+    "model": "968",
+    "kilometers": 552079,
+    "registeredOn": "18/02/2017"
+  },
+  {
+    "make": "Buick",
+    "model": "LaCrosse",
+    "kilometers": 716707,
+    "registeredOn": "13/09/2017"
+  },
+  {
+    "make": "Saab",
+    "model": "900",
+    "kilometers": 66910,
+    "registeredOn": "25/12/2016"
+  },
+  {
+    "make": "Suzuki",
+    "model": "Swift",
+    "kilometers": 371583,
+    "registeredOn": "20/05/2018"
+  },
+  {
+    "make": "GMC",
+    "model": "Suburban 2500",
+    "kilometers": 742468,
+    "registeredOn": "21/10/2018"
+  },
+  {
+    "make": "Honda",
+    "model": "Prelude",
+    "kilometers": 614708,
+    "registeredOn": "04/08/2019"
+  },
+  {
+    "make": "Mazda",
+    "model": "MX-6",
+    "kilometers": 482694,
+    "registeredOn": "06/07/2017"
+  },
+  {
+    "make": "Dodge",
+    "model": "Durango",
+    "kilometers": 860226,
+    "registeredOn": "28/08/2019"
+  },
+  {
+    "make": "Saab",
+    "model": "9000",
+    "kilometers": 352651,
+    "registeredOn": "03/04/2016"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Type 2",
+    "kilometers": 414050,
+    "registeredOn": "12/01/2018"
+  },
+  {
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "kilometers": 919093,
+    "registeredOn": "15/01/2019"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "W201",
+    "kilometers": 751040,
+    "registeredOn": "06/07/2018"
+  },
+  {
+    "make": "Pontiac",
+    "model": "1000",
+    "kilometers": 138508,
+    "registeredOn": "02/05/2015"
+  },
+  {
+    "make": "Aptera",
+    "model": "2e",
+    "kilometers": 972469,
+    "registeredOn": "27/10/2018"
+  },
+  {
+    "make": "Pontiac",
+    "model": "Montana",
+    "kilometers": 741552,
+    "registeredOn": "02/05/2017"
+  },
+  {
+    "make": "Maserati",
+    "model": "Coupe",
+    "kilometers": 683729,
+    "registeredOn": "05/07/2018"
+  },
+  {
+    "make": "GMC",
+    "model": "Sierra",
+    "kilometers": 176936,
+    "registeredOn": "04/10/2018"
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Eclipse",
+    "kilometers": 300728,
+    "registeredOn": "17/08/2017"
+  },
+  {
+    "make": "Pontiac",
+    "model": "6000",
+    "kilometers": 9833,
+    "registeredOn": "22/06/2016"
+  },
+  {
+    "make": "Ford",
+    "model": "Mustang",
+    "kilometers": 167551,
+    "registeredOn": "02/02/2020"
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Lancer Evolution",
+    "kilometers": 40121,
+    "registeredOn": "07/10/2016"
+  },
+  {
+    "make": "Nissan",
+    "model": "Quest",
+    "kilometers": 693147,
+    "registeredOn": "21/07/2015"
+  },
+  {
+    "make": "Maserati",
+    "model": "Quattroporte",
+    "kilometers": 823667,
+    "registeredOn": "28/02/2017"
+  },
+  {
+    "make": "Land Rover",
+    "model": "Freelander",
+    "kilometers": 927456,
+    "registeredOn": "21/10/2017"
+  },
+  {
+    "make": "Maserati",
+    "model": "Biturbo",
+    "kilometers": 60345,
+    "registeredOn": "13/10/2016"
+  },
+  {
+    "make": "Oldsmobile",
+    "model": "88",
+    "kilometers": 30354,
+    "registeredOn": "11/01/2017"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Scoupe",
+    "kilometers": 872605,
+    "registeredOn": "01/12/2016"
+  },
+  {
+    "make": "Acura",
+    "model": "MDX",
+    "kilometers": 732505,
+    "registeredOn": "19/07/2019"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Colorado",
+    "kilometers": 27705,
+    "registeredOn": "02/02/2019"
+  },
+  {
+    "make": "Lincoln",
+    "model": "Navigator",
+    "kilometers": 864157,
+    "registeredOn": "27/05/2016"
+  },
+  {
+    "make": "Bentley",
+    "model": "Continental",
+    "kilometers": 17681,
+    "registeredOn": "31/10/2015"
+  },
+  {
+    "make": "Isuzu",
+    "model": "Rodeo",
+    "kilometers": 739826,
+    "registeredOn": "04/04/2017"
+  },
+  {
+    "make": "Mercury",
+    "model": "Grand Marquis",
+    "kilometers": 294092,
+    "registeredOn": "18/11/2017"
+  },
+  {
+    "make": "GMC",
+    "model": "Sierra 2500",
+    "kilometers": 223898,
+    "registeredOn": "17/05/2015"
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Diablo",
+    "kilometers": 942097,
+    "registeredOn": "21/09/2018"
+  },
+  {
+    "make": "Ferrari",
+    "model": "458 Italia",
+    "kilometers": 348708,
+    "registeredOn": "11/12/2015"
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Precis",
+    "kilometers": 133507,
+    "registeredOn": "22/12/2016"
+  },
+  {
+    "make": "Maserati",
+    "model": "Quattroporte",
+    "kilometers": 725298,
+    "registeredOn": "27/02/2015"
+  },
+  {
+    "make": "Ford",
+    "model": "Mustang",
+    "kilometers": 666483,
+    "registeredOn": "20/10/2015"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "rio",
+    "kilometers": 925819,
+    "registeredOn": "18/02/2016"
+  },
+  {
+    "make": "Ford",
+    "model": "F250",
+    "kilometers": 681400,
+    "registeredOn": "19/09/2015"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Routan",
+    "kilometers": 621004,
+    "registeredOn": "04/01/2015"
+  },
+  {
+    "make": "Acura",
+    "model": "RL",
+    "kilometers": 399996,
+    "registeredOn": "17/06/2017"
+  },
+  {
+    "make": "Subaru",
+    "model": "SVX",
+    "kilometers": 51595,
+    "registeredOn": "11/01/2019"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "SL-Class",
+    "kilometers": 910503,
+    "registeredOn": "08/11/2018"
+  },
+  {
+    "make": "Pontiac",
+    "model": "Grand Prix",
+    "kilometers": 739155,
+    "registeredOn": "18/01/2016"
+  },
+  {
+    "make": "Dodge",
+    "model": "Durango",
+    "kilometers": 344844,
+    "registeredOn": "05/08/2017"
+  },
+  {
+    "make": "Pontiac",
+    "model": "Grand Prix",
+    "kilometers": 360027,
+    "registeredOn": "30/11/2015"
+  },
+  {
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "kilometers": 925513,
+    "registeredOn": "25/09/2018"
+  },
+  {
+    "make": "Ford",
+    "model": "Thunderbird",
+    "kilometers": 639372,
+    "registeredOn": "17/01/2020"
+  },
+  {
+    "make": "Ford",
+    "model": "F-Series",
+    "kilometers": 413615,
+    "registeredOn": "04/11/2019"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "kilometers": 159229,
+    "registeredOn": "05/12/2017"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Express 1500",
+    "kilometers": 790025,
+    "registeredOn": "30/04/2018"
+  },
+  {
+    "make": "Ford",
+    "model": "E-Series",
+    "kilometers": 364358,
+    "registeredOn": "30/05/2018"
+  },
+  {
+    "make": "Volvo",
+    "model": "S40",
+    "kilometers": 754975,
+    "registeredOn": "30/07/2019"
+  },
+  {
+    "make": "Mazda",
+    "model": "B2600",
+    "kilometers": 65947,
+    "registeredOn": "17/05/2015"
+  },
+  {
+    "make": "D",
+    "model": "Journey",
+    "kilometers": 456080,
+    "registeredOn": "27/06/2016"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "GTI",
+    "kilometers": -966100,
+    "registeredOn": "06/07/2015"
+  },
+  {
+    "make": "Dodge",
+    "model": "R",
+    "kilometers": 81905,
+    "registeredOn": "16/06/2017"
+  },
+  {
+    "make": "Ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "model": "Crown Victoria",
+    "kilometers": 11458,
+    "registeredOn": "31/01/2018"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "kilometers": -146556,
+    "registeredOn": "10/12/2018"
+  }
+]
