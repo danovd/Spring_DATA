@@ -18,7 +18,7 @@ public class Offer {
 
     private LocalDateTime addedOn;
     @Column(columnDefinition = "TEXT")
-    @Size(min = 5)
+   // @Size(min = 5)
     private String description;
 
     private boolean hasGoldStatus;
@@ -127,5 +127,20 @@ public class Offer {
 
         result = MULTIPLIER_AUXILIARY_NUMBER_FOR_BETTER_DISTRIBUTION_OF_HASH * result + this.addedOn.hashCode();
         return result;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Offer{" +
+                "id=" + id +
+                ", addedOn=" + addedOn +
+                ", description='" + description + '\'' +
+                ", hasGoldStatus=" + hasGoldStatus +
+                ", price=" + price +
+                ", seller=" + seller +
+                ", car=" + car +
+                ", pictures=" + pictures +
+                '}';
     }
 }

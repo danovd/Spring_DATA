@@ -23,6 +23,7 @@ public class Picture {
    // @NotNull
     private LocalDateTime dateAndTime;
     @ManyToOne
+    @JoinColumn(name = "car_id", referencedColumnName = "id")
     private Car car;
 
     public Picture() {

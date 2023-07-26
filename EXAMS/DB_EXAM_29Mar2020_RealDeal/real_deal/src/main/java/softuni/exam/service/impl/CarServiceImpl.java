@@ -13,6 +13,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -78,6 +79,24 @@ public class CarServiceImpl implements CarService {
 
     @Override
     public String getCarsOrderByPicturesCountThenByMake() {
-        return null;
+        List<Car> cars = this.carRepository.findAll();
+
+        return cars.stream()
+                .sorted((a,b) -> {
+                    int sizeA = a.getPictures().size();
+                    int sizeB = b.getPictures().size();
+
+                    if(sizeB > sizeA){
+                        return 1;
+                    }
+                    if(sizeA > sizeB){
+                        return -1;
+                    }
+                    return a.getMake().compareTo(b.getMake());
+                })
+                .map(Car::toString)
+                .collect(Collectors.joining("\n"));
+
     }
+
 }

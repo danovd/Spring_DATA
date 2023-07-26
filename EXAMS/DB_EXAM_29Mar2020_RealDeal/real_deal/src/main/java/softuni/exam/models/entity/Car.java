@@ -7,6 +7,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 import javax.validation.constraints.Size;
 import java.time.LocalDate;
+import java.util.Set;
 
 @Entity
 @Table(name = "cars")
@@ -103,21 +104,20 @@ public class Car {
         return result;
     }
 
+    @OneToMany(mappedBy = "car", targetEntity = Picture.class,fetch = FetchType.EAGER)
+    private Set<Picture> pictures;
 
+    public Set<Picture> getPictures() {
+        return pictures;
+    }
 
+    @Override
+    public String toString() {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        return String.format("Car make - %s, model - %s\n" +
+                "Kilometers - %d\n" +
+                "Registered on - %s\n" +
+                "Number of pictures - %d", this.getMake(), this.getModel(), this.getKilometers(),
+                this.getRegisteredOn().toString(), this.pictures.size());
+    }
 }
