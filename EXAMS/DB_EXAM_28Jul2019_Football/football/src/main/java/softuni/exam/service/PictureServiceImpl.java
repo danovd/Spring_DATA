@@ -8,8 +8,7 @@ import softuni.exam.util.XmlParser;
 
 import javax.validation.Validator;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
+
 
 @Service
 public class PictureServiceImpl implements PictureService {

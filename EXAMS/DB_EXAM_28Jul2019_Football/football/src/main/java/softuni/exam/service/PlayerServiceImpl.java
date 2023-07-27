@@ -7,6 +7,7 @@ import softuni.exam.repository.PlayerRepository;
 import softuni.exam.util.FileUtil;
 
 import javax.validation.Validator;
+import java.io.IOException;
 
 @Service
 public class PlayerServiceImpl implements PlayerService {
@@ -36,12 +37,12 @@ public class PlayerServiceImpl implements PlayerService {
 
     @Override
     public boolean areImported() {
-        return false;
+        return playerRepository.count() > 0;
     }
 
     @Override
-    public String readPlayersJsonFile()  {
-        return "";
+    public String readPlayersJsonFile() throws IOException {
+        return fileUtil.readFile(PLAYERS_FILE_PATH);
     }
 
     @Override
