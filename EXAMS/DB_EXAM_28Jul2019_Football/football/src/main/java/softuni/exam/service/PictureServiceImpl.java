@@ -3,17 +3,14 @@ package softuni.exam.service;
 //import jakarta.xml.bind.JAXBException;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
-import org.springframework.validation.ValidationUtils;
+
 import softuni.exam.domain.dto.ImportPictureDto;
 import softuni.exam.domain.dto.ImportPictureRootDTO;
 import softuni.exam.domain.entities.Picture;
 import softuni.exam.repository.PictureRepository;
 import softuni.exam.util.FileUtil;
 import softuni.exam.util.ValidatorUtil;
-import softuni.exam.util.ValidatorUtilImpl;
 import softuni.exam.util.XmlParser;
-
-import javax.validation.Validator;
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
 import java.util.Optional;
