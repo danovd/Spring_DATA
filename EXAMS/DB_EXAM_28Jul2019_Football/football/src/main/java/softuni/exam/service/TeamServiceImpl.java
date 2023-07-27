@@ -7,11 +7,12 @@ import softuni.exam.util.FileUtil;
 import softuni.exam.util.XmlParser;
 
 import javax.validation.Validator;
+import java.io.IOException;
 
 @Service
 public class TeamServiceImpl implements TeamService {
 
-
+    private static final String TEAMS_FILE_PATH = "src/main/resources/files/xml/teams.xml";
     private final TeamRepository teamRepository;
     private final ModelMapper modelMapper;
     private final Validator validator;
@@ -39,8 +40,7 @@ public class TeamServiceImpl implements TeamService {
     }
 
     @Override
-    public String readTeamsXmlFile(){
-        //TODO Implement me
-        return "";
+    public String readTeamsXmlFile() throws IOException {
+        return fileUtil.readFile(TEAMS_FILE_PATH);
     }
 }

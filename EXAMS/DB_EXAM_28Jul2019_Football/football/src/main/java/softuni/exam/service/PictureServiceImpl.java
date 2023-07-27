@@ -7,11 +7,14 @@ import softuni.exam.util.FileUtil;
 import softuni.exam.util.XmlParser;
 
 import javax.validation.Validator;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 @Service
 public class PictureServiceImpl implements PictureService {
 
-    private static final String PICTURE_FILE_PATH = "src/main/resources/files/xml/pictures.xml";
+    private static final String PICTURES_FILE_PATH = "src/main/resources/files/xml/pictures.xml";
 
     private final PictureRepository pictureRepository;
     private final ModelMapper modelMapper;
@@ -40,9 +43,8 @@ public class PictureServiceImpl implements PictureService {
     }
 
     @Override
-    public String readPicturesXmlFile() {
-        //TODO Implement me
-        return "";
+    public String readPicturesXmlFile() throws IOException {
+        return fileUtil.readFile(PICTURES_FILE_PATH);
     }
 
 }
