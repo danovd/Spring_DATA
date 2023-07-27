@@ -5,10 +5,7 @@ import com.google.gson.GsonBuilder;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import softuni.exam.util.FileUtil;
-import softuni.exam.util.FileUtilImpl;
-import softuni.exam.util.ValidatorUtil;
-import softuni.exam.util.ValidatorUtilImpl;
+import softuni.exam.util.*;
 
 import javax.validation.Validation;
 import javax.validation.Validator;
@@ -40,4 +37,9 @@ public class ApplicationBeanConfiguration {
     public ModelMapper modelMapper() {
         return new ModelMapper();
     }
+    @Bean
+    public XmlParser xmlParser(){
+        return new XmlParserImpl();
+    }
+
 }
