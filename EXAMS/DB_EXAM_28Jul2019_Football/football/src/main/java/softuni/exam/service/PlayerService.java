@@ -3,7 +3,7 @@ package softuni.exam.service;
 import java.io.IOException;
 
 public interface PlayerService {
-    String importPlayers();
+    String importPlayers() throws IOException;
 
     boolean areImported();
 
