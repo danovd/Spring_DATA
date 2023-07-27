@@ -10,9 +10,9 @@ import softuni.exam.service.PictureService;
 import softuni.exam.service.PlayerService;
 import softuni.exam.service.TeamService;
 
-//import javax.xml.bind.JAXBException;
+import javax.xml.bind.JAXBException;
 
-import jakarta.xml.bind.JAXBException;
+//import jakarta.xml.bind.JAXBException;
 
 
 import java.io.IOException;

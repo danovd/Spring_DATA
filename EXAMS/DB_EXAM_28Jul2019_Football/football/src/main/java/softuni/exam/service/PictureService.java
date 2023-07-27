@@ -1,9 +1,12 @@
 package softuni.exam.service;
 
+//import jakarta.xml.bind.JAXBException;
+
+import javax.xml.bind.JAXBException;
 import java.io.IOException;
 
 public interface PictureService {
-    String importPictures();
+    String importPictures() throws JAXBException, JAXBException;
 
     boolean areImported();
 
