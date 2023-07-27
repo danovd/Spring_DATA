@@ -1,0 +1,482 @@
+[
+  {
+    "firstName": "Kiril",
+    "lastName": "Despodov",
+    "number": 32,
+    "salary": 150000.00,
+    "position": "Invalid",
+    "picture": {
+      "url": "google.pictures#1"
+    },
+    "team": {
+      "name": "West Valley",
+      "picture": {
+        "url": "fc_pictures_1"
+      }
+    }
+  },
+  {
+    "firstName": "Christian",
+    "lastName": "Rodrigues",
+    "number": 121,
+    "salary": 100000.00,
+    "position": "RB",
+    "picture": {
+      "url": "google.pictures#2"
+    },
+    "team": {
+      "name": "North Hub",
+      "picture": {
+        "url": "fc_pictures_2"
+      }
+    }
+  },
+  {
+    "firstName": "Paul",
+    "lastName": "G",
+    "number": 56,
+    "salary": 250000.00,
+    "position": "LB",
+    "picture": {
+      "url": "google.pictures#3"
+    },
+    "team": {
+      "name": "City",
+      "picture": {
+        "url": "fc_pictures_3"
+      }
+    }
+  },
+  {
+    "firstName": "Rubin",
+    "lastName": "Star",
+    "number": 76,
+    "salary": 350000.00,
+    "position": "CM",
+    "picture": {
+      "url": "google.pictures#4"
+    },
+    "team": {
+      "name": "Devils",
+      "picture": {
+        "url": "fc_pictures_4"
+      }
+    }
+  },
+  {
+    "firstName": "Serj",
+    "lastName": "Smokey",
+    "number": 12,
+    "salary": 125000.00,
+    "position": "RM",
+    "picture": {
+      "url": "google.pictures#5"
+    },
+    "team": {
+      "name": "Spurs",
+      "picture": {
+        "url": "fc_pictures_5"
+      }
+    }
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Bush",
+    "number": 31,
+    "salary": 78000.00,
+    "position": "LM",
+    "picture": {
+      "url": "google.pictures#6"
+    },
+    "team": {
+      "name": "Raptors",
+      "picture": {
+        "url": "fc_pictures_6"
+      }
+    }
+  },
+  {
+    "firstName": "Eden",
+    "lastName": "Hazar",
+    "number": 7,
+    "salary": 76000.00,
+    "position": "LW",
+    "picture": {
+      "url": "google.pictures#7"
+    },
+    "team": {
+      "name": "Eagles",
+      "picture": {
+        "url": "fc_pictures_7"
+      }
+    }
+  },
+  {
+    "firstName": "Mohamed",
+    "lastName": "Salah",
+    "number": 8,
+    "salary": 50000.00,
+    "position": "RW",
+    "picture": {
+      "url": "google.pictures#8"
+    },
+    "team": {
+      "name": "Bucks",
+      "picture": {
+        "url": "fc_pictures_8"
+      }
+    }
+  },
+  {
+    "firstName": "Kylian",
+    "lastName": "Mbappe",
+    "number": 4,
+    "salary": 5000000.00,
+    "position": "ST",
+    "picture": {
+      "url": "google.pictures#9"
+    },
+    "team": {
+      "name": "Giants",
+      "picture": {
+        "url": "fc_pictures_9"
+      }
+    }
+  },
+  {
+    "firstName": "Lionel",
+    "lastName": "Messi",
+    "number": 5,
+    "salary": 6000000.00,
+    "position": "ST",
+    "picture": {
+      "url": "google.pictures#10"
+    },
+    "team": {
+      "name": "North Hub",
+      "picture": {
+        "url": "fc_pictures_2"
+      }
+    }
+  },
+  {
+    "firstName": "Sergio",
+    "lastName": "Aguero",
+    "number": 81,
+    "salary": 1000000.00,
+    "position": "LW",
+    "picture": {
+      "url": "slack#1"
+    },
+    "team": {
+      "name": "City",
+      "picture": {
+        "url": "fc_pictures_3"
+      }
+    }
+  },
+  {
+    "firstName": "David",
+    "lastName": "Baston",
+    "number": 12,
+    "salary": 2000000.00,
+    "position": "RW",
+    "picture": {
+      "url": "slack#2"
+    },
+    "team": {
+      "name": "Devils",
+      "picture": {
+        "url": "fc_pictures_4"
+      }
+    }
+  },
+  {
+    "firstName": "Wayne",
+    "lastName": "Rooney",
+    "number": 91,
+    "salary": 430000.00,
+    "position": "CM",
+    "picture": {
+      "url": "slack#3"
+    },
+    "team": {
+      "name": "Spurs",
+      "picture": {
+        "url": "fc_pictures_5"
+      }
+    }
+  },
+  {
+    "firstName": "Luis",
+    "lastName": "Suarez",
+    "number": 76,
+    "salary": 549000.00,
+    "position": "LW",
+    "picture": {
+      "url": "slack#4"
+    },
+    "team": {
+      "name": "Raptors",
+      "picture": {
+        "url": "fc_pictures_6"
+      }
+    }
+  },
+  {
+    "firstName": "Romelu",
+    "lastName": "Lukaku",
+    "number": 54,
+    "salary": 98000.00,
+    "position": "GK",
+    "picture": {
+      "url": "slack#5"
+    },
+    "team": {
+      "name": "Eagles",
+      "picture": {
+        "url": "fc_pictures_7"
+      }
+    }
+  },
+  {
+    "firstName": "Antoine",
+    "lastName": "Griezmann",
+    "number": 32,
+    "salary": 790000.00,
+    "position": "LW",
+    "picture": {
+      "url": "slack#6"
+    },
+    "team": {
+      "name": "Bucks",
+      "picture": {
+        "url": "fc_pictures_8"
+      }
+    }
+  },
+  {
+    "firstName": "Raheem",
+    "lastName": "Sterling",
+    "number": 34,
+    "salary": 87555.00,
+    "position": "GK",
+    "picture": {
+      "url": "slack#7"
+    },
+    "team": {
+      "name": "Giants",
+      "picture": {
+        "url": "fc_pictures_9"
+      }
+    }
+  },
+  {
+    "firstName": "Luka",
+    "lastName": "Modric",
+    "number": 98,
+    "salary": 12340.00,
+    "position": "CM",
+    "picture": {
+      "url": "slack#8"
+    },
+    "team": {
+      "name": "West Valley",
+      "picture": {
+        "url": "fc_pictures_1"
+      }
+    }
+  },
+  {
+    "firstName": "Gareth",
+    "lastName": "Bale",
+    "number": 16,
+    "salary": 356660.00,
+    "position": "LM",
+    "picture": {
+      "url": "slack#9"
+    },
+    "team": {
+      "name": "West Valley",
+      "picture": {
+        "url": "fc_pictures_1"
+      }
+    }
+  },
+  {
+    "firstName": "Harry",
+    "lastName": "Kane",
+    "number": 27,
+    "salary": 599999.00,
+    "position": "ST",
+    "picture": {
+      "url": "google.pictures#11"
+    },
+    "team": {
+      "name": "North Hub",
+      "picture": {
+        "url": "fc_pictures_2"
+      }
+    }
+  },
+  {
+    "firstName": "Marcus",
+    "lastName": "Rashford",
+    "number": 33,
+    "salary": 250000.00,
+    "position": "RM",
+    "picture": {
+      "url": "google.pictures#12"
+    },
+    "team": {
+      "name": "City",
+      "picture": {
+        "url": "fc_pictures_3"
+      }
+    }
+  },
+  {
+    "firstName": "Andres",
+    "lastName": "Iniesta",
+    "number": 23,
+    "salary": 248888.00,
+    "position": "LB",
+    "picture": {
+      "url": "google.pictures#13"
+    },
+    "team": {
+      "name": "Devils",
+      "picture": {
+        "url": "fc_pictures_4"
+      }
+    }
+  },
+  {
+    "firstName": "Paulo",
+    "lastName": "Dybala",
+    "number": 21,
+    "salary": 150000.00,
+    "position": "RB",
+    "picture": {
+      "url": "google.pictures#14"
+    },
+    "team": {
+      "name": "Spurs",
+      "picture": {
+        "url": "fc_pictures_5"
+      }
+    }
+  },
+  {
+    "firstName": "Sergio",
+    "lastName": "Ramos",
+    "number": 29,
+    "salary": 350000.00,
+    "position": "LB",
+    "picture": {
+      "url": "google.pictures#15"
+    },
+    "team": {
+      "name": "City",
+      "picture": {
+        "url": "fc_pictures_3"
+      }
+    }
+  },
+  {
+    "firstName": "Edinson",
+    "lastName": "Cavali",
+    "number": 54,
+    "salary": 150000.00,
+    "position": "RB",
+    "picture": {
+      "url": "google.pictures#16"
+    },
+    "team": {
+      "name": "North Hub",
+      "picture": {
+        "url": "fc_pictures_2"
+      }
+    }
+  },
+  {
+    "firstName": "Ousmane",
+    "lastName": "Dembele",
+    "number": 61,
+    "salary": 7800000.00,
+    "position": "RW",
+    "picture": {
+      "url": "google.pictures#17"
+    },
+    "team": {
+      "name": "Raptors",
+      "picture": {
+        "url": "fc_pictures_6"
+      }
+    }
+  },
+  {
+    "firstName": "Thierry",
+    "lastName": "Henry",
+    "number": 15,
+    "salary": 890000.00,
+    "position": "LW",
+    "picture": {
+      "url": "google.pictures#18"
+    },
+    "team": {
+      "name": "Eagles",
+      "picture": {
+        "url": "fc_pictures_7"
+      }
+    }
+  },
+  {
+    "firstName": "Gerard",
+    "lastName": "Pique",
+    "number": 2,
+    "salary": 675444.00,
+    "position": "CM",
+    "picture": {
+      "url": "google.pictures#19"
+    },
+    "team": {
+      "name": "Bucks",
+      "picture": {
+        "url": "fc_pictures_8"
+      }
+    }
+  },
+  {
+    "firstName": "Karim",
+    "lastName": "Benzema",
+    "number": 58,
+    "salary": 45677.00,
+    "position": "ST",
+    "picture": {
+      "url": "google.pictures#20"
+    },
+    "team": {
+      "name": "Giants",
+      "picture": {
+        "url": "fc_pictures_9"
+      }
+    }
+  },
+  {
+    "firstName": "Fernando",
+    "lastName": "Karanga",
+    "number": 31,
+    "salary": 589000.00,
+    "position": "ST",
+    "picture": {
+      "url": "google.pictures#21"
+    },
+    "team": {
+      "name": "North Hub",
+      "picture": {
+        "url": "fc_pictures_2"
+      }
+    }
+  }
+]

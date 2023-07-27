@@ -1,0 +1,26 @@
+.navbar-background {
+    background-color: #E41B23;
+    color: white;
+}
+
+body {
+    background: url("https://static.kent.ac.uk/media/news/2017/12/Football-stadium-1920x1280.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron-background {
+    background-color: #343a40!important;
+    color: white;
+}
+
+.hr-background {
+    background-color:white;
+    height: 1px;
+}
+
+.footer-background {
+    color: #E41B23;
+}
