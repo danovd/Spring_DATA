@@ -1,0 +1,27 @@
+</body>
+</html>
+<th:block th:fragment xmlns:th="http://www.w3.org/1999/xhtml">
+    <div class="container justify-content-center mt-3">
+        <div class="jumbotron jumbotron-background d-flex justify-content-center">
+            <div class="container">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h1>Football info</h1>
+                </div>
+                <hr class="hr-background" />
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h4>Click the buttons below to export some data from the database.</h4>
+                </div>
+                <div class="col-md-12 d-flex justify-content-center">
+                    <th:block th:if="${areImported == true}">
+                        <a class="btn btn-success mx-5 my-5"th:href="@{/export/team-players}">Export all players in North Hub</a>
+                        <a class="btn btn-success mx-5 my-5"th:href="@{/export/players-with-salary-bigger}">Export players with salary bigger than 100000</a>
+                    </th:block>
+                    <th:block th:if="${areImported == false}">
+                        <p>Import XML and JSON files first.</p>
+                    </th:block>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</th:block>

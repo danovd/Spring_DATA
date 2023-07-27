@@ -6,12 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="exam" />
+        <module name="WeatherForecast" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exam" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="WeatherForecast" options="-parameters" />
       <module name="exam" options="-parameters" />
     </option>
   </component>
