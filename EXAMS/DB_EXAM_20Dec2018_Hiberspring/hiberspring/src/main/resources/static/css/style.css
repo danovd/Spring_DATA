@@ -1,0 +1,36 @@
+.navbar-background {
+    background-color: #4C812E;
+    color: #BACC22;
+}
+
+body {
+    background: url("https://res.cloudinary.com/rado-cloud/image/upload/v1544791678/17_springframework.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron-background {
+    background-color: #4C812E;
+    color: #BACC22;
+}
+
+.hr-background {
+    background-color: #BACC22;
+    height: 2px;
+}
+
+.footer-background {
+    color: #BACC22;
+}
+
+.btn-success {
+    background-color: #BACC22;
+    border: white;
+
+}
+
+a:hover {
+    color: green;
+}

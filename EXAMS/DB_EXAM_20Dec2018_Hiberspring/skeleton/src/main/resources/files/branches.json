@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Sofia Western Branch",
+    "town": "Sofia"
+  },
+  {
+    "name": "Tokyo Main Branch",
+    "town": "Tokyo"
+  },
+  {
+    "name": "Headquarters",
+    "town": "Sofia"
+  },
+  {
+    "town": "New York"
+  },
+  {
+    "name": "Kairo Central Branch",
+    "town": "Kairo"
+  },
+  {
+    "name": "Tokyo Underground Branch",
+    "town": "Tokyo"
+  },
+  {
+    "name": "USA Main Branch",
+    "town": "Washington DC"
+  },
+  {
+    "name": "Sofia Eastern Branch",
+    "town": "Sofia"
+  },
+  {
+    "name": "Central Branch of New York"
+  },
+  {
+    "name": "Central Park Branch",
+    "town": "New York"
+  },
+  {
+    "name": "New York Central",
+    "town": "New York"
+  },
+  {
+    "name": "Sidney Central Branch",
+    "town": "Sidney"
+  },
+  {
+    "name": "Delhi Western Branch",
+    "town": "Delhi"
+  },
+  {
+    "name": "Sofia Industrial Branch"
+  },
+  {
+    "name": "Pekin Funny Branch",
+    "town": "Pekin"
+  },
+  {
+    "name": "Kuala Lumpur Potato Branch",
+    "town": "Kuala Lumpur"
+  },
+  {
+    "name": "Mexico Main Branch",
+    "town": "Mexico City"
+  },
+  {
+    "name": "Delhi Eastern Branch",
+    "town": "Delhi"
+  },
+  {
+    "name": "Moscow Central Branch",
+    "town": "Moscow"
+  },
+  {
+    "name": "Rio De Janeiro Branch",
+    "town": "Rio De Janeiro"
+  },
+  {
+    "name": "Sofia Northern Branch",
+    "town": "Sofia"
+  },
+  {
+    "name": "Sofia Southern Branch",
+    "town": "Sofia"
+  }
+]
