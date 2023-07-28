@@ -12,36 +12,29 @@ public class ApplicationBeanConfiguration {
 
     @Bean
     public FileUtil fileUtil() {
-        // TODO : Implement me
-        return null;
-//        return new FileUtilImpl();
+        return new FileUtilImpl();
     }
 
     @Bean
     public Gson gson() {
-        // TODO : Implement me
-        return null;
-//        return new GsonBuilder().excludeFieldsWithoutExposeAnnotation().setPrettyPrinting().create();
+        return new GsonBuilder()
+                //.excludeFieldsWithoutExposeAnnotation()
+                .setPrettyPrinting()
+                .create();
     }
 
     @Bean
-    public XmlParser xmlParser() {
-        // TODO : Implement me
-        return null;
-//        return new XmlParserImpl();
+    public XmlParser xmlParser(){
+        return new XmlParserImpl();
     }
 
     @Bean
     public ValidationUtil validationUtil() {
-        // TODO : Implement me
-        return null;
-//        return new ValidationUtilImpl();
+       return new ValidationUtilImpl();
     }
 
     @Bean
     public ModelMapper modelMapper() {
-        // TODO : Implement me
-        return null;
-//        return new ModelMapper();
+        return new ModelMapper();
     }
 }
