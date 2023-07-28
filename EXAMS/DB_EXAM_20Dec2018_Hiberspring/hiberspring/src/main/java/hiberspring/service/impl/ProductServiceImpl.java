@@ -1,10 +1,11 @@
 package hiberspring.service.impl;
 
 import hiberspring.service.ProductService;
+import org.springframework.stereotype.Service;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
-
+@Service
 public class ProductServiceImpl implements ProductService {
     @Override
     public Boolean productsAreImported() {

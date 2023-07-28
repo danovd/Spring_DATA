@@ -1,9 +1,10 @@
 package hiberspring.service.impl;
 
 import hiberspring.service.TownService;
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
-
+@Service
 public class TownServiceImpl implements TownService {
     @Override
     public Boolean townsAreImported() {

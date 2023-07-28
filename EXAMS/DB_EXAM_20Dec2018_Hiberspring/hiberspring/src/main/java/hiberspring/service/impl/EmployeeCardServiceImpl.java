@@ -1,9 +1,10 @@
 package hiberspring.service.impl;
 
 import hiberspring.service.EmployeeCardService;
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
-
+@Service
 public class EmployeeCardServiceImpl implements EmployeeCardService {
     @Override
     public Boolean employeeCardsAreImported() {
