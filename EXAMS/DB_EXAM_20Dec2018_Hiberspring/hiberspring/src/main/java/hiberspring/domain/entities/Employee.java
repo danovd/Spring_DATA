@@ -15,11 +15,10 @@ public class Employee {
 
     @Column(nullable = false)
     private String position;
-    @OneToOne
-    @Column(nullable = false, unique = true)
+    @OneToOne(optional = false)
+    @Column(unique = true)
     private EmployeeCard employeeCard;
-    @ManyToOne
-    @Column(nullable = false)
+    @ManyToOne(optional = false)
     private Branch branch;
 
     public Employee() {
