@@ -8,5 +8,5 @@ public interface EmployeeCardService {
 
     String readEmployeeCardsJsonFile() throws IOException;
 
-    String importEmployeeCards(String employeeCardsFileContent);
+    String importEmployeeCards(String employeeCardsFileContent) throws IOException;
 }

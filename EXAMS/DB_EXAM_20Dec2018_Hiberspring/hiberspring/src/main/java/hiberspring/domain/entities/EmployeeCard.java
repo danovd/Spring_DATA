@@ -30,4 +30,12 @@ public class EmployeeCard {
     public void setNumber(String number) {
         this.number = number;
     }
+
+    @Override
+    public String toString() {
+        return "EmployeeCard{" +
+                "id=" + id +
+                ", number='" + number + '\'' +
+                '}';
+    }
 }

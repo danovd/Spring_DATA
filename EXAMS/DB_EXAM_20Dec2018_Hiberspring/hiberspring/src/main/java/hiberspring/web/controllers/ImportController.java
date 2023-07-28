@@ -82,7 +82,7 @@ public class ImportController extends BaseController {
     }
 
     @PostMapping("/employee-cards")
-    public ModelAndView importEmployeeCardsConfirm(@RequestParam(name = "employeeCards") String employeeCards) {
+    public ModelAndView importEmployeeCardsConfirm(@RequestParam(name = "employeeCards") String employeeCards) throws IOException {
         System.out.println(this.employeeCardService.importEmployeeCards(employeeCards));
 
         return super.redirect("/import/json");
