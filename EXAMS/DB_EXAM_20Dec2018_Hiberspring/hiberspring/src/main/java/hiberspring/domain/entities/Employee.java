@@ -71,4 +71,14 @@ public class Employee {
     public void setBranch(Branch branch) {
         this.branch = branch;
     }
+
+
+    @Override
+    public String toString() {
+String fullName = this.getFirstName() + " " + this.getLastName();
+        return String.format("Name: %s\n" +
+                "Position: %s\n" +
+                "Card Number: %s\n" +
+                "-------------------------", fullName,this.getPosition(), this.getEmployeeCard().getNumber() );
+    }
 }

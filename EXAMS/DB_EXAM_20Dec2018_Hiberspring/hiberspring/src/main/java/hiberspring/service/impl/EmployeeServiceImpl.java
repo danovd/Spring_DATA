@@ -8,6 +8,7 @@ import hiberspring.domain.entities.EmployeeCard;
 import hiberspring.repository.BranchRepository;
 import hiberspring.repository.EmployeeCardRepository;
 import hiberspring.repository.EmployeeRepository;
+import hiberspring.repository.ProductRepository;
 import hiberspring.service.EmployeeService;
 import hiberspring.util.FileUtil;
 import hiberspring.util.ValidationUtil;
@@ -17,7 +18,9 @@ import org.springframework.stereotype.Service;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
+import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 import static hiberspring.common.Constants.*;
@@ -34,8 +37,9 @@ public class EmployeeServiceImpl implements EmployeeService {
     private final EmployeeCardRepository employeeCardRepository;
     private final BranchRepository branchRepository;
 
+    private final ProductRepository productRepository;
 
-    public EmployeeServiceImpl(EmployeeRepository employeeRepository, ModelMapper modelMapper, XmlParser xmlParser, ValidationUtil validator, FileUtil fileUtil, EmployeeCardRepository employeeCardRepository, BranchRepository branchRepository) {
+    public EmployeeServiceImpl(EmployeeRepository employeeRepository, ModelMapper modelMapper, XmlParser xmlParser, ValidationUtil validator, FileUtil fileUtil, EmployeeCardRepository employeeCardRepository, BranchRepository branchRepository, ProductRepository productRepository) {
         this.employeeRepository = employeeRepository;
         this.modelMapper = modelMapper;
         this.xmlParser = xmlParser;
@@ -43,6 +47,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         this.fileUtil = fileUtil;
         this.employeeCardRepository = employeeCardRepository;
         this.branchRepository = branchRepository;
+        this.productRepository = productRepository;
     }
 
     @Override
@@ -111,6 +116,24 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public String exportProductiveEmployees() {
-        return null;
+
+        // Изкарваме имената на всички бранчове, които имат поне един продукт. За да не се повтарят - Set
+        Set<String> branchNamesWithMoreThanOneProduct = this.productRepository.findAll()
+                .stream().map(p -> p.getBranch().getName()).collect(Collectors.toSet());
+
+        // Сега остава да се намерят всички Employee-та, които работят в някой от намерените бранчове
+
+
+
+        List<Employee> employees = employeeRepository
+                .findAllByBranch_NameInOrderByFirstNameAscLastNameAscLengthOfPositionDesc(branchNamesWithMoreThanOneProduct);
+
+
+        return employees.stream()
+                .map(Employee::toString)
+                .collect(Collectors.joining("\n"));
+
+
+
     }
 }

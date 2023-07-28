@@ -1,6 +1,5 @@
 package hiberspring.util;
 
-import org.springframework.stereotype.Component;
 
 import javax.validation.Validation;
 import javax.validation.Validator;

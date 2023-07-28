@@ -1,6 +1,5 @@
 package hiberspring.util;
 
-import org.springframework.stereotype.Component;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

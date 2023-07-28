@@ -1,7 +1,7 @@
 package hiberspring.domain.entities;
 
 import javax.persistence.*;
-import javax.validation.constraints.Email;
+
 
 @Entity
 @Table(name = "towns")
