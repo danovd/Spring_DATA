@@ -8,5 +8,5 @@ public interface BranchService {
 
     String readBranchesJsonFile() throws IOException;
 
-    String importBranches(String branchesFileContent);
+    String importBranches(String branchesFileContent) throws IOException;
 }

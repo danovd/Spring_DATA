@@ -70,7 +70,7 @@ public class ImportController extends BaseController {
     }
 
     @PostMapping("/branches")
-    public ModelAndView importBranchesConfirm(@RequestParam(name = "branches") String branches) {
+    public ModelAndView importBranchesConfirm(@RequestParam(name = "branches") String branches) throws IOException {
         System.out.println(this.branchService.importBranches(branches));
 
         return super.redirect("/import/json");

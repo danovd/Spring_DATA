@@ -11,4 +11,5 @@ import java.util.Optional;
 public interface TownRepository extends JpaRepository<Town, Long> {
     Optional<Town> findByNameAndPopulation(String name, int population);
 
+    Town getTownByName(String town);
 }
