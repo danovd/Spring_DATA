@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employees>
+    <employee first-name="John" last-name="Winchester" position="Security Manager">
+        <card>zi4n5-y41Pq-ugz5v-3vrNH-Dv21y</card>
+        <branch>USA Main Branch</branch>
+    </employee>
+    <employee first-name="Leeroy" last-name="Gips" position="Security Manager">
+        <card>3mQuf-dGsVC-v5RhD-esuzu-0XcXp</card>
+        <branch>Kairo Central Branch</branch>
+    </employee>
+    <employee first-name="Rick" last-name="Sanchez" position="Head Scientist">
+        <card>65RrK-NRzLZ-pJLZN-Chp3q-tovmA</card>
+        <branch>Headquarters</branch>
+    </employee>
+    <employee first-name="Tony" last-name="Dolfin" position="Cleaner">
+        <card>a45xz-dkgw1-zadv1-aXXXc-491Az</card>
+    </employee>
+    <employee first-name="Johnathan" last-name="Cane" position="Secretary">
+        <card>uhp39-tNbSg-6jc5P-DC8J8-6rbVN</card>
+        <branch>Sofia Eastern Branch</branch>
+    </employee>
+    <employee first-name="Rubert" last-name="Down" position="Cleaner">
+        <card>fh53H-vA5Re-S7LL4-HAOwm-pkuWX</card>
+        <branch>Sidney Central Branch</branch>
+    </employee>
+    <employee first-name="Jake" last-name="Drinkwater" position="Head Biologist">
+        <card>M3Y0n-A10Ev-lCk8M-8BtnZ-25Rxv</card>
+        <branch>Delhi Western Branch</branch>
+    </employee>
+    <employee first-name="Hel" last-name="Midsummer" position="Pyroman">
+        <card>3C4WQ-NgARf-tsahq-GnIT6-R56nk</card>
+        <branch>Rio De Janeiro Branch</branch>
+    </employee>
+    <employee first-name="Downey" last-name="Rass" position="Technical Support">
+        <card>3C4WQ-NgARf-tsahq-GnIT6-R56nk</card>
+        <branch>New York Central</branch>
+    </employee>
+    <employee first-name="Jefrey" last-name="Hunnington" position="Office Manager">
+        <card>DXKwE-pprkA-dLT9g-bGnbp-1304U</card>
+        <branch>Pekin Funny Branch</branch>
+    </employee>
+    <employee first-name="Sandy" last-name="Bloodred" position="Security Manager">
+        <card>UAIP0-0UVao-3axBt-vWF8c-45paZ</card>
+        <branch>Mexico Main Branch</branch>
+    </employee>
+    <employee first-name="Alex" last-name="Mercer" position="Head Security">
+        <card>Vy2un-LBvJU-31FsV-GbD6B-WUkBT</card>
+        <branch>Central Park Branch</branch>
+    </employee>
+    <employee first-name="Hamilton" last-name="Reign" position="Marketing Manager">
+        <card>Jvoub-tJQim-7cIzr-lpSQM-Hfasm</card>
+        <branch>Sofia Northern Branch</branch>
+    </employee>
+    <employee first-name="Yakushiba" last-name="Nakushetka" position="Chief Executive Officer">
+        <card>tswrI-tDtGI-mlWBr-oKYHn-coIIF</card>
+        <branch>Tokyo Main Branch</branch>
+    </employee>
+    <employee first-name="Summer" last-name="Greav" position="Secretary">
+        <card>Onm25-YwwpH-RPFg4-ik3lu-ZeNy8</card>
+        <branch>Headquarters</branch>
+    </employee>
+    <employee first-name="Danny" last-name="Goat" position="Security Manager">
+        <card>s3RVh-OMpAw-zND7l-kUyi0-gAGCu</card>
+        <branch>SoftUni Branch</branch>
+    </employee>
+    <employee first-name="Pesho" last-name="Kelesho" position="Something">
+        <card>99rXG-1Ynwp-ahF4J-btmQ6-wg6d3</card>
+    </employee>
+    <employee first-name="Smite" last-name="Daphny" position="Vodka Guy">
+        <card>K6LQ0-idc9V-zZZrA-K9Azx-12nZa</card>
+        <branch>Moscow Central Branch</branch>
+    </employee>
+</employees>

@@ -16,7 +16,7 @@ public class Employee {
     @Column(nullable = false)
     private String position;
     @OneToOne(optional = false)
-    @Column(unique = true)
+    @JoinColumn(unique = true)
     private EmployeeCard employeeCard;
     @ManyToOne(optional = false)
     private Branch branch;

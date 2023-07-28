@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<products>
+    <product name="Hydrogen Car Engine" clients="20000">
+        <branch>Tokyo Main Branch</branch>
+    </product>
+    <product name="McDonalds Burger" clients="5001023">
+        <branch>Central Park Branch</branch>
+    </product>
+    <product name="Garbage Bag" clients="102849">
+        <branch>Headquarters</branch>
+    </product>
+    <product name="Cyrcus Handles" clients="10312">
+        <branch>Delhi Western Branch</branch>
+    </product>
+    <product name="Opera Monocle" clients="10000">
+        <branch>Sidney Central Branch</branch>
+    </product>
+    <product name="Broken">
+        <branch>Kuala Lumpur Potato Branch</branch>
+    </product>
+    <product name="Emoji Stuffed Toy" clients="5502323">
+        <branch>Mexico Main Branch</branch>
+    </product>
+    <product name="Manga" clients="20000000">
+        <branch>Pekin Funny Branch</branch>
+    </product>
+    <product name="Pyramid Brick" clients="100000">
+        <branch>Kairo Central Branch</branch>
+    </product>
+    <product name="Apache Helicopter" clients="10">
+        <branch>New York Central</branch>
+    </product>
+    <product name="Plumbus" clients="1">
+        <branch>Headquarters</branch>
+    </product>
+</products>

@@ -6,12 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hiberspring" />
+        <module name="exam" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hiberspring" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="exam" options="-parameters" />
       <module name="hiberspring" options="-parameters" />
     </option>
   </component>
