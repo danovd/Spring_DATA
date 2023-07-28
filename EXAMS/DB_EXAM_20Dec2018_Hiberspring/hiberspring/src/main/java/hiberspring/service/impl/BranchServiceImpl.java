@@ -10,14 +10,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
+
+import static hiberspring.common.Constants.*;
+
+
+
 @Service
 public class BranchServiceImpl implements BranchService {
-    private static final String BRANCHES_FILE_PATH = "src/main/resources/files/branches.json";
+    private static final String BRANCHES_FILE_PATH = PATH_TO_FILES + "branches.json";
     private final BranchRepository branchRepository;
     private final ModelMapper modelMapper;
     private final Gson gson;
     private final ValidationUtil validator;
-
     private final FileUtil fileUtil;
     @Autowired
     public BranchServiceImpl(BranchRepository branchRepository, ModelMapper modelMapper, Gson gson, ValidationUtil validator, FileUtil fileUtil) {
@@ -35,7 +39,7 @@ public class BranchServiceImpl implements BranchService {
 
     @Override
     public String readBranchesJsonFile() throws IOException {
-        return null;
+        return fileUtil.readFile(BRANCHES_FILE_PATH);
     }
 
     @Override

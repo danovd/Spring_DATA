@@ -10,9 +10,12 @@ import org.springframework.stereotype.Service;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
+
+import static hiberspring.common.Constants.*;
+
 @Service
 public class ProductServiceImpl implements ProductService {
-    private static final String EMPLOYEES_FILE_PATH = "src/main/resources/files/products.xml";
+    private static final String EMPLOYEES_FILE_PATH = PATH_TO_FILES + "products.xml";;
     private final ProductRepository productRepository;
     private final ModelMapper modelMapper;
     private final XmlParser xmlParser;
@@ -34,7 +37,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public String readProductsXmlFile() throws IOException {
-        return null;
+        return fileUtil.readFile(EMPLOYEES_FILE_PATH);
     }
 
     @Override

@@ -9,9 +9,12 @@ import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
+
+import static hiberspring.common.Constants.*;
+
 @Service
 public class EmployeeCardServiceImpl implements EmployeeCardService {
-    private static final String EMPLOYEE_CARDS_FILE_PATH = "src/main/resources/files/employee-cards.json";
+    private static final String EMPLOYEE_CARDS_FILE_PATH = PATH_TO_FILES + "employees.xml";
     private final EmployeeCardRepository employeeCardRepository;
     private final ModelMapper modelMapper;
     private final Gson gson;
@@ -33,7 +36,7 @@ public class EmployeeCardServiceImpl implements EmployeeCardService {
 
     @Override
     public String readEmployeeCardsJsonFile() throws IOException {
-        return null;
+        return fileUtil.readFile(EMPLOYEE_CARDS_FILE_PATH);
     }
 
     @Override

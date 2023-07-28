@@ -9,9 +9,12 @@ import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
+
+import static hiberspring.common.Constants.*;
+
 @Service
 public class TownServiceImpl implements TownService {
-    private static final String TOWNS_FILE_PATH = "src/main/resources/files/towns.json";
+    private static final String TOWNS_FILE_PATH = PATH_TO_FILES + "towns.json";
     private final TownRepository townRepository;
     private final ModelMapper modelMapper;
     private final Gson gson;
@@ -33,7 +36,7 @@ public class TownServiceImpl implements TownService {
 
     @Override
     public String readTownsJsonFile() throws IOException {
-        return null;
+        return fileUtil.readFile(TOWNS_FILE_PATH);
     }
 
     @Override

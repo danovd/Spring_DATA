@@ -10,10 +10,13 @@ import org.springframework.stereotype.Service;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
+
+import static hiberspring.common.Constants.*;
+
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 
-    private static final String EMPLOYEES_FILE_PATH = "src/main/resources/files/employees.xml";
+    private static final String EMPLOYEES_FILE_PATH = PATH_TO_FILES + "employee-cards.json";;
     private final EmployeeRepository employeeRepository;
     private final ModelMapper modelMapper;
     private final XmlParser xmlParser;
@@ -35,7 +38,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public String readEmployeesXmlFile() throws IOException {
-        return null;
+        return fileUtil.readFile(EMPLOYEES_FILE_PATH);
     }
 
     @Override
