@@ -18,6 +18,8 @@ import org.springframework.stereotype.Service;
 import com.example.football.models.entity.Town;
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -107,6 +109,25 @@ public class PlayerServiceImpl implements PlayerService {
 
     @Override
     public String exportBestPlayers() {
-        return null;
+/// Instead ToString Override:
+
+StringBuilder sb = new StringBuilder();
+
+        LocalDate after = LocalDate.of(1995, 1, 1);
+        LocalDate before = LocalDate.of(2003, 1, 1);
+
+        List<Player> players = this.playerRepository.findAllByBirthDateBetweenOrderByStatShootingDescStatPassingDescStatEnduranceDescLastNameAsc(after, before);
+
+
+        players.forEach(player -> {
+            String playerInfo = String.format("Player - %s %s\n" +
+                    "\tPosition - %s\n" +
+                    "\tTeam - %s\n" +
+                    "\tStadium - %s\n", player.getFirstName(), player.getLastName(),
+                    player.getPosition(), player.getTeam().getName(), player.getTeam().getStadiumName());
+            sb.append(playerInfo);
+        });
+        // Just in case remove last line separator (\n) in the result
+        return sb.substring(0, sb.length()-1);
     }
 }
