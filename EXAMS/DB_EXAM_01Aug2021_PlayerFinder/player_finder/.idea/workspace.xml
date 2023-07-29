@@ -41,6 +41,7 @@
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Dimitar Danovski/Desktop/Spring_DATA/EXAMS/DB_EXAM_01Aug2021_PlayerFinder/player_finder/src/main/java/com/example/football/util",
@@ -92,6 +93,7 @@
       <updated>1690551086081</updated>
       <workItem from="1690551087210" duration="1005000" />
       <workItem from="1690552888613" duration="424000" />
+      <workItem from="1690553412027" duration="434000" />
     </task>
     <servers />
   </component>
