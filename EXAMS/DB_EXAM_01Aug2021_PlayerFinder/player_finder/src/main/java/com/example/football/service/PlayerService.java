@@ -1,5 +1,6 @@
 package com.example.football.service;
 
+import javax.xml.bind.JAXBException;
 import java.io.IOException;
 
 //ToDo - Implement all methods
@@ -8,7 +9,7 @@ public interface PlayerService {
 
     String readPlayersFileContent() throws IOException;
 
-    String importPlayers() ;
+    String importPlayers() throws JAXBException;
 
     String exportBestPlayers();
 }
