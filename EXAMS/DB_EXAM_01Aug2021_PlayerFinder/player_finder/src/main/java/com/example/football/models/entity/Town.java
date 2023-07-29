@@ -7,6 +7,7 @@ import javax.persistence.*;
 public class Town {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@Column(name = "id", nullable = false, unique = true, columnDefinition = "BIGINT(20) DEFAULT 780")
     private long id;
     @Column(nullable = false, unique = true)
     private String name;

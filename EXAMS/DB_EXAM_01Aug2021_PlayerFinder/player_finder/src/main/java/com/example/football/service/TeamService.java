@@ -8,6 +8,6 @@ public interface TeamService {
 
     String readTeamsFileContent() throws IOException;
 
-    String importTeams() ;
+    String importTeams() throws IOException;
 
 }
