@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,6 +56,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.football.models.dto" />
       <recent name="com.example.football.models.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -102,6 +103,7 @@
       <workItem from="1690555438529" duration="177000" />
       <workItem from="1690555665070" duration="197000" />
       <workItem from="1690555912885" duration="267000" />
+      <workItem from="1690556226333" duration="704000" />
     </task>
     <servers />
   </component>
