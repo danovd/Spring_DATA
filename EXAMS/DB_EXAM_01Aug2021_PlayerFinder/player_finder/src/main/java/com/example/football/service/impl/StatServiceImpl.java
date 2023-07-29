@@ -1,8 +1,9 @@
 package com.example.football.service.impl;
 
 import com.example.football.service.StatService;
+import org.springframework.stereotype.Service;
 
-//ToDo - Implement all methods
+@Service
 public class StatServiceImpl implements StatService {
 
 

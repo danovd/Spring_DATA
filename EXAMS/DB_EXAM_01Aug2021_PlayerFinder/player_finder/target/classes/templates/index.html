@@ -1,0 +1,37 @@
+</body>
+</html>
+<th:block th:fragment xmlns:th="http://www.w3.org/1999/xhtml">
+    <div class="container justify-content-center mt-3">
+        <div class="jumbotron index-jumbo d-flex justify-content-center">
+            <div class="container">
+                <div class="col-md-12 d-flex border-left border-bottom w-50 ">
+                    <h1 class="myBackgroundColor ">Player Finder</h1>
+                </div>
+                <div class="col-md-12 d-flex mt-3">
+                    <h4>In recent months, the world has been once again conquered by the football magic.
+                        Unfortunately, our national team was again not among the best teams, which clearly tells us that
+                        we need to find new better players.
+                        A small team from SoftUni starts working on the staff selection and invites you to be involved
+                        in the program development.
+                        The idea of it is to receive a huge amount of information about the players in different formats
+                        - JSON or XML.
+                        Retrieve the information and record only those that meet certain criteria in the database.
+                        Also, when requesting certain data, the program should display the necessary information.</h4>
+                </div>
+                <div class="col-md-12 text-center">
+                    <th:block th:if="${areImported == true}">
+                        <p><a class="btn btn-primary my-5" th:href="@{/export/best-players}">Get best players from
+                            Player Finder DB</a></p>
+                    </th:block>
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <th:block th:if="${areImported == false}">
+                            <p class="bg-dark rounded p-2">Тo see the next task, first import all XML and JSON
+                                files.</p>
+                        </th:block>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</th:block>
