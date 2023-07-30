@@ -1,7 +1,6 @@
 package com.example.football.models.entity;
 
 import javax.persistence.*;
-import javax.validation.constraints.Email;
 import java.time.LocalDate;
 
 @Entity
