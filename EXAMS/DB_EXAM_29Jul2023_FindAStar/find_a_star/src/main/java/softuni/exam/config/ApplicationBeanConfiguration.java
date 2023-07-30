@@ -42,7 +42,7 @@ public class ApplicationBeanConfiguration {
 
         ModelMapper modelMapper = new ModelMapper();
 
-        modelMapper.addConverter(new Converter<String, LocalDate>() {
+       modelMapper.addConverter(new Converter<String, LocalDate>() {
             @Override
             public LocalDate convert(MappingContext<String, LocalDate> mappingContext) {
                 return LocalDate.parse(mappingContext.getSource(), DateTimeFormatter.ofPattern("yyyy-MM-dd"));

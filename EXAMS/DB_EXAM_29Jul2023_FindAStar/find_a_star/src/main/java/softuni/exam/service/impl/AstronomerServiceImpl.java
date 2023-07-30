@@ -53,7 +53,7 @@ public class AstronomerServiceImpl implements AstronomerService {
     public String readAstronomersFromFile() throws IOException {
 
         return Files.readString(Path.of(ASTRONOMERS_FILE_PATH));
-        //  return fileUtil.readFile(ASTRONOMERS_FILE_PATH);
+      //  return fileUtil.readFile(ASTRONOMERS_FILE_PATH);
     }
 
     @Override
@@ -85,7 +85,7 @@ public class AstronomerServiceImpl implements AstronomerService {
         if(star.isEmpty()){
             return "Invalid astronomer";
         }
-        astronomer.setObservingStar(star.get());
+       astronomer.setObservingStar(star.get());
         ///
 
 
@@ -95,4 +95,3 @@ public class AstronomerServiceImpl implements AstronomerService {
                 dto.getFirstName(), dto.getLastName(), dto.getAverageObservationHours());
     }
 }
-
