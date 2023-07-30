@@ -23,7 +23,7 @@ public class StarServiceImpl implements StarService {
     private final AstronomerRepository astronomerRepository;
 
     private final ConstellationRepository constellationRepository;
-    
+
     public StarServiceImpl(StarRepository starRepository, ModelMapper modelMapper, Gson gson, ValidationUtil validator, FileUtil fileUtil, AstronomerRepository astronomerRepository, ConstellationRepository constellationRepository) {
         this.starRepository = starRepository;
         this.modelMapper = modelMapper;
